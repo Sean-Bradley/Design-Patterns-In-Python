@@ -1,0 +1,12 @@
+digraph "classes_chair_factory" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{BigChair|\l|dimensions()\l}", shape="record"];
+"1" [label="{ChairFactory|\l|get_chair()\l}", shape="record"];
+"2" [label="{IChair|\l|dimensions()\l}", shape="record"];
+"3" [label="{MediumChair|\l|dimensions()\l}", shape="record"];
+"4" [label="{SmallChair|\l|dimensions()\l}", shape="record"];
+"0" -> "2" [arrowhead="empty", arrowtail="none"];
+"3" -> "2" [arrowhead="empty", arrowtail="none"];
+"4" -> "2" [arrowhead="empty", arrowtail="none"];
+}
