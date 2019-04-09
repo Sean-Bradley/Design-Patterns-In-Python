@@ -1,2 +1,2 @@
 # Design-Patterns-In-Python
-Comon GOF Patterns implemented in Python
+Common GOF Patterns implemented in Python
