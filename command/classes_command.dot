@@ -1,0 +1,26 @@
+digraph "classes_switch_command" {
+charset="utf-8"
+rankdir=BT
+{rank=same; Client, Invoker, ICommand}
+"Command1" [label="{Command1|\l|execute()\l}", shape="record"];
+"Command2" [label="{Command2|\l|execute()\l}", shape="record"];
+"Reciever" [label="{Reciever|\l|do_command1()\ldo_command2()\l}", shape="record"];
+"ICommand" [label="{ICommand|\l|execute()\l}", shape="record"];
+"Invoker" [label="{Invoker|\l|register()\lexecute()\l}", shape="record"];
+"Client" [label="{Client|\l|\l}", shape="record"];
+
+
+"Client" -> "Invoker" [arrowhead="open", arrowtail="none", style="dashed"];
+
+"Invoker" -> "ICommand" [arrowhead="open", arrowtail="none", style="dashed"];
+
+"Command1" -> "Reciever" [arrowhead="open", arrowtail="none", style="dashed"];
+"Command2" -> "Reciever" [arrowhead="open", arrowtail="none", style="dashed"];
+
+"Command1" -> "ICommand" [arrowhead="empty", arrowtail="none"];
+"Command2" -> "ICommand" [arrowhead="empty", arrowtail="none"];
+
+
+
+
+}

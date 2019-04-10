@@ -5,9 +5,8 @@ exists between an object that invokes a command, and the object that performs it
 The components if the Command Design Pattern are,
 The Receiver - The Object that will receive and execute the command
 The Invoker - Which will send the command to the receiver
-The Command Object - Itself, which implement an execute, or action method,
-and contains all required information to be able to execute on the Reciever.
-The Client - Then main application, or class, or module which is aware of
+The Command Object - Itself, which implements an execute, or action method,
+and contains all required information or module which is aware of
 the Reciever, Invoker and Commands
 
 Eg, a button, will call the Invoker, which will call a pre registered Commands excute method,
@@ -62,7 +61,7 @@ class Switch:
 
     def execute(self, command_name):
         if command_name in self._commands.keys():
-            self._history.append({time.time(): command_name})
+            self._history.append((time.time(), command_name))
             self._commands[command_name].execute()
         else:
             print(f"Command [{command_name}] not recognised")
@@ -101,23 +100,23 @@ class SwitchOffCommand(ICommand):
 if __name__ == "__main__":
     # The Client is the main python app
 
-    #The Light is the Reciever
+    # The Light is the Reciever
     LIGHT = Light()
 
-    #Create Commands
+    # Create Commands
     SWITCH_ON = SwitchOnCommand(LIGHT)
     SWITCH_OFF = SwitchOffCommand(LIGHT)
 
-    #Register the commands with the invoker (Switch)
+    # Register the commands with the invoker (Switch)
     SWITCH = Switch()
     SWITCH.register("ON", SWITCH_ON)
     SWITCH.register("OFF", SWITCH_OFF)
 
-    #Execute the commands that are registered on the Invoker
+    # Execute the commands that are registered on the Invoker
     SWITCH.execute("ON")
     SWITCH.execute("OFF")
     SWITCH.execute("ON")
     SWITCH.execute("OFF")
 
-    #For fun, we can see the history
+    # For fun, we can see the history
     print(SWITCH.history)
