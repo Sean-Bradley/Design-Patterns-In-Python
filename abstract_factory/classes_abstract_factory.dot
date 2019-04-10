@@ -1,11 +1,7 @@
 digraph "classes_abstract_factory" {
 charset="utf-8"
 rankdir=BT
-"1" [label="{Factory1|\l|get_factory()\l}", shape="record"];
-"2" [label="{Factory2|\l|get_factory()\l}", shape="record"];
-"3" [label="{Factory3|\l|get_factory()\l}", shape="record"];
-"0" [label="{IFactory|\l|get_factory()\l}", shape="record"];
-"1" -> "0" [arrowhead="empty", arrowtail="none"];
-"2" -> "0" [arrowhead="empty", arrowtail="none"];
-"3" -> "0" [arrowhead="empty", arrowtail="none"];
+"0" [label="{FurnitureFactory|\l|get_furniture()\l}", shape="record"];
+"1" [label="{IFurnitureFactory|\l|get_furniture()\l}", shape="record"];
+"0" -> "1" [arrowhead="empty", arrowtail="none"];
 }
