@@ -1,18 +1,22 @@
-"""The Command Design Pattern
-The command pattern is a behavioural design pattern, in which an abstraction exists between an object that invokes a command, 
-and the object that performs it.
+"""The Command Design Pattern in Python
+The command pattern is a behavioural design pattern, in which an abstraction
+exists between an object that invokes a command, and the object that performs it.
 
 The components if the Command Design Pattern are,
 The Receiver - The Object that will receive and execute the command
 The Invoker - Which will send the command to the receiver
-The Command Object - Itself, which implement an execute, or action method, and contains all required information to be 
-able to execute on the Reciever.
-The Client - Then main application, or class, or module which is aware of the Reciever, Invoker and Commands
+The Command Object - Itself, which implement an execute, or action method,
+and contains all required information to be able to execute on the Reciever.
+The Client - Then main application, or class, or module which is aware of
+the Reciever, Invoker and Commands
 
-Eg, a button, will call the Invoker, which will call a pre registered Commands excute method, which will perform the action on the Reciever.
+Eg, a button, will call the Invoker, which will call a pre registered Commands excute method,
+which will perform the action on the Reciever.
 
-A Concrete Class will delegate a request to a command object, instead of implmenting the request directly.
-Using a command design pattern allows you to seperate concenrs a little easier and to solve problems of the concenrs independantly of each of the layers.
+A Concrete Class will delegate a request to a command object, instead of
+implementing the request directly.
+Using a command design pattern allows you to seperate concerns a little easier and to
+solve problems of the concenrs independantly of each of the layers.
 eg, logging the execution of a command and it's outcome.
 
 Uses:
@@ -34,7 +38,7 @@ from abc import ABCMeta, abstractstaticmethod
 import time
 
 
-class ICommand:
+class ICommand(metaclass=ABCMeta):
     """The command interface, which all commands will implement"""
 
     @abstractstaticmethod
@@ -117,4 +121,3 @@ if __name__ == "__main__":
 
     #For fun, we can see the history
     print(SWITCH.history)
-
