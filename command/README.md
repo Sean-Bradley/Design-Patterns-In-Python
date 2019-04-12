@@ -37,5 +37,11 @@ The Command Pattern in the contect of a slider for a heater, which also implemen
 
 ![The Command Pattern Slider](slider_command.png)
 
+## Video Tututorials Of the Factory Pattern in python
 
+### Part 1 (Basics)
+[![Video Tututorial Of the Factory Pattern in python](https://img.youtube.com/vi/Wbd8W2zW-aI/0.jpg)](https://youtu.be/Wbd8W2zW-aI)
+
+### Part 2 (Implemeting UNDO REDO)
+[![Video Tututorial Of the Factory Pattern in python](https://img.youtube.com/vi/kAiFVDHR4ZI/0.jpg)](https://youtu.be/kAiFVDHR4ZI)
 
