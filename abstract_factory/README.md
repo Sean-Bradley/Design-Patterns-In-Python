@@ -57,6 +57,6 @@ if __name__ == "__main__":
     print(f"{FURNITURE.__class__} : {FURNITURE.dimensions()}")
 ```
 
-## Video Tututorial Of the Factory Pattern in python
+## Video Tutorial of the Abstract Factory Pattern in Python
 
-[![Video Tututorial Of the Factory Pattern in python](https://img.youtube.com/vi/TAnG6DN-5QM/0.jpg)](https://youtu.be/TAnG6DN-5QM)
+[![Video Tutorial of the Abstract Factory Pattern in python](https://img.youtube.com/vi/TAnG6DN-5QM/0.jpg)](https://youtu.be/TAnG6DN-5QM)

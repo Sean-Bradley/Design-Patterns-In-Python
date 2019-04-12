@@ -44,6 +44,6 @@ if __name__ == "__main__":
     print(MY_OBJECT.dimensions())
 ```
 
-## Video Tututorial Of the Factory Pattern in python
+## Video Tutorial of the Factory Pattern in Python
 
-[![Video Tututorial Of the Factory Pattern in python](https://img.youtube.com/vi/04J_fL5zg3U/0.jpg)](https://youtu.be/04J_fL5zg3U)
+[![Video Tutorial of the Factory Pattern in Python](https://img.youtube.com/vi/04J_fL5zg3U/0.jpg)](https://youtu.be/04J_fL5zg3U)
