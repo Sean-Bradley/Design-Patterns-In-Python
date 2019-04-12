@@ -10,7 +10,7 @@ The Factory Pattern in the context of a Chair Factory
 ![Factory Pattern In Context](factory_pattern_chair.png)
 
 ```python
-class ChairFactory:  
+class ObjectFactory:  
     """Tha Factory Class"""
 
     @staticmethod
@@ -29,10 +29,17 @@ class ChairFactory:
         return None
 ```
 
-Each Object implements the a Common Interface
+Each Object implements a Common Interface
 ```python
 class ObjectA(IObjectType):  
     """The Object Concrete Class which implements the IObjectType interface"""
 
     ...
+```
+
+Request from the factory at run time
+```python
+if __name__ == "__main__":
+    MY_OBJECT = ObjectFactory().get_concrete_object("ObjectB")
+    print(MY_OBJECT.dimensions())
 ```
