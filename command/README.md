@@ -30,9 +30,11 @@ There can be one or more invokers which can execute the command at a later date.
 ![The Command Pattern Overview](command_pattern.png)
 
 The Command Pattern in the context of a light switch
+
 ![The Command Pattern Switch](switch_command_pattern.png)
 
-The Command Pattern in the contect of a slider for a heater, which also implement UNDO/REDO
+The Command Pattern in the contect of a slider for a heater, which also implements UNDO/REDO
+
 ![The Command Pattern Slider](slider_command.png)
 
 
