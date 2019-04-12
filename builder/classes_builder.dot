@@ -1,0 +1,14 @@
+digraph "classes_builder" {
+charset="utf-8"
+rankdir=BT
+{rank=same; 0, 2}
+"0" [label="{ConcreteBuilder|product\l|build_part_a()\lbuild_part_b()\lbuild_part_c()\l}", shape="record"];
+"2" [label="{IBuilder|\l|build_part_a()\lbuild_part_b()\lbuild_part_c()\l}", shape="record"];
+"3" [label="{Product|part_a : str\lpart_b : int\lpart_c : float\l|}", shape="record"];
+"1" [label="{Director|\l|construct()\l}", shape="record"];
+"0" -> "2" [arrowhead="empty", arrowtail="none"];
+"3" -> "0" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="product", style="solid"];
+
+"2" -> "1" [arrowhead="odiamond", arrowtail="none"];
+
+}

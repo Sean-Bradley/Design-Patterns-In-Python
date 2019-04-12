@@ -26,15 +26,15 @@ class IUndoRedo(metaclass=ABCMeta):
     """The Undo Redo interface"""
     @abstractstaticmethod
     def history():
-        """the hsitory of the states"""
+        """the history of the states"""
 
     @abstractstaticmethod
     def undo():
-        """the hsitory of the states"""
+        """for undoing the hsitory of the states"""
 
     @abstractstaticmethod
     def redo():
-        """the hsitory of the states"""
+        """for redoing the hsitory of the states"""
 
 
 class Slider(IUndoRedo):
