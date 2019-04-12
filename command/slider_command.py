@@ -18,32 +18,55 @@ class ICommand(metaclass=ABCMeta):
     """The command interface, which all commands will implement"""
 
     @abstractstaticmethod
-    def execute():
+    def execute(*args):
         """The required execute method which all command obejcts will use"""
 
 
-class Slider:
+class IUndoRedo(metaclass=ABCMeta):
+    """The Undo Redo interface"""
+    @abstractstaticmethod
+    def history():
+        """the hsitory of the states"""
+
+    @abstractstaticmethod
+    def undo():
+        """the hsitory of the states"""
+
+    @abstractstaticmethod
+    def redo():
+        """the hsitory of the states"""
+
+
+class Slider(IUndoRedo):
     """The Invoker Class"""
 
     def __init__(self):
         self._commands = {}
-        self._history = [(0.0, "OFF", ())]
-        self._history_position = 0
+        self._history = [(0.0, "OFF", ())]  # A default setting of OFF
+        self._history_position = 0  # The position that is used for UNDO/REDO
 
     @property
     def history(self):
+        """Return all records in the History list"""
         return self._history
 
     def register(self, command_name, command):
+        """All commands are registered in the Invoker Class"""
         self._commands[command_name] = command
 
     def execute(self, command_name, *args):
+        """Execute a pre defined command and log in history"""
         if command_name in self._commands.keys():
             self._history_position += 1
             self._commands[command_name].execute(args)
             if len(self._history) == self._history_position:
+                # This is a new event in hisory
                 self._history.append((time.time(), command_name, args))
             else:
+                # This occurs if there was one of more UNDOs and then a new
+                # execute command happened. In case of UNDO, the history_position
+                # changes, and executing new commands purges any history after
+                # the current position"""
                 self._history = self._history[:self._history_position+1]
                 self._history[self._history_position] = {
                     time.time(): [command_name, args]
@@ -52,6 +75,9 @@ class Slider:
             print(f"Command [{command_name}] not recognised")
 
     def undo(self):
+        """Undo a command if there is a command that can be undone.
+        Update the history psoition so that further UNDOs or REDOs
+        point to the correct index"""
         if self._history_position > 0:
             self._history_position -= 1
             self._commands[
@@ -61,6 +87,7 @@ class Slider:
             print("nothing to undo")
 
     def redo(self):
+        """Perform a REDO if the history_position is less than the end of the history list"""
         if self._history_position + 1 < len(self._history):
             self._history_position += 1
             self._commands[
@@ -136,6 +163,7 @@ if __name__ == "__main__":
     SLIDER.execute("PERCENT", 30)
     SLIDER.execute("PERCENT", 40)
     SLIDER.execute("PERCENT", 50)
+    print(SLIDER.history)
     SLIDER.undo()
     SLIDER.undo()
     SLIDER.undo()
@@ -145,8 +173,8 @@ if __name__ == "__main__":
     SLIDER.execute("PERCENT", 90)
     SLIDER.execute("MAX")
     SLIDER.execute("OFF")
+    print(SLIDER.history)
     SLIDER.undo()
     SLIDER.redo()
 
-    # For fun, we can see the history
     print(SLIDER.history)

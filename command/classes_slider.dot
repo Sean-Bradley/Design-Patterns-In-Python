@@ -1,0 +1,23 @@
+digraph "classes_slider" {
+charset="utf-8"
+rankdir=BT
+{rank=same; Slider, ICommand, Heater}
+"IUndoRedo" [label="{{IUndoRedo (Invoker)}|\l|history()\lundo()\lredo()\l}", shape="record"];
+"Slider" [label="{Slider (Invoker)|history\l|execute()\lregister()\lredo()\lundo()\l}", shape="record"];
+//"Slider" [label="{Slider (Invoker)|\l|execute()\lregister()\l}", shape="record"];
+"ICommand" [label="{ICommand (Command)|\l|execute()\l}", shape="record"];
+"Heater" [label="{Heater (Receiver)|\l|set_to_max()\lset_to_percent()\lturn_off()\l}", shape="record"];
+
+"3" [label="{SliderMaxCommand|\l|execute()\l}", shape="record"];
+"4" [label="{SliderOffCommand|\l|execute()\l}", shape="record"];
+"5" [label="{SliderPercentCommand|\l|execute()\l}", shape="record"];
+"3" -> "ICommand" [arrowhead="empty", arrowtail="none"];
+"4" -> "ICommand" [arrowhead="empty", arrowtail="none"];
+"5" -> "ICommand" [arrowhead="empty", arrowtail="none"];
+
+"Slider" -> "ICommand" [arrowhead="open", arrowtail="none", style="dashed"];
+"ICommand" -> "Heater" [arrowhead="open", arrowtail="none", style="dashed"];
+
+"Slider" -> "IUndoRedo" [arrowhead="empty", arrowtail="none"];
+
+}
