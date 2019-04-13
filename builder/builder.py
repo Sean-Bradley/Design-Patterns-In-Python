@@ -13,23 +13,6 @@ representations of a complex object?
 from abc import ABCMeta, abstractstaticmethod
 
 
-class House():
-    """The Product"""
-
-    def __init__(self, building_type="Apartment", doors=0, windows=0, wall_material="Brick"):
-        #brick, wood, straw, ice
-        self.wall_material = wall_material
-        # Apartment, Bungalow, Caravan, Hut, Castle, Duplex, HouseBoat, Igloo
-        self.building_type = building_type
-        self.doors = doors
-        self.windows = windows
-
-    def __str__(self):
-        return "This is a {0} {1} with {2} door(s) and {3} window(s).".format(
-            self.wall_material, self.building_type, self.doors, self.windows
-        )
-
-
 class IHouseBuilder(metaclass=ABCMeta):
     """The Builder Interface"""
 
@@ -78,6 +61,23 @@ class HouseBuilder(IHouseBuilder):
 
     def get_result(self):
         return self.house
+
+
+class House():
+    """The Product"""
+
+    def __init__(self, building_type="Apartment", doors=0, windows=0, wall_material="Brick"):
+        #brick, wood, straw, ice
+        self.wall_material = wall_material
+        # Apartment, Bungalow, Caravan, Hut, Castle, Duplex, HouseBoat, Igloo
+        self.building_type = building_type
+        self.doors = doors
+        self.windows = windows
+
+    def __str__(self):
+        return "This is a {0} {1} with {2} door(s) and {3} window(s).".format(
+            self.wall_material, self.building_type, self.doors, self.windows
+        )
 
 
 class IglooDirector:
