@@ -1,0 +1,19 @@
+digraph "classes_atm" {
+charset="utf-8"
+rankdir=BT
+
+"Dispenser50" [label="{Dispenser50|chain : NoneType\l|dispense()\lset_next_chain()\l}", shape="record"];
+"Dispenser10" [label="{Dispenser10|chain : NoneType\l|dispense()\lset_next_chain()\l}", shape="record"];
+"Dispenser20" [label="{Dispenser20|chain : NoneType\l|dispense()\lset_next_chain()\l}", shape="record"];
+"IDispenseChain" [label="{IDispenseChain|\l|dispense()\lset_next_chain()\l}", shape="record"];
+
+"ATMDispenserChain" [label="{ATMDispenserChain|chain1\lchain2\lchain3\l|}", shape="record"];
+
+{ "Dispenser10" "Dispenser20" "Dispenser50" } -> "IDispenseChain" [arrowhead="empty", arrowtail="none"];
+
+"Dispenser10" -> "ATMDispenserChain" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="chain3", style="solid"];
+"Dispenser20" -> "ATMDispenserChain" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="chain2", style="solid"];
+"Dispenser50" -> "ATMDispenserChain" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="chain1", style="solid"];
+
+
+}

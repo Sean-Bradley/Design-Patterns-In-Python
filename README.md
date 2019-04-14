@@ -9,3 +9,4 @@ Common GOF Patterns implemented in Python
     * [Prototype](prototype)
 * Behavioural
     * [Command](command)
+    * [Chain of Responsibiltiy](chain_of_responsibility)
