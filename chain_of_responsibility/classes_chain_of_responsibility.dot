@@ -1,15 +1,19 @@
-digraph "classes_atm" {
-charset="utf-8"
-rankdir=BT
-"0" [label="{ChainClient|chain1\lchain2\lchain3\l|}", shape="record"];
-"1" [label="{ConcreteHandler1|\l|handle()\lset_successor()\l}", shape="record"];
-"2" [label="{ConcreteHandler2|\l|handle()\lset_successor()\l}", shape="record"];
-"3" [label="{ConcreteHandler3|\l|handle()\lset_successor()\l}", shape="record"];
-"4" [label="{IHandler|\l|handle()\lset_successor()\l}", shape="record"];
-"1" -> "4" [arrowhead="empty", arrowtail="none"];
-"2" -> "4" [arrowhead="empty", arrowtail="none"];
-"3" -> "4" [arrowhead="empty", arrowtail="none"];
-"1" -> "0" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="chain3", style="solid"];
-"2" -> "0" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="chain2", style="solid"];
-"3" -> "0" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="chain1", style="solid"];
+digraph R {
+
+    node [shape=record];
+
+    { rank=same Next1 Process1 }
+    { rank=same Next2 Process2 }
+    { rank=same Next3 Process3 }
+
+    "Client"-> Next1;
+
+    Next1 -> Process1;
+    Process1 -> Next2;
+    Next2 -> Process2;
+    Process2 -> Next3
+    Next3 -> Process3;
+    Process3 -> Finished
+    "Finished"
+
 }

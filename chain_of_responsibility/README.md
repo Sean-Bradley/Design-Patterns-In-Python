@@ -2,9 +2,10 @@
 
 Chain of responsibility pattern is a behavioural pattern used to achieve loose coupling
 in software design.
-Example, a request from a client is passed to a chain of objects to process them. 
-The objects in the chain will decide themselves how the request is handled and/or 
-passed to the next processor in the chain.
+In this example, a request from a client is passed to a chain of objects to process them.
+The objects in the chain will decide how to process them and/or pas them to the next in the chain.
+The objects can also modify the next in the chain if for example you wanted to run objects in a recursive manner.
+
 
 ## Chain of Responsibility UML Diagram
 ![Chain of Responsibility UML Diagram](chain_of_responsibility.png)
@@ -12,6 +13,7 @@ passed to the next processor in the chain.
 
 ## Chain of Responsibility UML Diagram in the context of an ATM
 ![Chain of Responsibility UML Diagram in the context of an ATM](atm.png)
+
 In the ATM example, the chain is created to dispense an amount of £50, then £20s and then £10s in order.
 The successor chain is hardcoded in the chain client. 
 
