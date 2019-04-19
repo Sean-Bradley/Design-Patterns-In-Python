@@ -7,7 +7,7 @@ The objects in the chain will decide how to process them and/or pas them to the 
 The objects can also modify the next in the chain if for example you wanted to run objects in a recursive manner.
 
 
-## Chain of Responsibility UML Diagram
+## Chain of Responsibility Diagram
 ![Chain of Responsibility UML Diagram](chain_of_responsibility.png)
 
 
@@ -44,3 +44,7 @@ Dispensing 1 £20 note
 Dispensing 1 £10 note
 Go spoil yourself
 ```
+
+## Chain of Responsibility Video Tutorial
+[![Chain of Responsibility Video Tutorial](https://img.youtube.com/vi/1z1Z79cOtCE/0.jpg)](https://youtu.be/1z1Z79cOtCE)
+
