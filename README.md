@@ -10,3 +10,4 @@ Common GOF Patterns implemented in Python
 * Behavioural
     * [Command](command)
     * [Chain of Responsibiltiy](chain_of_responsibility)
+    * [Observer Pattern](observer)
