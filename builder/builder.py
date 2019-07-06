@@ -17,23 +17,23 @@ class IHouseBuilder(metaclass=ABCMeta):
     """The Builder Interface"""
 
     @abstractstaticmethod
-    def set_wall_material(self, value):
+    def set_wall_material(value):
         """Set the wall_material"""
 
     @abstractstaticmethod
-    def set_building_type(self, value):
+    def set_building_type(value):
         """Set the building_type"""
 
     @abstractstaticmethod
-    def set_number_doors(self, value):
+    def set_number_doors(value):
         """Set the number of doors"""
 
     @abstractstaticmethod
-    def set_number_windows(self, value):
+    def set_number_windows(value):
         """Set the number of windows"""
 
     @abstractstaticmethod
-    def get_result(self):
+    def get_result():
         """Return the house"""
 
 
