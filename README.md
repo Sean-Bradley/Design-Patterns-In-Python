@@ -22,7 +22,7 @@ Register for the course at Skillshare. https://skl.sh/34SM2Xg **(Get Extra 2 Mon
 
 ## Introduction Video
 
-[![Video Tutorial of the Factory Pattern in Python](https://img.youtube.com/vi/G-jaxKaT8f8/0.jpg)](https://youtu.be/G-jaxKaT8f8)
+[![Design Patterns in Python Introduction](https://img.youtube.com/vi/OOxyTUWsY7A/0.jpg)](https://youtu.be/OOxyTUWsY7A)
 
 
 To register for this course visit
