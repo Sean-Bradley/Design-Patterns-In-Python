@@ -10,4 +10,3 @@ Description Wikipedia : CC BY-SA : https://en.wikipedia.org/wiki/Observer_patter
 
 ![Observer Pattern](observer.png)
 
-This page is work in progress

@@ -43,3 +43,4 @@ if __name__ == "__main__":
     MY_OBJECT = ObjectFactory().get_concrete_object("ObjectB")
     print(MY_OBJECT.dimensions())
 ```
+

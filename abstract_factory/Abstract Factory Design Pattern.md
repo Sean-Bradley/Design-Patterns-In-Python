@@ -56,3 +56,4 @@ if __name__ == "__main__":
     FURNITURE = FurnitureFactory.get_furniture("MediumTable")
     print(f"{FURNITURE.__class__} : {FURNITURE.dimensions()}")
 ```
+

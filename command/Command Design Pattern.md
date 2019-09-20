@@ -37,4 +37,3 @@ The Command Pattern in the contect of a slider for a heater, which also implemen
 
 ![The Command Pattern Slider](slider_command.png)
 
-

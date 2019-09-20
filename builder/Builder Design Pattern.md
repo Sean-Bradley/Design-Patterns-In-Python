@@ -19,3 +19,4 @@ Parts of the Builder Pattern
 The Builder Pattern in the context of a House Builder. There are multiple directors creating there own complex objects
 
 ![Builder Pattern in Context](house_builder.png). 
+
