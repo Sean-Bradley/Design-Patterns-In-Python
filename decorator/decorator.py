@@ -1,7 +1,6 @@
 """
-Decorator Pattern Example
+Decorator Design Pattern
 """
-
 
 class UndecoratedObject:
     @staticmethod

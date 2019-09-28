@@ -1,9 +1,6 @@
-# complex parts
-# subsystem ClassA
-# subsystem ClassB
-# subsystem ClassC
-
-"""A Facade Demo"""
+"""
+Facade Design Pattern
+"""
 
 
 class SubSystemClassA:

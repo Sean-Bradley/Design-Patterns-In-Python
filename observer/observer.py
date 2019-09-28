@@ -1,3 +1,7 @@
+"""
+Observer Design Pattern
+"""
+
 from abc import ABCMeta, abstractmethod
 
 
@@ -28,10 +32,10 @@ class Observer(IObserver):
         observable.subscribe(self)
 
     def notify(self, observable, *args, **kwargs):
-        print('Got', args, kwargs, 'From', observable)
+        print("Got", args, kwargs, "From", observable)
 
 
 SUBJECT = Observable()
 OBSERVER = Observer(SUBJECT)
 
-SUBJECT.notify('Hello Observers', {"a": 1, "b": [1, 2, 3], })
+SUBJECT.notify("Hello Observers", {"a": 1, "b": [1, 2, 3]})
