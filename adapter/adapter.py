@@ -43,9 +43,8 @@ class ClassBAdapter(IA):
 
 # client
 
-CLASSA = ClassA()
-# CLASSB = ClassB()  # has no method_a
-CLASSB = ClassBAdapter()
+#ITEM = ClassA()
+#ITEM = ClassB()  # has no method_a
+ITEM = ClassBAdapter()
 
-ITEM = CLASSB
 ITEM.method_a()
