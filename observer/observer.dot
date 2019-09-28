@@ -2,7 +2,7 @@ digraph "classes" {
 charset="utf-8"
 nodesep=1
 {rank=same;0;1}
-"0" [label="{Observable|\l|notify()\lregister()\lremove_observer()\l}", shape="record"];
+"0" [label="{Observable|\l|subscribe()\lunsubscribe()\lnotify()\l}", shape="record"];
 "1" [label="{Observer|\l|notify()\l}", shape="record"];
 "2" [label="{IObserver|\l|notify()\l}", shape="record"];
 "2" -> "1" [arrowhead="empty", arrowtail="none"];
