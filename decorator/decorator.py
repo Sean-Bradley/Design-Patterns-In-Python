@@ -4,7 +4,8 @@ Decorator Pattern Example
 
 
 class UndecoratedObject:
-    def get(self):
+    @staticmethod
+    def get():
         # print("here")
         return "UndecoratedObject"
 

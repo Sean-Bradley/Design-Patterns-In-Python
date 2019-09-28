@@ -19,7 +19,7 @@ class Observable:
 class IObserver(metaclass=ABCMeta):
     @staticmethod
     @abstractmethod
-    def notify(WeatherType):
+    def notify(observable, *args, **kwargs):
         """Update all the registered observers"""
 
 
@@ -31,7 +31,7 @@ class Observer(IObserver):
         print('Got', args, kwargs, 'From', observable)
 
 
-subject = Observable()
-observer = Observer(subject)
+SUBJECT = Observable()
+OBSERVER = Observer(SUBJECT)
 
-subject.notify('Hello Observers', {"a": 1, "b": [1, 2, 3], })
+SUBJECT.notify('Hello Observers', {"a": 1, "b": [1, 2, 3], })

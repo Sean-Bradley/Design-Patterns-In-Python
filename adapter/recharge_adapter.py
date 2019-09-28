@@ -81,14 +81,14 @@ class IPhoneAdapter(FormatAndroid):
         self.mobile.use_lightning()
 
 
-class AndroidRecharger(object):
+class AndroidRecharger():
     def __init__(self):
         self.phone = Android()
         self.phone.use_micro_usb()
         self.phone.recharge()
 
 
-class IPhoneMicroUSBRecharger(object):
+class IPhoneMicroUSBRecharger():
     def __init__(self):
         self.phone = IPhone()
         self.phone_adapter = IPhoneAdapter(self.phone)
@@ -96,7 +96,7 @@ class IPhoneMicroUSBRecharger(object):
         self.phone_adapter.recharge()
 
 
-class IPhoneRecharger(object):
+class IPhoneRecharger():
     def __init__(self):
         self.phone = IPhone()
         self.phone.use_lightning()

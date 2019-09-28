@@ -3,35 +3,42 @@
 # subsystem ClassB
 # subsystem ClassC
 
-
-class CarModel():
-    def SetModel(self):
-        print(" CarModel - SetModel")
+"""A Facade Demo"""
 
 
-class CarEngine():
-    def SetEngine(self):
-        print(" CarModel - SetEngine")
+class SubSystemClassA:
+    @staticmethod
+    def func():
+        return "A"
 
 
-class CarBody():
-    def SetBody(self):
-        print(" CarModel - SetBody")
+class SubSystemClassB:
+    @staticmethod
+    def func():
+        return "B"
+
+
+class SubSystemClassC:
+    @staticmethod
+    def func():
+        return "C"
 
 
 # facade
-class CarFacade():
+class Facade:
     def __init__(self):
-        self.carModel = CarModel()
-        self.carEngine = CarEngine()
-        self.carBody = CarBody()
+        self.sub_system_class_a = SubSystemClassA()
+        self.sub_system_class_b = SubSystemClassB()
+        self.sub_system_class_c = SubSystemClassC()
 
-    def CreateCompleteCar(self):
-        self.carModel.SetModel()
-        self.carEngine.SetEngine()
-        self.carBody.SetBody()
+    def do_func(self):
+        result = self.sub_system_class_a.func()
+        result += self.sub_system_class_b.func()
+        result += self.sub_system_class_c.func()
+        return result
 
 
 # client
-CARFACADE = CarFacade()
-CARFACADE.CreateCompleteCar()
+FACADE = Facade()
+RESULT = FACADE.do_func()
+print("The Result = %s" % RESULT)
