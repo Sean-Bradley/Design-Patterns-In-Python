@@ -1,0 +1,22 @@
+digraph "classes" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{Android|connector : bool\l|recharge()\luse_micro_usb()\l}", shape="record"];
+"1" [label="{AndroidRecharger|phone\l|}", shape="record"];
+"2" [label="{FormatAndroid|\l|use_micro_usb()\l}", shape="record"];
+"3" [label="{FormatIPhone|\l|use_lightning()\l}", shape="record"];
+"4" [label="{IPhone|connector : bool\l|recharge()\luse_lightning()\l}", shape="record"];
+"5" [label="{IPhoneAdapter|mobile\l|recharge()\luse_micro_usb()\l}", shape="record"];
+"6" [label="{IPhoneMicroUSBRecharger|phone\lphone_adapter\l|}", shape="record"];
+"7" [label="{IPhoneRecharger|phone\l|}", shape="record"];
+"8" [label="{RechargeTemplate|\l|recharge()\l}", shape="record"];
+"0" -> "2" [arrowhead="empty", arrowtail="none"];
+"2" -> "8" [arrowhead="empty", arrowtail="none"];
+"3" -> "8" [arrowhead="empty", arrowtail="none"];
+"4" -> "3" [arrowhead="empty", arrowtail="none"];
+"5" -> "2" [arrowhead="empty", arrowtail="none"];
+"0" -> "1" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="phone", style="solid"];
+"4" -> "6" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="phone", style="solid"];
+"4" -> "7" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="phone", style="solid"];
+"5" -> "6" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="phone_adapter", style="solid"];
+}

@@ -1,0 +1,10 @@
+digraph "classes" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{UndecoratedObject|\l|get()\l}", shape="record"];
+"1" [label="{Decorate|decorated\l|get()\l}", shape="record"];
+"2" [label="{DecorateWithANewMethod|decorated\l|draw()\lget()\l}", shape="record"];
+
+"2" -> "1" [arrowhead="empty", arrowtail="none"];
+"1" -> "0" [arrowhead="ediamond", arrowtail="vee", dir="both"];
+}

@@ -32,14 +32,14 @@ class Weather():
 
     def notify(self, weather_type):
         for observer in self._observers:
-            observer.update(weather_type)
+            observer.notify(weather_type)
 
 
 class IObserver(metaclass=ABCMeta):
 
     @staticmethod
     @abstractmethod
-    def update(WeatherType):
+    def notify(WeatherType):
         """Update all the subscribed observers"""
 
 
@@ -47,7 +47,7 @@ class BBCWeather(IObserver):
     def __init__(self, observable):
         observable.subscribe(self)
 
-    def update(self, weather_type):
+    def notify(self, weather_type):
         print(f"{__class__} : {repr(weather_type)}")
 
 
@@ -55,7 +55,7 @@ class ABCWeather(IObserver):
     def __init__(self, observable):
         observable.subscribe(self)
 
-    def update(self, weather_type):
+    def notify(self, weather_type):
         print(f"{__class__} : {repr(weather_type)}")
 
 
@@ -63,7 +63,7 @@ class NBCWeather(IObserver):
     def __init__(self, observable):
         observable.subscribe(self)
 
-    def update(self, weather_type):
+    def notify(self, weather_type):
         print(f"{__class__} : {repr(weather_type)}")
 
 

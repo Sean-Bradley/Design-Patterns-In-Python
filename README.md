@@ -15,6 +15,8 @@ You will learn these Design Patterns
     * [Prototype](prototype)
 * Structural
     * [Decorator](decorator)
+    * [Adapter](adapter)
+    * [Facade](facade)
 * Behavioural
     * [Command](command)
     * [Chain of Responsibiltiy](chain_of_responsibility)
