@@ -13,6 +13,8 @@ You will learn these Design Patterns
     * [Abstract Factory](abstract_factory)
     * [Builder](builder)
     * [Prototype](prototype)
+* Structural
+    * [Decorator](decorator)
 * Behavioural
     * [Command](command)
     * [Chain of Responsibiltiy](chain_of_responsibility)

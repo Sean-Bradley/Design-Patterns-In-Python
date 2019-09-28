@@ -3,7 +3,7 @@
 Chain of responsibility pattern is a behavioural pattern used to achieve loose coupling
 in software design.
 In this example, a request from a client is passed to a chain of objects to process them.
-The objects in the chain will decide how to process them and/or pas them to the next in the chain.
+The objects in the chain will decide how to process them and/or pass them to the next in the chain.
 The objects can also modify the next in the chain if for example you wanted to run objects in a recursive manner.
 
 
