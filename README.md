@@ -22,7 +22,9 @@ You will learn these Design Patterns
     * [Chain of Responsibiltiy](chain_of_responsibility)
     * [Observer Pattern](observer)
 
+<!--
 Register for the course at Skillshare. https://skl.sh/34SM2Xg **(Get Extra 2 Months Premium Membership Free)**
+-->
 
 ## Introduction Video
 

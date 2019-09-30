@@ -6,12 +6,12 @@ The components if the Command Design Pattern are,
 1. **Receiver** - The Object that will receive and execute the command
 2. **Invoker** - Which will send the command to the receiver
 3. **Command Object** - Itself, which implements an execute, or action method, and contains all required information to execute it
-4. **Client** - The application or component which is aware of the Reciever, Invoker and Commands
+4. **Client** - The application or component which is aware of the Receiver, Invoker and Commands
 
-Eg, a button, will call the Invoker, which will call a pre registered Commands execute method, which the Reciever will perform.
+Eg, a button, will call the Invoker, which will call a pre registered Commands execute method, which the Receiver will perform.
 
 A Concrete Class will delegate a request to a command object, instead of implementing the request directly.
-Using a command design pattern allows you to seperate concerns a little easier and to solve problems of the concenrs independantly of each of the layers.
+Using a command design pattern allows you to seperate concerns a little easier and to solve problems of the concerns independently of each of the layers.
 eg, logging the execution of a command and it's outcome.
 
 Uses:

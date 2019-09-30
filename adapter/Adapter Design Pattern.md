@@ -6,7 +6,7 @@ The adapter design pattern solves these problems:
 - How can classes that have incompatible interfaces work together?
 - How can an alternative interface be provided for a class?
 
-In this lecture, I have 2 clasess, they don't share the same inteface. The client requires it's objects to use an already standardised interface.
+In this lecture, I have 2 classes, they don't share the same interface. The client requires it's objects to use an already standardised interface.
 
 So we need to create an adapter, that wraps the incompatible object, but implements the standardised interface.
 
