@@ -5,32 +5,31 @@ Decorator Design Pattern
 class UndecoratedObject:
     @staticmethod
     def get():
-        # print("here")
         return "UndecoratedObject"
 
 
 class Decorate:
-    def __init__(self, decorated):
-        self.decorated = decorated
+    def __init__(self, undecorated):
+        self.undecorated = undecorated
 
     def get(self):
-        return self.decorated.get().replace("Undecorated", "Decorated")
+        return self.undecorated.get().replace("Undecorated", "Decorated")
 
 
-class DecorateWithANewMethod:
-    def __init__(self, decorated):
-        self.decorated = decorated
+# class DecorateWithANewMethod:
+#     def __init__(self, undecorated):
+#         self.undecorated = undecorated
 
-    def get(self):
-        return self.decorated.get()
+#     def get(self):
+#         return self.undecorated.get()
 
-    def draw(self):
-        print(self.decorated.get())
+#     def draw(self):
+#         print(self.undecorated.get())
 
 
 UNDECORATED = UndecoratedObject()
-# print(UNDECORATED.get())
+print(UNDECORATED.get())
 DECORATED = Decorate(UNDECORATED)
-# print(DECORATED.get())
-DECORATEDWITHNEWMETHOD = DecorateWithANewMethod(DECORATED)
-DECORATEDWITHNEWMETHOD.draw()
+print(DECORATED.get())
+#DECORATEDWITHNEWMETHOD = DecorateWithANewMethod(DECORATED)
+#DECORATEDWITHNEWMETHOD.draw()

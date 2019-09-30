@@ -35,5 +35,6 @@ class ShopFacade:
 
 # client
 SHOPFACADE = ShopFacade()
-COST = SHOPFACADE.calc_price(100)
-print("The Final Cost = %.2f" % COST)
+BUYPRICE = 100
+COST = SHOPFACADE.calc_price(BUYPRICE)
+print("The Sell Cost = %.2f" % COST)

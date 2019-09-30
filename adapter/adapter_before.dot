@@ -1,0 +1,10 @@
+digraph "classes" {
+charset="utf-8"
+{rank=same;0,1}
+"0" [label="{ClassA|\l|method_a()\l}", shape="record"];
+"1" [label="{ClassB|\l|method_b()\l}", shape="record"];
+"3" [label="{IA|\l|method_a()\l}", shape="record"];
+"4" [label="{IB|\l|method_b()\l}", shape="record"];
+"0" -> "3" [arrowhead="empty", arrowtail="none"];
+"1" -> "4" [arrowhead="empty", arrowtail="none"];
+}

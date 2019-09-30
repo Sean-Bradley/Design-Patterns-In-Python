@@ -1,0 +1,11 @@
+digraph "classes" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{CarBody|\l|SetBody()\l}", shape="record"];
+"1" [label="{CarEngine|\l|SetEngine()\l}", shape="record"];
+"2" [label="{CarFacade|carBody\lcarEngine\lcarModel\l|CreateCompleteCar()\l}", shape="record"];
+"3" [label="{CarModel|\l|SetModel()\l}", shape="record"];
+"0" -> "2" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="carBody", style="solid"];
+"1" -> "2" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="carEngine", style="solid"];
+"3" -> "2" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="carModel", style="solid"];
+}

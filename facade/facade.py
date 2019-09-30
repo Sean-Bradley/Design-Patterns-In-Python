@@ -5,19 +5,19 @@ Facade Design Pattern
 
 class SubSystemClassA:
     @staticmethod
-    def func():
+    def method():
         return "A"
 
 
 class SubSystemClassB:
     @staticmethod
-    def func():
+    def method():
         return "B"
 
 
 class SubSystemClassC:
     @staticmethod
-    def func():
+    def method():
         return "C"
 
 
@@ -28,14 +28,14 @@ class Facade:
         self.sub_system_class_b = SubSystemClassB()
         self.sub_system_class_c = SubSystemClassC()
 
-    def do_func(self):
-        result = self.sub_system_class_a.func()
-        result += self.sub_system_class_b.func()
-        result += self.sub_system_class_c.func()
+    def create(self):
+        result = self.sub_system_class_a.method()
+        result += self.sub_system_class_b.method()
+        result += self.sub_system_class_c.method()
         return result
 
 
 # client
 FACADE = Facade()
-RESULT = FACADE.do_func()
+RESULT = FACADE.create()
 print("The Result = %s" % RESULT)
