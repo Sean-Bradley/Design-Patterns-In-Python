@@ -29,6 +29,7 @@ Register for the course at Skillshare. https://skl.sh/34SM2Xg **(Get Extra 2 Mon
 [![Design Patterns in Python Introduction](https://img.youtube.com/vi/OOxyTUWsY7A/0.jpg)](https://youtu.be/OOxyTUWsY7A)
 
 
+<!--
 To register for this course visit
 
 <a href="https://skl.sh/34SM2Xg" target="_blank"><img src="/img/skillshare_btn.png" title="Skillshare 2 Months Free Premium Membership"/></a>
@@ -38,6 +39,7 @@ To register for this course visit
 * Full Lifetime Access <br/>
 * Subscription Model <br/>
 * Cancel Any Time</b>
+-->
 
 
 
