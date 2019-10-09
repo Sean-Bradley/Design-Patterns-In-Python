@@ -1,1 +1,0 @@
-# Mediator Design Pattern
