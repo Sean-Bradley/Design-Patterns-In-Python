@@ -1,0 +1,9 @@
+digraph "classes" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{CompositeGraphic|child_graphics : list\l|add()\lprint()\l}", shape="record"];
+"1" [label="{Ellipse|\l|print()\l}", shape="record"];
+"2" [label="{IGraphic|\l|print()\l}", shape="record"];
+"0" -> "2" [arrowhead="empty", arrowtail="none"];
+"1" -> "2" [arrowhead="empty", arrowtail="none"];
+}

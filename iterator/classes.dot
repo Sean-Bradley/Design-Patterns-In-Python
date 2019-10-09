@@ -1,0 +1,7 @@
+digraph "classes" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{IIterator|\l|has_next()\lnext()\l}", shape="record"];
+"1" [label="{MyCars|index : int\l|has_next()\lnext()\l}", shape="record"];
+"1" -> "0" [arrowhead="empty", arrowtail="none"];
+}

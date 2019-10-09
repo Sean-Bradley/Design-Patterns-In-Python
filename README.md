@@ -13,14 +13,27 @@ You will learn these Design Patterns
     * [Abstract Factory](abstract_factory)
     * [Builder](builder)
     * [Prototype](prototype)
+    * Singleton
 * Structural
     * [Decorator](decorator)
     * [Adapter](adapter)
     * [Facade](facade)
+    * Bridge
+    * [Composite](composite)
+    * Flyweight
+    * [Proxy](proxy)
 * Behavioural
     * [Command](command)
-    * [Chain of Responsibiltiy](chain_of_responsibility)
+    * [Chain of Responsibility](chain_of_responsibility)
     * [Observer Pattern](observer)
+    * Interpreter
+    * [Iterator](iterator)
+    * [Mediator](mediator)
+    * Memento
+    * State
+    * Strategy
+    * Template
+    * Visitor
 
 <!--
 Register for the course at Skillshare. https://skl.sh/34SM2Xg **(Get Extra 2 Months Premium Membership Free)**

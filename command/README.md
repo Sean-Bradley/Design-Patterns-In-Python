@@ -11,7 +11,7 @@ The components if the Command Design Pattern are,
 Eg, a button, will call the Invoker, which will call a pre registered Commands execute method, which the Receiver will perform.
 
 A Concrete Class will delegate a request to a command object, instead of implementing the request directly.
-Using a command design pattern allows you to seperate concerns a little easier and to solve problems of the concerns independently of each of the layers.
+Using a command design pattern allows you to separate concerns a little easier and to solve problems of the concerns independently of each of the layers.
 eg, logging the execution of a command and it's outcome.
 
 Uses:
@@ -33,7 +33,7 @@ The Command Pattern in the context of a light switch
 
 ![The Command Pattern Switch](switch_command_pattern.png)
 
-The Command Pattern in the contect of a slider for a heater, which also implements UNDO/REDO
+The Command Pattern in the context of a slider for a heater, which also implements UNDO/REDO
 
 ![The Command Pattern Slider](slider_command.png)
 

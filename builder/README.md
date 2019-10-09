@@ -14,7 +14,7 @@ Parts of the Builder Pattern
 3. **Builder Interface** - The Interface which the Concrete builder should implement
 4. **Director** - Has a construct method which when called creates a customised product
 
-![Builder Pattern Overiew](builder.png)
+![Builder Pattern Overview](builder.png)
 
 The Builder Pattern in the context of a House Builder. There are multiple directors creating there own complex objects
 

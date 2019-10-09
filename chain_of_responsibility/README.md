@@ -15,7 +15,7 @@ The objects can also modify the next in the chain if for example you wanted to r
 ![Chain of Responsibility UML Diagram in the context of an ATM](atm.png)
 
 In the ATM example, the chain is created to dispense an amount of £50, then £20s and then £10s in order.
-The successor chain is hardcoded in the chain client. 
+The successor chain is hard coded in the chain client. 
 
 ```python
 def __init__(self):
@@ -26,7 +26,7 @@ def __init__(self):
 
     # set the chain of responsibility
     # The Client may compose chains once or
-    # the hadler can set them dynamically at
+    # the handler can set them dynamically at
     # handle time
     self.chain1.set_successor(self.chain2)
     self.chain2.set_successor(self.chain3)

@@ -1,0 +1,12 @@
+digraph "classes" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{BaseComponent|mediator\l|}", shape="record"];
+"1" [label="{Component1|\l|do_a()\ldo_b()\l}", shape="record"];
+"2" [label="{Component2|\l|do_c()\ldo_d()\l}", shape="record"];
+"3" [label="{ConcreteMediator|\l|notify()\l}", shape="record"];
+"4" [label="{Mediator|\l|notify()\l}", shape="record"];
+"1" -> "0" [arrowhead="empty", arrowtail="none"];
+"2" -> "0" [arrowhead="empty", arrowtail="none"];
+"3" -> "4" [arrowhead="empty", arrowtail="none"];
+}
