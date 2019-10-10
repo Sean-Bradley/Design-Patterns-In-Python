@@ -1,7 +1,7 @@
 digraph "classes" {
 charset="utf-8"
 rankdir=BT
-"0" [label="{AbstractComponent|\l|method()\l}", shape="record"];
+"0" [label="{IComponent|\l|method()\l}", shape="record"];
 "1" [label="{Component|\l|method()\l}", shape="record"];
 "2" [label="{ProxyComponent|component\l|method()\l}", shape="record"];
 "1" -> "0" [arrowhead="empty", arrowtail="none"];
