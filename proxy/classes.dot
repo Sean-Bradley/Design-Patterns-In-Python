@@ -1,11 +1,10 @@
 digraph "classes" {
 charset="utf-8"
 rankdir=BT
-"0" [label="{AbstractCar|\l|drive()\l}", shape="record"];
-"1" [label="{Car|\l|drive()\l}", shape="record"];
-"2" [label="{Driver|age\l|}", shape="record"];
-"3" [label="{ProxyCar|car\ldriver\l|drive()\l}", shape="record"];
+"0" [label="{AbstractComponent|\l|method()\l}", shape="record"];
+"1" [label="{Component|\l|method()\l}", shape="record"];
+"2" [label="{ProxyComponent|component\l|method()\l}", shape="record"];
 "1" -> "0" [arrowhead="empty", arrowtail="none"];
-"3" -> "0" [arrowhead="empty", arrowtail="none"];
-"1" -> "3" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="car", style="solid"];
+"2" -> "0" [arrowhead="empty", arrowtail="none"];
+"1" -> "2" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="component", style="solid"];
 }

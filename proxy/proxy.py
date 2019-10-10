@@ -1,46 +1,30 @@
-"""
-Proxy pattern example.
-"""
 from abc import ABCMeta, abstractmethod
+import datetime
 
-
-NOT_IMPLEMENTED = "You should implement this."
-
-
-class AbstractCar:
-    __metaclass__ = ABCMeta
-
+class AbstractComponent(metaclass=ABCMeta):
+    @staticmethod
     @abstractmethod
-    def drive(self):
-        raise NotImplementedError(NOT_IMPLEMENTED)
+    def method(self):
+        """A method to implement"""
 
 
-class Car(AbstractCar):
-    def drive(self):
-        print("Car has been driven!")
+class Component(AbstractComponent):
+    def method(self):
+        print("The method has been called")
 
 
-class Driver(object):
-    def __init__(self, age):
-        self.age = age
+class ProxyComponent(AbstractComponent):
+    def __init__(self):
+        self.component = Component()
+
+    def method(self):
+        f = open("log.txt",'a')
+        f.write("%s : method was proxied\n" % (datetime.datetime.now()))
+        self.component.method()
 
 
-class ProxyCar(AbstractCar):
-    def __init__(self, driver):
-        self.car = Car()
-        self.driver = driver
+COMPONENT = Component()
+COMPONENT.method()
 
-    def drive(self):
-        if self.driver.age <= 16:
-            print("Sorry, the driver is too young to drive.")
-        else:
-            self.car.drive()
-
-
-driver = Driver(16)
-car = ProxyCar(driver)
-car.drive()
-
-driver = Driver(25)
-car = ProxyCar(driver)
-car.drive()
+COMPONENT = ProxyComponent()
+COMPONENT.method()
