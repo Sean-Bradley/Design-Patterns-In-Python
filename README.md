@@ -1,4 +1,4 @@
-# Design-Patterns-In-Python
+# Design Patterns In Python
 
 This course is about common GOF (Gang Of Four) Design Patterns implemented in Python.
 
