@@ -1,6 +1,5 @@
 from abc import ABCMeta, abstractmethod
 
-
 class IIterator(metaclass=ABCMeta):
     @staticmethod
     @abstractmethod
@@ -12,12 +11,13 @@ class IIterator(metaclass=ABCMeta):
     def next():
         """Return the object in collection"""
 
-class MyCars(IIterator):
+class Iterable(IIterator):
     def __init__(self):
         self.index = 0
+        self.maximum = 7
 
     def next(self):
-        if self.index < 7:
+        if self.index < self.maximum:
             x = self.index
             self.index += 1
             return x
@@ -25,17 +25,21 @@ class MyCars(IIterator):
             raise Exception("AtEndOfIteratorException", "At End of Iterator")
 
     def has_next(self):
-        return self.index < 7
+        return self.index < self.maximum
 
+ITERABLE = Iterable()
 
-myclass = MyCars()
-#myiter = iter(myclass)
+while ITERABLE.has_next():
+    print(ITERABLE.next())
 
-print(myclass.next())
-print(myclass.next())
-print(myclass.next())
-print(myclass.next())
+    
+# print(ITERABLE.next())
+# print(ITERABLE.next())
+# print(ITERABLE.next())
+# print(ITERABLE.next())
+# print(ITERABLE.next())
+# print(ITERABLE.next())
+# print(ITERABLE.next())
+# print(ITERABLE.next())
 
-print()
-while myclass.has_next(): #or x in myiter:
-    print(myclass.next())
+        
