@@ -14,4 +14,6 @@ The proxy should implement the subject interface as much as practicable so that 
 The Proxy Pattern may occasionally also be referred to as Monkey Patching or 
 Object Augmentation
 
+![Proxy Pattern UML Diagram](proxy.png)
+
 
