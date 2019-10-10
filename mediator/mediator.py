@@ -19,14 +19,14 @@ class Component(IComponent):
         self.name = name
 
     def notify(self, message):
-        print(self.name + ": Sending : " + message)
+        print(self.name + ": >>> Out >>> : " + message)
         self.mediator.notify(message, self)
 
     def receive(self, message):
-        print(self.name + ": Received : " + message)
+        print(self.name + ": <<< In <<< : " + message)
 
 
-class Mediator:
+class Mediator():
     def __init__(self):
         self.components = []
 
@@ -47,4 +47,4 @@ MEDIATOR.add(COMPONENT1)
 MEDIATOR.add(COMPONENT2)
 MEDIATOR.add(COMPONENT3)
 
-COMPONENT1.notify("Lets Play")
+COMPONENT1.notify("data")

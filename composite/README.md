@@ -10,6 +10,7 @@ The Composite design pattern,
 
 Examples of using the Composite Design Pattern can be seen in a filesystem directory structure, where you can swap the hierarchy of folders, and in a drawing program where you can group, un-group and transform objects, and multiple objects at the same time.
 
+![Composite Pattern UML Diagram](composite.png)
 
 
 

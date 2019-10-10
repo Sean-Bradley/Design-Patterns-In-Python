@@ -6,5 +6,6 @@ An interface with **next** and **has_next** methods.
 
 **has_next** returns a value, usually a boolean indicating if the iterable is at the end of the list or not.
 
-The benefits of using the Iterator pattern is that the client, can traverse an aggregate without needing to understand it's internal representation
-and data structures.
+The benefits of using the Iterator pattern is that the client, can traverse an aggregate without needing to understand it's internal representation and data structures.
+
+![Iterator Pattern UML Diagram](iterator.png)

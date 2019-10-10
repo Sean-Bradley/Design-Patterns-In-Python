@@ -7,3 +7,5 @@ The decorator pattern is used in both the Object Oriented and Functional paradig
 The decorator pattern is different than the Python language feature of Python Decorators in it's syntax, but the application of it is the same, in the way that it is essentially a wrapper.
 
 The Decorator pattern adds extensibility, without modifying the original function.
+
+![Decorator Pattern UML Diagram](decorator.png)
