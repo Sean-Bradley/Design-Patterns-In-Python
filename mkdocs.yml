@@ -1,0 +1,35 @@
+site_name: Design Patterns In Python
+nav:
+    - Home: index.md
+    - Creational:
+      - Factory: factory.md
+      - Abstract Factory: abstract_factory.md
+      - Builder: builder.md
+      - ProtoType: prototype.md
+    - Structural:
+      - Decorator: decorator.md
+      - Adapter: adapter.md
+      - Facade: facade.md
+      - Composite: composite.md
+      - Proxy: proxy.md
+    - Behavioural:
+      - Command: command.md
+      - Command Undo/Redo: command_undo_redo.md
+      - Chain of Responsibility: chain_of_responsibility.md
+      - Observer: observer.md
+      - Iterator: iterator.md
+      - Mediator: mediator.md
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'Blue Grey'
+    accent: 'Blue Grey'
+  font:
+    false
+
+markdown_extensions:
+  - codehilite:
+      guess_lang: false
+site_author: 'Sean Bradley'
+copyright: 'Copyright 2019 &copy; Sean Bradley'
