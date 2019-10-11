@@ -1,5 +1,7 @@
 # Design Patterns In Python
 
+> [Design Patterns In Python](https://designpatterns.seanwasere.com/)
+
 This course is about common GOF (Gang Of Four) Design Patterns implemented in Python.
 
 A Design Pattern is a description or template that can be repeatedly applied to a commonly recurring problem in software design.
