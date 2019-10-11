@@ -1,5 +1,12 @@
 # Adapter Design Pattern
 
+## Video Lecture
+Skillshare : <a href="https://skl.sh/34SM2Xg" target="_blank" title="Adapter Design Pattern">https://skl.sh/34SM2Xg</a>
+
+Udemy : <a href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16399566/?referralCode=7B677DD7A9580F2FFD8F" target="_blank" title="Adapter Design Pattern">Adapter Design Pattern</a>
+
+## Description
+
 The adapter design pattern solves these problems:
 
 - How can a class be reused that does not have an interface that a client requires?
@@ -15,3 +22,56 @@ So we need to create an adapter, that wraps the incompatible object, but impleme
 
 ## After Creating an Adapter
 ![Adapter Design Pattern](adapter.png)
+
+## Source Code
+
+### **`adapter.py`**
+```python
+from abc import ABCMeta, abstractmethod
+
+
+class IA(metaclass=ABCMeta):
+    @staticmethod
+    @abstractmethod
+    def method_a():
+        """An abstract method A"""
+
+
+class ClassA(IA):
+    def method_a(self):
+        print("method A")
+
+
+class IB(metaclass=ABCMeta):
+    @staticmethod
+    @abstractmethod
+    def method_b():
+        """An abstract method B"""
+
+
+class ClassB(IB):
+    def method_b(self):
+        print("method B")
+
+
+"""ClassB does not have a method_a, so we create an adapter"""
+
+
+class ClassBAdapter(IA):
+    def __init__(self):
+        self.class_b = ClassB()
+
+    def method_a(self):
+        """calls the class b method_b instead"""
+        self.class_b.method_b()
+
+
+# client
+
+#ITEM = ClassA()
+#ITEM = ClassB()  # has no method_a
+ITEM = ClassBAdapter()
+
+ITEM.method_a()
+
+```

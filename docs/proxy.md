@@ -1,5 +1,12 @@
 # Proxy Design Pattern
 
+## Video Lecture
+Skillshare : <a href="https://skl.sh/34SM2Xg" target="_blank" title="Proxy Design Pattern">https://skl.sh/34SM2Xg</a>
+
+Udemy : <a href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16513062/?referralCode=7B677DD7A9580F2FFD8F" target="_blank" title="Proxy Design Pattern">Proxy Design Pattern</a>
+
+## Description
+
 The proxy design pattern is a class functioning as an interface to another class or object.
 
 A proxy could be for anything, such as a network connection, an object in memory, a file, or anything else you need to provide an abstraction between.
@@ -17,3 +24,40 @@ Object Augmentation
 ![Proxy Pattern UML Diagram](proxy.png)
 
 
+## Source Code
+
+### **`proxy.py`**
+```python
+from abc import ABCMeta, abstractmethod
+import datetime
+
+
+class IComponent(metaclass=ABCMeta):
+    @staticmethod
+    @abstractmethod
+    def method(self):
+        """A method to implement"""
+
+
+class Component(IComponent):
+    def method(self):
+        print("The method has been called")
+
+
+class ProxyComponent(IComponent):
+    def __init__(self):
+        self.component = Component()
+
+    def method(self):
+        f = open("log.txt", "a")
+        f.write("%s : method was proxied\n" % (datetime.datetime.now()))
+        self.component.method()
+
+
+COMPONENT1 = Component()
+COMPONENT1.method()
+
+COMPONENT2 = ProxyComponent()
+COMPONENT2.method()
+
+```
