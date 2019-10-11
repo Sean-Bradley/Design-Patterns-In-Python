@@ -31,5 +31,8 @@ theme:
 markdown_extensions:
   - codehilite:
       guess_lang: false
+google_analytics:
+  - 'UA-147973042-3'
+  - 'auto'
 site_author: 'Sean Bradley'
 copyright: 'Copyright 2019 &copy; Sean Bradley'
