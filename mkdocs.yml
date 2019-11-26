@@ -21,6 +21,7 @@ nav:
     - Mediator: mediator.md
 theme:
   name: 'material'
+  custom_dir: 'G:\mkdocs-material\material'
   language: 'en'
   palette:
     primary: 'Blue Grey'
