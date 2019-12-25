@@ -19,7 +19,7 @@ class ICommand(metaclass=ABCMeta):
 
     @abstractstaticmethod
     def execute(*args):
-        """The required execute method which all command obejcts will use"""
+        """The required execute method which all command objects will use"""
 
 
 class IUndoRedo(metaclass=ABCMeta):
@@ -76,7 +76,7 @@ class Slider(IUndoRedo):
 
     def undo(self):
         """Undo a command if there is a command that can be undone.
-        Update the history psoition so that further UNDOs or REDOs
+        Update the history position so that further UNDOs or REDOs
         point to the correct index"""
         if self._history_position > 0:
             self._history_position -= 1
@@ -98,7 +98,7 @@ class Slider(IUndoRedo):
 
 
 class Heater:
-    """The Reciever"""
+    """The Receiver"""
 
     def set_to_max(self):
         print("Heater is ON and set to MAX (100%)")
@@ -143,7 +143,7 @@ class SliderOffCommand(ICommand):
 if __name__ == "__main__":
     # The Client is the main python app
 
-    # The HEATER is the Reciever
+    # The HEATER is the Receiver
     HEATER = Heater()
 
     # Create Commands

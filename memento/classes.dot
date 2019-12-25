@@ -1,0 +1,6 @@
+digraph "classes" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{Memento|\l|get_saved_state()\l}", shape="record"];
+"1" [label="{Originator|\l|restore_from_memento()\lsave_to_memento()\lset()\l}", shape="record"];
+}

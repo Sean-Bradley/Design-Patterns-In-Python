@@ -20,7 +20,7 @@ You will learn these Design Patterns
     * [Decorator](decorator)
     * [Adapter](adapter)
     * [Facade](facade)
-    * Bridge
+    * [Bridge](bridge)
     * [Composite](composite)
     * Flyweight
     * [Proxy](proxy)
