@@ -4,9 +4,6 @@ terminal means the terminated command.
 non-termainl commands are the same as the composite commands
 composite, can be reordered in hierachy like files and folders in a filesystem
 
-best example is here
-https://www.baeldung.com/java-interpreter-pattern
-it uses a select sql statement as example
 
 the terminal expression is the final result
 the non-terminal expressionsa are the sub expressions
