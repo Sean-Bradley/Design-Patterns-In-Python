@@ -1,0 +1,15 @@
+digraph "classes" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{BridgePattern|\l|test()\l}", shape="record"];
+"1" [label="{CircleShape|radius\lx\ly\l|draw()\lresize_by_percentage()\l}", shape="record"];
+"2" [label="{DrawingAPI|\l|draw_circle()\l}", shape="record"];
+"3" [label="{DrawingAPI1|\l|draw_circle()\l}", shape="record"];
+"4" [label="{DrawingAPI2|\l|draw_circle()\l}", shape="record"];
+"5" [label="{DrawingAPI3|\l|draw_circle()\l}", shape="record"];
+"6" [label="{Shape|drawing_api\ldrawing_api : NoneType\l|draw()\lresize_by_percentage()\l}", shape="record"];
+"1" -> "6" [arrowhead="empty", arrowtail="none"];
+"3" -> "2" [arrowhead="empty", arrowtail="none"];
+"4" -> "2" [arrowhead="empty", arrowtail="none"];
+"5" -> "2" [arrowhead="empty", arrowtail="none"];
+}

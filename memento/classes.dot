@@ -1,6 +1,8 @@
 digraph "classes" {
 charset="utf-8"
 rankdir=BT
-"0" [label="{Memento|\l|get_saved_state()\l}", shape="record"];
-"1" [label="{Originator|\l|restore_from_memento()\lsave_to_memento()\lset()\l}", shape="record"];
+"0" [label="{IMemento|\l|restore_memento()\lsave_memento()\l}", shape="record"];
+"1" [label="{Memento|\l|get()\l}", shape="record"];
+"2" [label="{Thing|\l|get()\lrestore_memento()\lsave_memento()\lset()\l}", shape="record"];
+"2" -> "0" [arrowhead="empty", arrowtail="none"];
 }

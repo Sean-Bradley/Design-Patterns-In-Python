@@ -2,6 +2,18 @@
 Memento pattern example.
 """
 
+from abc import ABCMeta, abstractmethod
+
+class IComponent(metaclass=ABCMeta):
+    @staticmethod
+    @abstractmethod
+    def createMemento(msg):
+        """The required notify method"""
+
+    @staticmethod
+    @abstractmethod
+    def restore(msg):
+        """The required receive method"""
 
 class Memento():
     def __init__(self, state):
@@ -11,7 +23,7 @@ class Memento():
         return self._state
 
 
-class Originator():
+class Originator(): #Creator
     _state = ""
 
     def set_state(self, state):
@@ -30,7 +42,7 @@ class Originator():
         print("Originator: State after restoring from Memento:", self._state)
 
 
-class CareTaker():
+class CareTaker():  #Guardian, Client
     _memento_list = []
 
     def add(self, state):
