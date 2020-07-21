@@ -1,6 +1,6 @@
 # Design Patterns In Python
 
-> [Design Patterns In Python](https://designpatterns.seanwasere.com/)
+> [Design Patterns In Python](https://sbcode.net/python/)
 
 This course is about common GOF (Gang Of Four) Design Patterns implemented in Python.
 
