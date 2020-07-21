@@ -1,9 +1,9 @@
 # Proxy Design Pattern
 
 ## Video Lecture
-Skillshare : <a href="https://skl.sh/34SM2Xg" target="_blank" title="Proxy Design Pattern">https://skl.sh/34SM2Xg</a>
 
-Udemy : <a href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16513062/?referralCode=7B677DD7A9580F2FFD8F" target="_blank" title="Proxy Design Pattern">Proxy Design Pattern</a>
+<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Proxy Design Pattern"><img src="/img/skillshare_btn_sm.gif" alt="Proxy Design Pattern"/></a> 
+<a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16513062/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Proxy Design Pattern"><img src="/img/udemy_btn_sm.gif" alt="Proxy Design Pattern"/></a>
 
 ## Description
 

@@ -1,9 +1,9 @@
 # Observer Pattern
 
 ## Video Lecture
-Skillshare : <a href="https://skl.sh/34SM2Xg" target="_blank" title="Observer Design Pattern">https://skl.sh/34SM2Xg</a>
 
-Udemy : <a href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16397486/?referralCode=7B677DD7A9580F2FFD8F" target="_blank" title="Observer Design Pattern">Observer Design Pattern</a>
+<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Observer Pattern"><img src="/img/skillshare_btn_sm.gif" alt="Observer Pattern"/></a> 
+<a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16396406/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Observer Pattern"><img src="/img/udemy_btn_sm.gif" alt="Observer Pattern"/></a>
 
 ## Description
 
