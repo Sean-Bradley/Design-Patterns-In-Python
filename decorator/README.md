@@ -9,3 +9,8 @@ The decorator pattern is different than the Python language feature of Python De
 The Decorator pattern adds extensibility, without modifying the original function.
 
 ![Decorator Pattern UML Diagram](decorator.png)
+
+## Video Tutorial
+
+[![Decorator Design Pattern In Python](https://img.youtube.com/vi/mIJDfeMTXGE/0.jpg)](https://youtu.be/mIJDfeMTXGE)
+

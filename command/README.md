@@ -37,4 +37,6 @@ The Command Pattern in the context of a slider for a heater, which also implemen
 
 ![The Command Pattern Slider](slider_command.png)
 
+## Video Tutorial
 
+[![Command Design Pattern In Python](https://img.youtube.com/vi/Wbd8W2zW-aI/0.jpg)](https://youtu.be/Wbd8W2zW-aI)

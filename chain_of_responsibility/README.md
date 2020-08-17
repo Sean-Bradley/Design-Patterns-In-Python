@@ -45,3 +45,6 @@ Dispensing 1 £10 note
 Go spoil yourself
 ```
 
+## Video Tutorial
+
+[![Chain of Responsibility Design Pattern In Python](https://img.youtube.com/vi/1z1Z79cOtCE/0.jpg)](https://youtu.be/1z1Z79cOtCE)

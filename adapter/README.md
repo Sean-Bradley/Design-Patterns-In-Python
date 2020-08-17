@@ -15,3 +15,7 @@ So we need to create an adapter, that wraps the incompatible object, but impleme
 
 ## After Creating an Adapter
 ![Adapter Design Pattern](adapter.png)
+
+## Video Tutorial
+
+[![Adapter Design Pattern In Python](https://img.youtube.com/vi/lAzRy8_qMi0/0.jpg)](https://youtu.be/lAzRy8_qMi0)

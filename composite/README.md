@@ -12,5 +12,9 @@ Examples of using the Composite Design Pattern can be seen in a file
 
 ![Composite Pattern UML Diagram](composite.png)
 
+## Video Tutorial
+
+[![Composite Design Pattern In Python](https://img.youtube.com/vi/_uOwULztBgM/0.jpg)](https://youtu.be/_uOwULztBgM)
+
 
 
