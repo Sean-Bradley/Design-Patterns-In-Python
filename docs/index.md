@@ -5,8 +5,8 @@
 
 This course is about common GOF (Gang Of Four) Design Patterns implemented in Python.
 
-You will need to register at one of 3 places to access the course videos.
-
+<!-- You will need to register at one of 3 places to access the course videos. -->
+<!-- 
 <table>
 <tr onclick="window.location='/subscriptions'" style="cursor:pointer; ">
 <td> <a href="/subscriptions" target="_blank"><img src="/img/sbcode_btn.gif" title="SBCODE"/></a> </td>
@@ -22,7 +22,7 @@ You will need to register at one of 3 places to access the course videos.
 <td> <b>* NEW STUDENT DISCOUNT<br/>* One Time Payment per Course<br/> * Full Lifetime Access <br/>* Certificate of Completion<br/>* 30 Day Money-Back Guarantee</b>
 <br/><button style="width:100%; height:48px; font-size:1.3em; color:#c5cbce; background-color:#3e515a; cursor:pointer; " onclick="window.location='https://www.udemy.com/course/design-patterns-in-python/?referralCode=7493DBBBF97FF2B0D24D'" target="_blank">Click Here to Register at Udemy</button></td>
 </tr>
-</table>
+</table> -->
 
 A Design Pattern is a description or template that can be repeatedly applied to a commonly recurring problem in software design.
 
@@ -57,7 +57,7 @@ You will learn these Design Patterns
     - Template
     - Visitor
 
-## Introduction Video
+<!-- ## Introduction Video
 
 [![Design Patterns in Python Introduction](https://img.youtube.com/vi/OOxyTUWsY7A/0.jpg)](https://youtu.be/OOxyTUWsY7A)
-
+ -->

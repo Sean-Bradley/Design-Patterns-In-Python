@@ -43,3 +43,8 @@ if __name__ == "__main__":
     MY_OBJECT = ObjectFactory().get_concrete_object("ObjectB")
     print(MY_OBJECT.dimensions())
 ```
+
+## Video Tutorial
+
+[![Factory Design Pattern In Python](https://img.youtube.com/vi/04J_fL5zg3U/0.jpg)](https://youtu.be/04J_fL5zg3U)
+
