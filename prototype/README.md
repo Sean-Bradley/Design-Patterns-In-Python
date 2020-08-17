@@ -15,3 +15,6 @@ the copy method you use works as you expect.
 
 ![Prototype UML Diagram](prototype.png)
 
+## Video Tutorial
+
+[![Prototype Design Pattern In Python](https://img.youtube.com/vi/_jBjhI6-VDI/0.jpg)](https://youtu.be/_jBjhI6-VDI)

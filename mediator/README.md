@@ -7,3 +7,7 @@ With the mediator pattern, communication between objects is encapsulated within 
 Objects communicate through the mediator rather than directly with each other.
 
 ![Mediator Pattern UML Diagram](mediator.png)
+
+## Video Tutorial
+
+[![Mediator Design Pattern In Python](https://img.youtube.com/vi/WO2d88H4_10/0.jpg)](https://youtu.be/WO2d88H4_10)

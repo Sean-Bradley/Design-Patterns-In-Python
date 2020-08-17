@@ -16,4 +16,9 @@ Object Augmentation
 
 ![Proxy Pattern UML Diagram](proxy.png)
 
+## Video Tutorial
+
+[![Proxy Design Pattern In Python](https://img.youtube.com/vi/YD38-BFvBIg/0.jpg)](https://youtu.be/YD38-BFvBIg)
+
+
 
