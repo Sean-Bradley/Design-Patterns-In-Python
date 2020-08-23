@@ -4,6 +4,7 @@
 
 <a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Builder Design Pattern"><img src="/img/skillshare_btn_sm.gif" alt="Builder Design Pattern"/></a> 
 <!-- <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16396852/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Builder Design Pattern"><img src="/img/udemy_btn_sm.gif" alt="Builder Design Pattern"/></a> -->
+<a id="ytVideoLink" href="https://youtu.be/bV1jSlPvtog" target="_blank" title="Builder Design Pattern"><img src="/img/yt_btn_sm.gif" alt="Builder Design Pattern"/></a> 
 
 ## Description
 

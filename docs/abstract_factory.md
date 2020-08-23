@@ -4,6 +4,7 @@
 
 <a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Abstract Factory Design Pattern"><img src="/img/skillshare_btn_sm.gif" alt="Abstract Factory Design Pattern"/></a> 
 <!-- <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16396782/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Abstract Factory Design Pattern"><img src="/img/udemy_btn_sm.gif" alt="Abstract Factory Design Pattern"/></a> -->
+<a id="ytVideoLink" href="https://youtu.be/TAnG6DN-5QM" target="_blank" title="Abstract Factory Design Pattern"><img src="/img/yt_btn_sm.gif" alt="Abstract Factory Design Pattern"/></a> 
 
 ## Description
 
