@@ -34,8 +34,8 @@ site_dir: G:\nginx_2coin\sbcode\sites\python
 markdown_extensions:
   - codehilite:
       guess_lang: false
-google_analytics:
-  - 'UA-147973042-1'
-  - 'auto'
+# google_analytics:
+#   - 'UA-147973042-1'
+#   - 'auto'
 site_author: 'Sean Bradley'
-copyright: 'Copyright 2020 &copy; Sean Bradley'
+copyright: 'Copyright &copy; 2021 Sean Bradley'
