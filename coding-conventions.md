@@ -37,11 +37,11 @@ Hello World!
 
 To exit the Python Interactive Console, you can usually type `quit()` or press `Ctrl-Z` then press `Enter`
 
-This book will show examples of using both `*.py` scripts and the interactive console to execute Python. Look out for the `>>>` characters in the code blocks to indicate if I was using the Python Interactive Console or a `*.py` script.
+This repository will show examples of using both `*.py` scripts and the interactive console to execute Python. Look out for the `>>>` characters in the code blocks to indicate if I was using the Python Interactive Console or a `*.py` script.
 
 ## PEP8
 
-The code styling in this book is formatted using mostly PEP8 styling recommendations.
+The code styling in this repository is formatted using mostly PEP8 styling recommendations.
 
 * **UPPER_CASE** : Constants will be defined using UPPER_CASE naming style.
 * **PascalCase** : Class names will use PascalCase naming style

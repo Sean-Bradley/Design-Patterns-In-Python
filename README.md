@@ -4,7 +4,7 @@
 
 This repository focuses on the 23 famous GoF (Gang of Four) Design Patterns implemented in Python.
 
-It is supplementary to my book titled **Design Patterns In Python**.
+It is supplementary to my book titled **Design Patterns In Python** (ASIN : B08XLJ8Z2J)
 
 <table>
 <tr>
