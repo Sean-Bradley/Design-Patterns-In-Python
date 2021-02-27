@@ -1,7 +1,0 @@
-digraph "classes_abstract_factory" {
-charset="utf-8"
-rankdir=BT
-"0" [label="{FurnitureFactory|\l|get_furniture()\l}", shape="record"];
-"1" [label="{IFurnitureFactory|\l|get_furniture()\l}", shape="record"];
-"0" -> "1" [arrowhead="empty", arrowtail="none"];
-}

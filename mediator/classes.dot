@@ -1,8 +1,0 @@
-digraph "classes" {
-charset="utf-8"
-rankdir=BT
-"0" [label="{Component|mediator\lname\l|notify()\lreceive()\l}", shape="record"];
-"1" [label="{IComponent|\l|notify()\lreceive()\l}", shape="record"];
-"2" [label="{Mediator|components : list\l|add()\lnotify()\l}", shape="record"];
-"0" -> "1" [arrowhead="empty", arrowtail="none"];
-}

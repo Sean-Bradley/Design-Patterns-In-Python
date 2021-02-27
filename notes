@@ -1,5 +1,0 @@
-Adapter V Facade V Proxy V Decorator
-• Adapter adapts an existing class/object to a new interface. Make incompatible interface compatible.
-• Facade is a class that simplifies a complicated set of functionality. 
-• Proxy provides the same interface as the subject class and allows additional functionality to be added.
-• Decorator is a wrapper to extend functionality to an existing class at runtime. 

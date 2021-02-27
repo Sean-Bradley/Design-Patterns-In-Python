@@ -1,9 +1,0 @@
-digraph "classes" {
-charset="utf-8"
-rankdir=BT
-"0" [label="{Composite|entities : list\l|add()\lfunc()\l}", shape="record"];
-"1" [label="{Entity|\l|func()\l}", shape="record"];
-"2" [label="{IEntity|\l|func()\l}", shape="record"];
-"0" -> "2" [arrowhead="empty", arrowtail="none"];
-"1" -> "2" [arrowhead="empty", arrowtail="none"];
-}
