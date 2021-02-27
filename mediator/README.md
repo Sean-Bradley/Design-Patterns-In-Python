@@ -12,7 +12,7 @@ The resulting Mediator interface will be very custom to the use cases that it is
 
 The Mediator will generally look like an object that is managing one of more [Observer](observer) patterns perhaps between the other classes or processes (colleagues). Whether you use an Observer pattern to manage a particular piece of functionality or not depends on whether it is the best use of the resources you have available.
 
-When refactoring your code, you may decide to approach your refactoring from the perspective of implementing an Observer pattern first. This means that all colleagues (Observers) will receive the notification whether it was intended for them or not. If you want to avoid redundant updates in the colleagues then you can write specific cases in your code, or create specific methods as I have done in [mediator_concept.py](mediator/mediator_concept.py) file.
+When refactoring your code, you may decide to approach your refactoring from the perspective of implementing an Observer pattern first. This means that all colleagues (Observers) will receive the notification whether it was intended for them or not. If you want to avoid redundant updates in the colleagues then you can write specific cases in your code, or create specific methods as I have done in [/mediator/mediator_concept.py](/mediator/mediator_concept.py) file.
 
 Colleagues now will send and receive requests via a Mediator object rather than directly between each other. The Mediator is like a router in this case, but allows you to add extra programmatic functionality and also give the option of creating other kinds of colleagues that could utilize the communications in new ways.
 

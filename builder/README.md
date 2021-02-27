@@ -62,7 +62,7 @@ This is a Wood House Boat with 6 door(s) and 8 window(s).
 
 ### Python List
 
-In the file [./builder/builder_concept.py](builder/builder_concept.py)
+In the file [/builder/builder_concept.py](/builder/builder_concept.py)
 
 ``` python linenums="47"
 
@@ -106,7 +106,7 @@ PS> python
 
 Lists are used in almost every code example in this book. You will see all the many ways they can be used. 
 
-In fact, a list was used in the [abstract_factory/furniture_factory.py](abstract_factory/furniture_factory.py) example, 
+In fact, a list was used in the [/abstract_factory/furniture_factory.py](/abstract_factory/furniture_factory.py) example, 
 
 ``` python
 if furniture in ['SmallChair', 'MediumChair', 'BigChair']:

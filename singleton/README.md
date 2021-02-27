@@ -73,7 +73,7 @@ python ./singleton/client.py
 
 ### Python Dictionary
 
-In the file [singleton/leaderboard.py](singleton/leaderboard.py),
+In the file [/singleton/leaderboard.py](/singleton/leaderboard.py),
 
 ``` python linenums="4"
 

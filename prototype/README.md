@@ -35,6 +35,6 @@ In my example, I have created a list of numbers. At first impressions, when this
 
 In the `MyClass.clone()` method, there is a line `self.field.copy()` which is commented out. Uncomment out this line, and comment out the line before it to now be `# self.field` . Re execute the file, and now the list items will be copied as well. This however is still not a full deep copy. If the list items were actually other lists, dictionaries or other structs, rather than the numbers that they are, then only the 1st level of that copy would have been cloned to new memory identifiers. I call this a 2-level copy.
 
-For a full recursive copy, use the `copy.deepcopy()` method which is part of an extra dedicated `copy` import included with Python. I demonstrate this in the [prototype/document.py](prototype/document.py) file. 
+For a full recursive copy, use the `copy.deepcopy()` method which is part of an extra dedicated `copy` import included with Python. I demonstrate this in the [/prototype/document.py](/prototype/document.py) file. 
 
 Remember that full deep copies can potentially be much slower for very complicated object hierarchies.
