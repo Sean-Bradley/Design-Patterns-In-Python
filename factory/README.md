@@ -67,6 +67,45 @@ python ./factory/client.py
 
 ```
 
+## New Coding Concepts
+
+### ABCMeta
+
+ABCMeta classes are a development tool that help you to write classes that conform to a specified interface that you've designed.
+
+ABCMeta refers to **A**bstract **B**ase **C**lasses. 
+
+The benefits of using ABCMeta classes to create abstract classes is that your IDE and Pylint will indicate to you at development time whether your inheriting classes conform to the class definition that you've asked them to.
+
+Abstract classes are not instantiated directly in your scripts, but instead inherited by subclasses that will provide the implementation code for the abstract methods. E.g., you don't create `IChair`, but you create `SmallChair` which implemented the methods described in the `IChair` interface.
+
+An abstract method is a method that is declared, but contains no implementation. The implementation happens at the class that inherits the abstract class.
+
+You don't need to use ABCMeta classes and interfaces that you have created in your final python code. You code will still work without them. 
+
+You can try it by removing the interfaces from all of the chair classes above, and you will see that your python program will still run.
+
+eg, change
+
+``` python
+class BigChair(IChair):
+```
+
+to 
+
+``` python
+class BigChair():
+```
+
+and it will still work.
+
+While it is possible to ensure your classes are correct without using abstract classes, it is often easier to use abstract classes as a backup method of checking correctness, especially if your projects become very large and involve many developers.
+
+Note that in all my code examples, the abstract classes are prefixed with a capital **I**, to indicate that they are abstract interfaces. They have no code in their methods. They do not require a `self` or `cls` argument due to the use of `@staticmethod` . The inheriting class will implement the code in each of the methods that the abstract class is describing. If subclasses are inheriting an abstract base class, and they do not implement the methods as described, there will be [Pylint error or warning message (E0110)](coding-conventions.md#common-pylint-warning-and-error-messages).
+
+See PEP 3119 : [https://www.python.org/dev/peps/pep-3119/](https://www.python.org/dev/peps/pep-3119/)
+
+
 ## Summary
 
 * The Factory Pattern is an Interface that defers the creation of the final object to a subclass.
