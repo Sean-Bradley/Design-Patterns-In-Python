@@ -101,7 +101,7 @@ and it will still work.
 
 While it is possible to ensure your classes are correct without using abstract classes, it is often easier to use abstract classes as a backup method of checking correctness, especially if your projects become very large and involve many developers.
 
-Note that in all my code examples, the abstract classes are prefixed with a capital **I**, to indicate that they are abstract interfaces. They have no code in their methods. They do not require a `self` or `cls` argument due to the use of `@staticmethod` . The inheriting class will implement the code in each of the methods that the abstract class is describing. If subclasses are inheriting an abstract base class, and they do not implement the methods as described, there will be [Pylint error or warning message (E0110)](coding-conventions.md#common-pylint-warning-and-error-messages).
+Note that in all my code examples, the abstract classes are prefixed with a capital **I**, to indicate that they are abstract interfaces. They have no code in their methods. They do not require a `self` or `cls` argument due to the use of `@staticmethod` . The inheriting class will implement the code in each of the methods that the abstract class is describing. If subclasses are inheriting an abstract base class, and they do not implement the methods as described, there will be [Pylint error or warning message (E0110)](/coding-conventions.md#common-pylint-warning-and-error-messages).
 
 See PEP 3119 : [https://www.python.org/dev/peps/pep-3119/](https://www.python.org/dev/peps/pep-3119/)
 
