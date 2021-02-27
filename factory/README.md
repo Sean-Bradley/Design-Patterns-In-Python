@@ -30,7 +30,7 @@ The Factory pattern is really about adding that extra abstraction between the ob
 
 ## Factory UML Diagram
 
-![Factory Pattern Overview](./img/factory_concept.svg)
+![Factory Pattern Overview](./../img/factory_concept.svg)
 
 ## Source Code
 
