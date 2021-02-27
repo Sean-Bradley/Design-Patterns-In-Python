@@ -78,7 +78,7 @@ and
 | E0110 | Abstract class '*ClassName*' with abstract methods instantiated (abstract-class-instantiated) | The Class that inherits your abstract class is not implementing all the abstract methods as described in the interfaces signature.|
 | W0221 | Parameters differ from overridden '*method*' method (arguments-differ) | The arguments in your abstract class don't match the arguments in your implementing class. Check spelling of arguments.|
 | C0304 | Final newline missing (missing-final-newline) | Pylint preferes a file to end with a new line. When copying code from a webpage into a `.py` file, the copied code may not finish with a new line character. You can add one manually by pressing the `enter` key on your keyboard at the end of your code, or if you use VSCode, pressing the key combination of **SHIFT-ALT-F** will auto format your `*.py` file with a final newline when you have the Pylint linter, or other linter, enabled.|
-| W0612 | Unused variable | You can remove the unused variable from your code. If you cannot remove the unused variable then use a `_` as the variable name. See the section [the-underscore-only-_variable](/mediator/README.md#the-underscore-only-_-variable) in the [Mediator](mediator.md) pattern for more information.
+| W0612 | Unused variable | You can remove the unused variable from your code. If you cannot remove the unused variable then use a `_` as the variable name. See the section [the-underscore-only-_variable](mediator#the-underscore-only-_-variable) in the [Mediator](mediator.md) pattern for more information.
 
 ## Command Line Interfaces
 
