@@ -1,5 +1,6 @@
 "A Memento to store character attributes"
 
+
 class Memento():  # pylint: disable=too-few-public-methods
     "A container of characters attributes"
 
