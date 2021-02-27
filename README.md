@@ -7,7 +7,7 @@ It is supplementary to my book titled **Design Patterns In Python**.
 <table>
 <tr>
 <td>
-<img style="width:175;height=250;" src="./img/design_patterns_in_python_book.jpg">
+<img src="./img/design_patterns_in_python_book.jpg">
 </td>
 <td>
 <a href="https://www.amazon.com/dp/B08XLJ8Z2J"><img src="/img/flag_us.gif">&nbsp; https://www.amazon.com/dp/B08XLJ8Z2J</a><br/>
