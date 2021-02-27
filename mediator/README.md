@@ -6,13 +6,13 @@ Objects communicate through the **Mediator** rather than directly with each othe
 
 As a system evolves and becomes larger and supports more complex functionality and business rules, the problem of communicating between these components becomes more complicated to understand and manage. It may be beneficial to refactor your system to centralize some or all of its functionality via some kind of mediation process.
 
-The mediator pattern is similar to creating a [Facade](facade.md) pattern between your classes and processes. Except the Mediator is expected to transact data both ways between two or more other classes or processes that would normally interact directly with each other.
+The mediator pattern is similar to creating a [Facade](facade/README.md) pattern between your classes and processes. Except the Mediator is expected to transact data both ways between two or more other classes or processes that would normally interact directly with each other.
 
 The resulting Mediator interface will be very custom to the use cases that it is now supporting.
 
-The Mediator will generally look like an object that is managing one of more [Observer](observer.md) patterns perhaps between the other classes or processes (colleagues). Whether you use an Observer pattern to manage a particular piece of functionality or not depends on whether it is the best use of the resources you have available.
+The Mediator will generally look like an object that is managing one of more [Observer](observer/README.md) patterns perhaps between the other classes or processes (colleagues). Whether you use an Observer pattern to manage a particular piece of functionality or not depends on whether it is the best use of the resources you have available.
 
-When refactoring your code, you may decide to approach your refactoring from the perspective of implementing an Observer pattern first. This means that all colleagues (Observers) will receive the notification whether it was intended for them or not. If you want to avoid redundant updates in the colleagues then you can write specific cases in your code, or create specific methods as I have done in [mediator_concept.py](#mediatormediator_conceptpy) example below.
+When refactoring your code, you may decide to approach your refactoring from the perspective of implementing an Observer pattern first. This means that all colleagues (Observers) will receive the notification whether it was intended for them or not. If you want to avoid redundant updates in the colleagues then you can write specific cases in your code, or create specific methods as I have done in `mediator_concept.py` file.
 
 Colleagues now will send and receive requests via a Mediator object rather than directly between each other. The Mediator is like a router in this case, but allows you to add extra programmatic functionality and also give the option of creating other kinds of colleagues that could utilize the communications in new ways.
 
@@ -24,7 +24,7 @@ Colleagues now will send and receive requests via a Mediator object rather than 
 
 ## Mediator UML Diagram
 
-![Mediator Pattern UML Diagram](img/mediator_concept.svg)
+![Mediator Pattern UML Diagram](/img/mediator_concept.svg)
 
 ## Source Code
 
@@ -46,13 +46,13 @@ This is a simplified game engine. There is the main game engine component, a sch
 
 All of the components implement the Mediators interface. They all implement one or some of the methods differently depending on their purpose. While they all perform different types of functionality, they all require a single source of truth being the Game Engine which acts as the Mediator.
 
-There is mixture of this Mediator example using the [Observer](observer.md) pattern to notify the game clients, as well as specific methods not necessarily shared between the scheduler, game engine and clients but benefits from being managed via the Mediator.
+There is mixture of this Mediator example using the [Observer](observer/README.md) pattern to notify the game clients, as well as specific methods not necessarily shared between the scheduler, game engine and clients but benefits from being managed via the Mediator.
 
 Normally the processes being mediated will be running from different servers or programs, but in this example they are all part of the same client in order to demonstrate the concept easier.
 
 ## Example UML Diagram
 
-![Mediator Pattern UML Diagram](img/mediator_example.svg)
+![Mediator Pattern UML Diagram](/img/mediator_example.svg)
 
 ## Output
 
@@ -68,7 +68,7 @@ Emmy -> You Are The Winner with result `10`. You Won 12. Your balance = 310
 
 ### The Underscore Only `_` Variable
 
-In the [Player](#mediatorplayerpy) class, there is a for loop that iterates the bets list.
+In the `Player` class, there is a for loop that iterates the bets list.
 
 ``` python
 for _ in bets:
@@ -97,5 +97,5 @@ So, using the `_` prevents this warning.
 * A mediator replaces a structure with many-to-many interactions between its classes and processes, with a one-to-many centralized structure where the interface supports all of the methods of the many-to-many structure, but via the mediator component instead.
 * The mediator pattern encourages usage of shared objects that can now be centrally managed and synchronized.
 * The mediator pattern creates an abstraction between two or more components which then makes a system easier to understand and manage.
-* The mediator pattern is similar to the [Facade](facade.md) pattern, except the Mediator is expected to transact data both ways between two or more other classes or processes that would normally interact directly with each other.
+* The mediator pattern is similar to the [Facade](facade/README.md) pattern, except the Mediator is expected to transact data both ways between two or more other classes or processes that would normally interact directly with each other.
 
