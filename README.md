@@ -32,8 +32,6 @@ A familiarity of Design Patterns will be very useful when planning, discussing, 
 
 Also, throughout the book, as each design pattern is discussed and demonstrated using example code, I also introduce new python coding concepts with each new design pattern. So that as you progress through the book and try out the examples, you will also get experience and familiarity with some of the finer details of programming with python.
 
-I had fun writing this book and coming up with new examples, and I hope you enjoy it as well.
-
 So, in this book, you will learn about these 23 Design Patterns, 
 
 * Creational
