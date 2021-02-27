@@ -205,4 +205,4 @@ Outputs
 
 * ASTs consist of multiple Non-Terminal and Terminal Expressions, that all implement an `interpret()` method.
 
-* Note that in the sample code above, the `interpret()` methods in the Non-Terminal expressions, all call further `interpret()` recursively. Only the Terminal expressions `interpret()` method returns an explicit value. See the [Number](#interpreternumberpy) class in the above code.
+* Note that in the sample code above, the `interpret()` methods in the Non-Terminal expressions, all call further `interpret()` recursively. Only the Terminal expressions `interpret()` method returns an explicit value. See the [Number](interpreter/number.py) class in the above code.
