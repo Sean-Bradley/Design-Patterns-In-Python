@@ -8,7 +8,7 @@ To begin with, in simple terms, think if it as a Factory that can return Factori
 
 ## Terminology
 
-* **Client**: The client application that calls the **Abstract Factory** and **Abstract Product** classes. It's the same process as the concrete creator in the [Factory](factory#terminology) design pattern.
+* **Client**: The client application that calls the **Abstract Factory** and **Abstract Product** classes. It's the same process as the concrete creator in the [Factory](/factory#terminology) design pattern.
 
 * **Abstract Factory**: An interface to one of the Factories.
 

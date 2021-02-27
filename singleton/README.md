@@ -87,7 +87,7 @@ The `{}` is indicating a Python **Dictionary**.
 
 A Dictionary can be instantiated using the curly braces `{}` or `dict()`
 
-The Dictionary is similar to a [List](builder#python-list), except that the items are `key:value` pairs.
+The Dictionary is similar to a [List](/builder#python-list), except that the items are `key:value` pairs.
 
 The Dictionary can store multiple `key:value` pairs, they can be changed, can be added and removed, can be re-ordered, can be pre-filled with `key:value` pairs when instantiated and is very flexible.
 

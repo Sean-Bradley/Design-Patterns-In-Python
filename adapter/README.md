@@ -12,11 +12,11 @@ The **Adapter** design pattern solves these problems:
 
 You may have two classes that are similar, but they have different method signatures, so you create an Adapter over top of one of the method signatures so that it is easier to implement and extend in the client.
 
-An adapter is similar to the [Decorator](decorator) in the way that it also acts like a wrapper to an object. It is also used at runtime; however, it is not designed to be used recursively.
+An adapter is similar to the [Decorator](/decorator) in the way that it also acts like a wrapper to an object. It is also used at runtime; however, it is not designed to be used recursively.
 
 It is an alternative interface over an existing interface. It can also provide extra functionality that the interface being adapted may not already provide.
 
-The adapter is similar to the [Facade](facade), but you are modifying the method signature, combining other methods and/or transforming data that is exchanged between the existing interface and the client.
+The adapter is similar to the [Facade](/facade), but you are modifying the method signature, combining other methods and/or transforming data that is exchanged between the existing interface and the client.
 
 The Adapter is used when you have an existing interface that doesn't directly map to an interface that the client requires. So, then you create the Adapter which has a similar functional role, but with a new compatible interface.
 
@@ -161,5 +161,5 @@ When executing [/adapter/cube_a.py](/adapter/cube_a.py) you will notice that the
 * Use the Adapter when you want to use an existing class, but its interface does not match what you need.
 * The adapter adapts to the interface of its parent class for those situations when it is not viable to modify the parent class to be domain-specific for your use case.
 * Adapters will most likely provide an alternative interface over an existing object, class or interface, but it can also provide extra functionality that the object being adapted may not already provide.
-* An adapter is similar to a [Decorator](decorator) except that it changes the interface to the object, whereas the decorator adds responsibility without changing the interface. This also allows the Decorator to be used recursively.
-* An adapter is similar to the [Bridge](bridge) pattern and may look identical after the refactoring has been completed. However, the intent of creating the Adapter is different. The Bridge is a result of refactoring existing interfaces, whereas the Adapter is about adapting over existing interfaces that are not viable to modify due to many existing constraints. E.g., you don't have access to the original code or it may have dependencies that already use it and modifying it would affect those dependencies negatively.
+* An adapter is similar to a [Decorator](/decorator) except that it changes the interface to the object, whereas the decorator adds responsibility without changing the interface. This also allows the Decorator to be used recursively.
+* An adapter is similar to the [Bridge](/bridge) pattern and may look identical after the refactoring has been completed. However, the intent of creating the Adapter is different. The Bridge is a result of refactoring existing interfaces, whereas the Adapter is about adapting over existing interfaces that are not viable to modify due to many existing constraints. E.g., you don't have access to the original code or it may have dependencies that already use it and modifying it would affect those dependencies negatively.
