@@ -1,5 +1,7 @@
 # Design Patterns In Python
 
+[![License: CC BY-NC 4.0](/img/by-nc.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 This repository focuses on the 23 famous GoF (Gang of Four) Design Patterns implemented in Python.
 
 It is supplementary to my book titled **Design Patterns In Python**.
