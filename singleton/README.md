@@ -28,19 +28,14 @@ id(OBJECT1.class_method())      = 140731233742040
 id(OBJECT2.class_method())      = 140731233742040
 ```
 
-!!! Notes
+Variables declared at class level are static variables that can be accessed directly using the class name without the class needing to be instantiated first.
 
-    Variables declared at class level are static variables that can be accessed directly using the class name without the class needing to be instantiated first.
+**cls** is a reference to the class
+**\__new\__** gets called before **\__init\__**,
+**\__new\__** has access to class level variables
+**\__init\__** references self which is created when the class is instantiated
 
-    **cls** is a reference to the class
-
-    **\__new\__** gets called before **\__init\__**,
-
-    **\__new\__** has access to class level variables
-
-    **\__init\__** references self which is created when the class is instantiated
-
-    By using **\__new\__**, instead of **\__init\__**, we can use the singleton without instantiating it. It is enough to just import it or create the class definition inline to begin using the singleton.
+By using **\__new\__**, instead of **\__init\__**, we can use the singleton without instantiating it. It is enough to just import it or create the class definition inline to begin using the singleton.
 
 ## Example Use Case
 
