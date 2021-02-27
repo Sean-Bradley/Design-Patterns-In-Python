@@ -30,7 +30,7 @@ The Factory pattern is really about adding that extra abstraction between the ob
 
 ## Factory UML Diagram
 
-![Factory Pattern Overview](./../img/factory_concept.svg)
+![Factory Pattern Overview](/img/factory_concept.svg)
 
 ## Source Code
 
@@ -57,7 +57,7 @@ So, when the user selected the chair, the factory then takes some property invol
 
 ## Factory Example UML Diagram
 
-![Chair Factory](./img/factory_example.svg)
+![Chair Factory](/img/factory_example.svg)
 
 ## Output
 
