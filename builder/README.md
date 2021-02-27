@@ -20,7 +20,7 @@ The Builder and Factory patterns are very similar in the fact they both instanti
 
 ## Builder UML Diagram
 
-![Builder Pattern Overview](img/builder_concept.svg)
+![Builder Pattern Overview](/img/builder_concept.svg)
 
 ## Source Code
 
@@ -47,7 +47,7 @@ The builder can construct complex objects in any order and include/exclude which
 
 ## Example UML Diagram
 
-![Builder Pattern in Context](img/builder_example.svg)
+![Builder Pattern in Context](/img/builder_example.svg)
 
 ## Output
 

@@ -20,7 +20,7 @@ To begin with, in simple terms, think if it as a Factory that can return Factori
 
 ## Abstract Factory UML Diagram
 
-![Abstract Factory Overview](img/abstract_factory_concept.svg)
+![Abstract Factory Overview](/img/abstract_factory_concept.svg)
 
 ## Output
 
@@ -40,7 +40,7 @@ You can create an extra module called `FurnitureFactory`, to handle the chair an
 
 See this UML diagram of an Abstract Furniture Factory implementation that returns chairs and tables.
 
-![Abstract Furniture Factory](img/abstract_furniture_factory.svg)
+![Abstract Furniture Factory](/img/abstract_furniture_factory.svg)
 
 ## Output
 
