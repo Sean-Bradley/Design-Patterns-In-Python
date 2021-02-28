@@ -165,5 +165,5 @@ Found 2 errors in 2 files (checked 1 source file)
 * You want to layer your subsystems into an abstraction that is easier to understand.
 * [Abstract Factory](/abstract_factory) and Facade can be considered very similar. An Abstract Factory is about creating in interface over several creational classes of similar objects, whereas the Facade is more like an API layer over many creational, structural and/or behavioral patterns. 
 * The [Mediator](/mediator) is similar to the Facade in the way that it abstracts existing classes. The Facade is not intended to modify, load balance or apply any extra logic. A subsystem does not need to consider that existence of the facade, it would still work without it.
-* A Facade is a minimal interface which could also be implemented as a [Singleton](/singleton).
+* A Facade is a minimal interface that could also be implemented as a [Singleton](/singleton).
 * A Facade is an optional layer that does not alter the subsystem. The subsystem does not need to know about the Facade, and could even be used by many other facades created for different audiences.

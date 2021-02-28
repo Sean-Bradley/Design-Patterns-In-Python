@@ -8,7 +8,7 @@ class Sub(IValue):
 
     def __init__(self, val1, val2):
         # val1 and val2 can be int or the custom Value
-        # object which contains the `value` attribute
+        # object that contains the `value` attribute
         val1 = getattr(val1, 'value', val1)
         val2 = getattr(val2, 'value', val2)
         self.value = val1 - val2

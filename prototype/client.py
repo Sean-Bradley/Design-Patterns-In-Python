@@ -18,7 +18,7 @@ print()
 DOCUMENT_COPY_2 = ORIGINAL_DOCUMENT.clone(2)  # 2 level shallow copy
 DOCUMENT_COPY_2.name = "Copy 2"
 # This does NOT modify ORIGINAL_DOCUMENT because it changes the
-# list[1] reference which was deep copied when using mode 2
+# list[1] reference that was deep copied when using mode 2
 DOCUMENT_COPY_2.list[1] = [9, 10, 11, 12]
 print(DOCUMENT_COPY_2)
 print(ORIGINAL_DOCUMENT)
@@ -27,7 +27,7 @@ print()
 DOCUMENT_COPY_3 = ORIGINAL_DOCUMENT.clone(2)  # 2 level shallow copy
 DOCUMENT_COPY_3.name = "Copy 3"
 # This does modify ORIGINAL_DOCUMENT because it changes the element of
-# list[1][0] which was NOT deep copied recursively when using mode 2
+# list[1][0] that was NOT deep copied recursively when using mode 2
 DOCUMENT_COPY_3.list[1][0] = "1234"
 print(DOCUMENT_COPY_3)
 print(ORIGINAL_DOCUMENT)

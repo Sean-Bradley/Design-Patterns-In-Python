@@ -46,7 +46,7 @@ The code styling in this repository is formatted using mostly PEP8 styling recom
 * **UPPER_CASE** : Constants will be defined using UPPER_CASE naming style.
 * **PascalCase** : Class names will use PascalCase naming style
 * **snake_case** : For variables names, method names and method arguments.
-* **Docstrings** : Classes and methods contain extra documentation which is descriptive text enclosed in " or """ for multiline strings.
+* **Docstrings** : Classes and methods contain extra documentation that is descriptive text enclosed in " or """ for multiline strings.
 * **_leading_underscore** : Use a leading underscore to indicate variables that should be considered as private class variables.
 
 See PEP-0008 : [https://www.python.org/dev/peps/pep-0008/](https://www.python.org/dev/peps/pep-0008/)

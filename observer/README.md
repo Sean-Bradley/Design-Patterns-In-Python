@@ -8,7 +8,7 @@ The Observer pattern follows the publish/subscribe concept. A subscriber, subscr
 
 The observer stores state that should be consistent with the subject. The observer only needs to store what is necessary for its own purposes.
 
-A typical place to use the observer pattern is between your application and presentation layers. Your application is the manager of the data and is the single source of truth, and when the data changes, it can update all of the subscribers, which could be part of multiple presentation layers. For example, the score was changed in a televised cricket game, so all the web browser clients, mobile phone applications, leaderboard display on the ground and television graphics overlay, can all now have the updated information synchronized.
+A typical place to use the observer pattern is between your application and presentation layers. Your application is the manager of the data and is the single source of truth, and when the data changes, it can update all of the subscribers, that could be part of multiple presentation layers. For example, the score was changed in a televised cricket game, so all the web browser clients, mobile phone applications, leaderboard display on the ground and television graphics overlay, can all now have the updated information synchronized.
 
 Most applications that involve a separation of data into a presentation layer can be broken further down into the Model-View-Controller (MVC) concept.
 
@@ -16,7 +16,7 @@ Most applications that involve a separation of data into a presentation layer ca
 * **Model** : The link or relay between a controller and a view. It may use any of the structural patterns (adapter, bridge, facade, proxy, etc.) at some point.
 * **View** : The presentation layer of the of the data from the model.
 
-The observer pattern can be used to manage the transfer of data across any layer and even internally to itself to add a further abstraction. In the MVC structure, the View can be a subscriber to the Model, which in turn can also be a subscriber to the controller. It can also happen the other way around if the use case warrants. 
+The observer pattern can be used to manage the transfer of data across any layer and even internally to itself to add a further abstraction. In the MVC structure, the View can be a subscriber to the Model, that in turn can also be a subscriber to the controller. It can also happen the other way around if the use case warrants. 
 
 The Observer pattern allows you to vary subjects and observers independently. You can reuse subjects without reusing their observers, and vice versa. It lets you add observers without modifying the subject or any of the other observers. 
 

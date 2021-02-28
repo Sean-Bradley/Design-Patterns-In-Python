@@ -46,7 +46,7 @@ Element_C = Element("C", 185, Element_A)
 Element_D = Element("D", -30, Element_B)
 
 # Now Rather than changing the Element class to support custom
-# operations, we can utilise the accept method which was
+# operations, we can utilise the accept method that was
 # implemented in the Element class because of the addition of
 # the IVisitable interface
 

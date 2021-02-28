@@ -51,7 +51,7 @@ class Aggregate(IAggregate):
 
 # The Client
 AGGREGATES = [Aggregate(), Aggregate(), Aggregate(), Aggregate()]
-# AGGREGATES is a python list which is already iterable by default.
+# AGGREGATES is a python list that is already iterable by default.
 
 # but we can create own own iterator on top anyway.
 ITERABLE = Iterable(AGGREGATES)

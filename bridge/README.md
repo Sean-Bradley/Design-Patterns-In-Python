@@ -6,7 +6,7 @@ The **Bridge pattern** is similar to the [Adapter](/adapter) pattern except in t
 
 The Bridge is an approach to refactor already existing code, whereas the Adapter creates an interface on top of existing code through existing available means without refactoring any existing code or interfaces.
 
-The motivation for converting your code to the Bridge pattern is that it may be tightly coupled. There is logic and abstraction close together which is limiting your choices in how you can extend your solution in the way that you need.
+The motivation for converting your code to the Bridge pattern is that it may be tightly coupled. There is logic and abstraction close together that is limiting your choices in how you can extend your solution in the way that you need.
 
 E.g., you may have one Car class, that produces a very nice car. But you would like the option of varying the design a little, or outsourcing responsibility of creating the different components.
 
@@ -152,5 +152,5 @@ PS> python
 
 * Use when you want to separate a solution where the abstraction and implementation may be tightly coupled and you want to break it up into smaller conceptual parts.
 * Once you have added the bridge abstraction, you should be able to extend each side of it separately without breaking the other.
-* Also, once the bridge abstraction exists, you can more easily create extra concrete implementations for other similar products which may also happen to be split across similar conceptual lines.
+* Also, once the bridge abstraction exists, you can more easily create extra concrete implementations for other similar products that may also happen to be split across similar conceptual lines.
 * The Bridge pattern is similar to the adapter pattern except in the intent that you developed it. The bridge is an approach to refactor already existing code, whereas the adapter adapts to the existing code through its existing interfaces and methods without changing the internals.

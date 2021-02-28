@@ -3,7 +3,7 @@ from interface_game_engine import IGameEngine
 
 
 class GameClient(IGameEngine):
-    "A Game Client which implements some of the mediator methods"
+    "A Game Client that implements some of the mediator methods"
 
     def __init__(self, game_engine):
         self._alias = ""

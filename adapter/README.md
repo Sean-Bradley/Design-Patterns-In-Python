@@ -37,7 +37,7 @@ In this concept source code, there are two classes, `ClassA` and `ClassB`, with 
 
 I can create objects of both classes in the client and it works. But before using each objects method, I need to do a conditional check to see which type of class it is that I am calling since the method signatures are different.
 
-It means that the client is doing extra work. Instead, I can create an Adapter interface for the incompatible `ClassB`, which reduces the need for the extra conditional logic.
+It means that the client is doing extra work. Instead, I can create an Adapter interface for the incompatible `ClassB`, that reduces the need for the extra conditional logic.
 
 ## Output
 
@@ -136,7 +136,7 @@ You can use it in logical statements as I do in [/adapter/adapter_concept.py](/a
 
 The time module provides time related functions, most notably in my case, the current epoch (ticks) since `January 1, 1970, 00:00:00 (UTC)` .
 
-The `time` module provides many options which are outlined in more detail at [https://docs.python.org/3/library/time.html](https://docs.python.org/3/library/time.html)
+The `time` module provides many options that are outlined in more detail at [https://docs.python.org/3/library/time.html](https://docs.python.org/3/library/time.html)
 
 In [/adapter/cube_a.py](/adapter/cube_a.py), I check the `time.time()` at various intervals to compare how long a task took. 
 

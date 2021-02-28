@@ -1,4 +1,4 @@
-"A Data Conroller which is a Subject"
+"A Data Conroller that is a Subject"
 from interface_data_controller import IDataController
 
 

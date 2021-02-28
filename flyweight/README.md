@@ -57,7 +57,7 @@ In this example, I create a dynamic table with 3 rows and 3 columns each. The co
 
 The letters are the flyweights and only a code indicating the letter is stored. The letters and numbers are shared many times.
 
-The columns are the contexts and they pass the extrinsic vales describing the combination of letters, the justification left, right or center, and the width of the table column which is then used for the space padding.
+The columns are the contexts and they pass the extrinsic vales describing the combination of letters, the justification left, right or center, and the width of the table column that is then used for the space padding.
 
 ## Example UML Diagram
 

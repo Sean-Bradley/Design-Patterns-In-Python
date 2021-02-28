@@ -1,4 +1,4 @@
-"A Game Engine which is the mediator"
+"A Game Engine that is the mediator"
 import random
 from interface_game_engine import IGameEngine
 

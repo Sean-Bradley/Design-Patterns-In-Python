@@ -34,7 +34,7 @@ Decorator Method(Component Method)
 
 ## Example Use Case
 
-Let's create a custom class called `Value` which will hold a number. 
+Let's create a custom class called `Value` that will hold a number. 
 
 Then add decorators that allow addition (`Add`) and subtraction (`Sub`) to a number (`Value`).
 

@@ -77,7 +77,7 @@ ABCMeta refers to **A**bstract **B**ase **C**lasses.
 
 The benefits of using ABCMeta classes to create abstract classes is that your IDE and Pylint will indicate to you at development time whether your inheriting classes conform to the class definition that you've asked them to.
 
-Abstract classes are not instantiated directly in your scripts, but instead inherited by subclasses that will provide the implementation code for the abstract methods. E.g., you don't create `IChair`, but you create `SmallChair` which implemented the methods described in the `IChair` interface.
+Abstract classes are not instantiated directly in your scripts, but instead inherited by subclasses that will provide the implementation code for the abstract methods. E.g., you don't create `IChair`, but you create `SmallChair` that implemented the methods described in the `IChair` interface.
 
 An abstract method is a method that is declared, but contains no implementation. The implementation happens at the class that inherits the abstract class.
 

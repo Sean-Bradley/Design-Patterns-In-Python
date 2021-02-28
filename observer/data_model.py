@@ -1,4 +1,4 @@
-"A Data Model which observes the Data Controller"
+"A Data Model that observes the Data Controller"
 from interface_data_model import IDataModel
 from data_controller import DataController
 

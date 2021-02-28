@@ -55,7 +55,7 @@ I then construct the AST manually, by adding a
 3. Non-Terminal `Add` row containing the previous Non-Terminal row and the `7`
 4. Non-Terminal `Subtract` row containing the previous Non-Terminal row and the `2`
 
-The AST root becomes the final row that was added, and then I can run the `interpret()` method on that which will interpret the full AST recursively because each AST row references the row above it.
+The AST root becomes the final row that was added, and then I can run the `interpret()` method on that, which will interpret the full AST recursively because each AST row references the row above it.
 
 ## Output
 

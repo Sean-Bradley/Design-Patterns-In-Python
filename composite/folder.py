@@ -1,4 +1,4 @@
-"A Folder, which acts as a composite."
+"A Folder, that acts as a composite."
 from interface_component import IComponent
 
 

@@ -1,5 +1,5 @@
 """
-A Command object, which implements the ISwitch interface and runs the
+A Command object, that implements the ISwitch interface and runs the
 command on the designated receiver
 """
 from interface_switch import ISwitch

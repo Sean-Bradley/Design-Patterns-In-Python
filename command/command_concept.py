@@ -3,11 +3,11 @@ from abc import ABCMeta, abstractmethod
 
 
 class ICommand(metaclass=ABCMeta):  # pylint: disable=too-few-public-methods
-    "The command interface, which all commands will implement"
+    "The command interface, that all commands will implement"
     @staticmethod
     @abstractmethod
     def execute():
-        "The required execute method which all command objects will use"
+        "The required execute method that all command objects will use"
 
 
 class Invoker:
@@ -43,7 +43,7 @@ class Receiver:
 
 
 class Command1(ICommand):  # pylint: disable=too-few-public-methods
-    """A Command object, which implements the ICommand interface and
+    """A Command object, that implements the ICommand interface and
     runs the command on the designated receiver"""
 
     def __init__(self, receiver):
@@ -54,7 +54,7 @@ class Command1(ICommand):  # pylint: disable=too-few-public-methods
 
 
 class Command2(ICommand):  # pylint: disable=too-few-public-methods
-    """A Command object, which implements the ICommand interface and
+    """A Command object, that implements the ICommand interface and
     runs the command on the designated receiver"""
 
     def __init__(self, receiver):

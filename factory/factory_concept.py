@@ -13,7 +13,7 @@ class IProduct(metaclass=ABCMeta):
 
 
 class ConcreteProductA(IProduct):
-    "A Concrete Class which implements the IProduct interface"
+    "A Concrete Class that implements the IProduct interface"
 
     def __init__(self):
         self.name = "ConcreteProductA"
@@ -23,7 +23,7 @@ class ConcreteProductA(IProduct):
 
 
 class ConcreteProductB(IProduct):
-    "A Concrete Class which implements the IProduct interface"
+    "A Concrete Class that implements the IProduct interface"
 
     def __init__(self):
         self.name = "ConcreteProductB"
@@ -33,7 +33,7 @@ class ConcreteProductB(IProduct):
 
 
 class ConcreteProductC(IProduct):
-    "A Concrete Class which implements the IProduct interface"
+    "A Concrete Class that implements the IProduct interface"
 
     def __init__(self):
         self.name = "ConcreteProductC"

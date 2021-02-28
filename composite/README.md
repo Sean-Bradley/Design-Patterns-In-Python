@@ -56,7 +56,7 @@ COMPOSITE_2     id:2050574298128
 
 Demonstration of a simple in memory hierarchal file system.
 
-A root object is created which is a composite.
+A root object is created that is a composite.
 
 Several files (leaves) are created and added to the root folder.
 

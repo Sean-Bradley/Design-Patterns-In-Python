@@ -1,4 +1,4 @@
-"A Column which is used in a Row"
+"A Column that is used in a Row"
 from flyweight_factory import FlyweightFactory
 
 class Column():  # pylint: disable=too-few-public-methods

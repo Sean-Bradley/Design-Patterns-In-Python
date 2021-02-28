@@ -42,9 +42,9 @@ COLLEAGUE2 <--> Here is the Colleague1 specific data you asked for
 
 ## Example Use Case
 
-This is a simplified game engine. There is the main game engine component, a scheduler which manages game events and there are game clients which act as separate game players submitting bets into a game round.
+This is a simplified game engine. There is the main game engine component, a scheduler that manages game events and there are game clients that act as separate game players submitting bets into a game round.
 
-All of the components implement the Mediators interface. They all implement one or some of the methods differently depending on their purpose. While they all perform different types of functionality, they all require a single source of truth being the Game Engine which acts as the Mediator.
+All of the components implement the Mediators interface. They all implement one or some of the methods differently depending on their purpose. While they all perform different types of functionality, they all require a single source of truth being the Game Engine that acts as the Mediator.
 
 There is mixture of this Mediator example using the [Observer](/observer) pattern to notify the game clients, as well as specific methods not necessarily shared between the scheduler, game engine and clients but benefits from being managed via the Mediator.
 

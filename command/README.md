@@ -4,7 +4,7 @@
 
 The **Command** pattern is a behavioral design pattern, in which an abstraction exists between an object that invokes a command, and the object that performs it.
 
-E.g., a button will call the **Invoker**, which will call a pre-registered **Command**, which the **Receiver** will perform.
+E.g., a button will call the **Invoker**, that will call a pre-registered **Command**, that the **Receiver** will perform.
 
 A Concrete Class will delegate a request to a command object, instead of implementing the request directly.
 
@@ -28,8 +28,8 @@ Uses:
 
 * **Receiver**: The object that will receive and execute the command.
 * **Invoker**: The object that sends the command to the receiver. E.g., A button.
-* **Command Object**: Itself, an object, which implements an execute, or action method, and contains all required information to execute it.
-* **Client**: The application or component which is aware of the Receiver, Invoker and Commands.
+* **Command Object**: Itself, an object, that implements an execute, or action method, and contains all required information to execute it.
+* **Client**: The application or component that is aware of the Receiver, Invoker and Commands.
 
 ## Command Pattern UML Diagram
 
@@ -37,9 +37,9 @@ Uses:
 
 ## Source Code
 
-The Client instantiates a Receiver which accepts certain commands that do things.
+The Client instantiates a Receiver that accepts certain commands.
 
-The Client then creates two Command objects which will call one of the specific commands on the Receiver.
+The Client then creates two Command objects that will call one of the specific commands on the Receiver.
 
 The Client then creates an Invoker, E.g., a user interface with buttons, and registers both Commands into the Invokers dictionary of commands.
 

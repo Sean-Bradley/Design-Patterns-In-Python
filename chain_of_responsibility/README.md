@@ -111,9 +111,9 @@ See PEP-3111 : [https://www.python.org/dev/peps/pep-3111/](https://www.python.or
 ## Summary
 
 * The object will propagate through the chain until fully processed.
-* The object does not know which successor or how many will process it.
+* The object does not know that successor or how many will process it.
 * The next successor in the chain is chosen dynamically at runtime depending on logic from the current successor.
-* Successors implement a common interface which makes them work independently of each other, so that they can be used recursively or possibly in a different order.
+* Successors implement a common interface that makes them work independently of each other, so that they can be used recursively or possibly in a different order.
 * A user wizard, or dynamic questionnaire are other common use cases for the chain of responsibility pattern.
 * The chain of responsibility and [Composite](/composite) patterns are often used together because of their similar approach to hierarchy and possible re-ordering. The Composites parent/child relationship is set in an object's property by a process outside of the class and can be changed at runtime. While with the Chain of Responsibility, each successor runs a dynamic algorithm internally, to decide which successor is next in line.
 * The chain can be fully dynamically created, or it can be set as a default with the possibility of changing at runtime.
