@@ -26,7 +26,8 @@ class MyClass(IProtoType):
             # self.field.copy() # this is also a shallow copy, but has
             # also shallow copied the first level of the field. So it
             # is essentially a shallow copy but 2 levels deep. To
-            # recursively deep copy structs containing inner structs,
+            # recursively deep copy collections containing inner
+            # collections,
             # eg lists of lists,
             # Use https://docs.python.org/3/library/copy.html instead.
             # See example below.

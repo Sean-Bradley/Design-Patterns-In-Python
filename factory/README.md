@@ -1,5 +1,11 @@
 # Factory Design Pattern
 
+Section | Video Link
+-|-
+Overview | <a id="ytVideoLink" href="https://youtu.be/cfN1_e_Fyjw" target="_blank" title="Overview"><img src="/img/yt_btn_sm.gif" alt="Overview"/></a> 
+Example Use Case | <a id="ytVideoLink" href="https://youtu.be/ywTF3yTAe3M" target="_blank" title="Use Case"><img src="/img/yt_btn_sm.gif" alt="Use Case"/></a> 
+ABCMeta | <a id="ytVideoLink" href="https://youtu.be/8HMurBw18wU" target="_blank" title="ABCMeta"><img src="/img/yt_btn_sm.gif" alt="ABCMeta"/></a> 
+
 ## Overview
 
 When developing code, you may instantiate objects directly in methods or in classes. While this is quite normal, you may want to add an extra abstraction between the creation of the object and where it is used in your project.

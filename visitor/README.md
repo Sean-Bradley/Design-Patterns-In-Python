@@ -2,7 +2,7 @@
 
 ## Overview
 
-Your object structure inside an application may be complicated and varied. A good example is what could be created using the composite structure.
+Your object structure inside an application may be complicated and varied. A good example is what could be created using the [Composite](/composite) structure.
 
 The objects that make up the hierarchy of objects, can be anything and most likely complicated to modify as your application grows. 
 
