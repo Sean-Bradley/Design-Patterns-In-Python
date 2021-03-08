@@ -1,10 +1,18 @@
 # Abstract Factory Design Pattern
 
+## Videos
+
+Section | Video Link
+-|-
+Overview | <a id="ytVideoLink" href="https://youtu.be/eXNLpSQjCzU" target="_blank" title="Overview"><img src="/img/yt_btn_sm.gif" alt="Overview"/></a> 
+Example Use Case | <a id="ytVideoLink" href="https://youtu.be/H18COAHTdVs" target="_blank" title="Use Case"><img src="/img/yt_btn_sm.gif" alt="Use Case"/></a> 
+Exception Handling | <a id="ytVideoLink" href="https://youtu.be/jOxJSA3sxcQ" target="_blank" title="ABCMeta"><img src="/img/yt_btn_sm.gif" alt="Exception Handling"/></a> 
+
 ## Overview
 
 The Abstract Factory Pattern adds an abstraction layer over multiple other creational pattern implementations.
 
-To begin with, in simple terms, think if it as a Factory that can return Factories. Although you will find examples of it also begin used to return Builder, ProtoTypes, Singletons or other design pattern implementations.
+To begin with, in simple terms, think if it as a Factory that can return Factories. Although you will find examples of it also begin used to return Builder, Prototypes, Singletons or other design pattern implementations.
 
 ## Terminology
 

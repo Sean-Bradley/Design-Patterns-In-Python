@@ -1,5 +1,13 @@
 # Builder Design Pattern
 
+## Videos
+
+Section | Video Link
+-|-
+Overview | <a id="ytVideoLink" href="https://youtu.be/pMadA6F4zGU" target="_blank" title="Overview"><img src="/img/yt_btn_sm.gif" alt="Overview"/></a> 
+Example Use Case | <a id="ytVideoLink" href="https://youtu.be/xvwOwCNxIXM" target="_blank" title="Use Case"><img src="/img/yt_btn_sm.gif" alt="Use Case"/></a> 
+Lists | <a id="ytVideoLink" href="https://youtu.be/54jpHGmHlHQ" target="_blank" title="Lists"><img src="/img/yt_btn_sm.gif" alt="Lists"/></a> 
+
 ## Overview
 
 The Builder Pattern is a creational pattern whose intent is to separate the construction of a complex object from its representation so that you can use the same construction process to create different representations.

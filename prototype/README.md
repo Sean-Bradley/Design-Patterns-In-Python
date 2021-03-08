@@ -1,5 +1,13 @@
 # Prototype Design Pattern
 
+## Videos
+
+Section | Video Link
+-|-
+Overview | <a id="ytVideoLink" href="https://youtu.be/2tFv9Rf2XGg" target="_blank" title="Overview"><img src="/img/yt_btn_sm.gif" alt="Overview"/></a> 
+Example Use Case | <a id="ytVideoLink" href="https://youtu.be/kiMgCLXckU0" target="_blank" title="Use Case"><img src="/img/yt_btn_sm.gif" alt="Use Case"/></a> 
+id() function | <a id="ytVideoLink" href="https://youtu.be/tgbGqu3OQD8" target="_blank" title="python id function"><img src="/img/yt_btn_sm.gif" alt="python id function"/></a> 
+
 ## Overview
 
 The **Prototype** design pattern is good for when creating new objects requires more resources than you want to use or have available. You can save resources by just creating a copy of any existing object that is already in memory.
