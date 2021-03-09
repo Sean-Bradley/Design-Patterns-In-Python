@@ -35,9 +35,13 @@ id(OBJECT3)     = 2164775087968
 Variables declared at class level are static variables that can be accessed directly using the class name without the class needing to be instantiated first.
 
 **cls** is a reference to the class
+
 **self** is a reference to the instance of the class
+
 **\__new\__** gets called before **\__init\__**
+
 **\__new\__** has access to class level variables
+
 **\__init\__** references self which is created when the class is instantiated
 
 By using **\__new\__**, and returning a reference to **cls**, we can force the class to act as a singleton. For a class to act as a singleton, it should not contain any references to **self**.
