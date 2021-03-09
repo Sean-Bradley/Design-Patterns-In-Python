@@ -6,13 +6,10 @@ from reports import Reports
 
 class Users():
     "A Singleton Dictionary of Users"
-    _instance = None
     _users: dict[str, dict[str, str]] = {}
 
     def __new__(cls):
-        if cls._instance is None:
-            cls._instance = Users
-        return cls._instance
+        return cls
 
     @classmethod
     def register_user(cls, new_user: dict[str, str]) -> str:

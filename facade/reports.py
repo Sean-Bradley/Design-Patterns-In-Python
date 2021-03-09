@@ -4,14 +4,11 @@ import time
 
 class Reports():
     "A Singleton Dictionary of Reported Events"
-    _instance = None
     _reports: dict[int, tuple[float, str]] = {}
     _row_id = 0
 
     def __new__(cls):
-        if cls._instance is None:
-            cls._instance = Reports
-        return cls._instance
+        return cls
 
     @classmethod
     def get_history(cls) -> dict:

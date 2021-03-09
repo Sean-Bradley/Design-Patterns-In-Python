@@ -3,13 +3,10 @@
 
 class Leaderboard():
     "The Leaderboard as a Singleton"
-    _instance = None
     _table = {}
 
     def __new__(cls):
-        if cls._instance is None:
-            cls._instance = Leaderboard
-        return cls._instance
+        return cls
 
     @classmethod
     def print(cls):

@@ -5,13 +5,10 @@ from flyweight import Flyweight
 class FlyweightFactory():
     "Creating the FlyweightFactory as a singleton"
 
-    _instance = None
     _flyweights: dict[int, Flyweight] = {}
 
     def __new__(cls):
-        if cls._instance is None:
-            cls._instance = FlyweightFactory
-        return cls._instance
+        return cls
 
     @classmethod
     def get_flyweight(cls, code: int) -> Flyweight:

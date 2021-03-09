@@ -5,13 +5,10 @@ from reports import Reports
 
 class Wallets():
     "A Singleton Dictionary of User Wallets"
-    _instance = None
     _wallets: dict[str, Decimal] = {}
 
     def __new__(cls):
-        if cls._instance is None:
-            cls._instance = Wallets
-        return cls._instance
+        return cls
 
     @classmethod
     def create_wallet(cls, user_id: str) -> bool:
