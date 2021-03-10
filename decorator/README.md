@@ -1,5 +1,14 @@
 # Decorator Design Pattern
 
+## Videos
+
+Section | Video Link
+-|-
+Overview | <a id="ytVideoLink" href="https://youtu.be/XRCIKQD81rQ" target="_blank" title="Overview"><img src="/img/yt_btn_sm.gif" alt="Overview"/></a> 
+Example Use Case | <a id="ytVideoLink" href="https://youtu.be/8uDGo9DjHUc" target="_blank" title="Use Case"><img src="/img/yt_btn_sm.gif" alt="Use Case"/></a> 
+\__str\__ Dunder | <a id="ytVideoLink" href="https://youtu.be/X84ZnxYGKFs" target="_blank" title="__str__ Dunder"><img src="/img/yt_btn_sm.gif" alt="__str__ Dunder"/></a> 
+getattr() Method | <a id="ytVideoLink" href="https://youtu.be/y27BD51JKU4" target="_blank" title="getattr() Method"><img src="/img/yt_btn_sm.gif" alt="getattr() Method"/></a> 
+
 ## Book 
 
 Cover | Links
@@ -71,7 +80,7 @@ python ./decorator/client.py
 
 ## New Coding Concepts
 
-### Python `getattr*()` Function
+### Python `getattr()` Function
 
 Syntax: `getattr(object, attribute, default)`
 
