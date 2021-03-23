@@ -1,5 +1,12 @@
 # Mediator Design Pattern
 
+## Videos
+
+Section | Video Links
+-|-
+Mediator Overview |  <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16511990/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Mediator Overview"><img src="/img/udemy_btn_sm.gif" alt="Mediator Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/9bcLUtBoO04" target="_blank" title="Mediator Overview"><img src="/img/yt_btn_sm.gif" alt="Mediator Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Mediator Overview"><img src="/img/skillshare_btn_sm.gif" alt="Mediator Overview"/></a>
+Mediator Use Case |  <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25615950/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Mediator Use Case"><img src="/img/udemy_btn_sm.gif" alt="Mediator Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/IIOkn92bVqA" target="_blank" title="Mediator Use Case"><img src="/img/yt_btn_sm.gif" alt="Mediator Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Mediator Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Mediator Use Case"/></a>
+
 ## Book 
 
 Cover | Links
@@ -97,11 +104,3 @@ W0612: Unused variable 'i' (unused-variable)
 ```
 
 So, using the `_` prevents this warning.
-
-## Summary
-
-* A mediator replaces a structure with many-to-many interactions between its classes and processes, with a one-to-many centralized structure where the interface supports all of the methods of the many-to-many structure, but via the mediator component instead.
-* The mediator pattern encourages usage of shared objects that can now be centrally managed and synchronized.
-* The mediator pattern creates an abstraction between two or more components which then makes a system easier to understand and manage.
-* The mediator pattern is similar to the [Facade](/facade) pattern, except the Mediator is expected to transact data both ways between two or more other classes or processes that would normally interact directly with each other.
-

@@ -1,5 +1,13 @@
 # Command Design Pattern
 
+## Videos
+
+Section | Video Links
+-|-
+Command Overview |  <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16397092/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Command Overview"><img src="/img/udemy_btn_sm.gif" alt="Command Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/jOxlrGeAKQ4" target="_blank" title="Command Overview"><img src="/img/yt_btn_sm.gif" alt="Command Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Command Overview"><img src="/img/skillshare_btn_sm.gif" alt="Command Overview"/></a>
+Command Use Case |  <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25551578/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Command Use Case"><img src="/img/udemy_btn_sm.gif" alt="Command Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/qDM8ZFcQwZM" target="_blank" title="Command Use Case"><img src="/img/yt_btn_sm.gif" alt="Command Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Command Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Command Use Case"/></a>
+Single Leading Underscore | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25551594/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Single Leading Underscore"><img src="/img/udemy_btn_sm.gif" alt="Single Leading Underscore"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/dDIqJI9aTAc" target="_blank" title="Single Leading Underscore"><img src="/img/yt_btn_sm.gif" alt="Single Leading Underscore"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Single Leading Underscore"><img src="/img/skillshare_btn_sm.gif" alt="Single Leading Underscore"/></a>
+
 ## Book 
 
 Cover | Links
@@ -104,10 +112,3 @@ Private, in C style languages, means that the variable/field/property is hidden 
 Python does not have a public/private accessor concept so the variable is not actually private and can still be used outside of the class in other modules. 
 
 It is just a useful construct that you will see developers use as a recommendation not to reference this variable directly outside of this class, but use a dedicated method or property instead.
-
-## Summary
-
-* State should not be managed in the Command object itself.
-* There can be one or more Invokers which can execute the Command at a later time.
-* The Command object is especially useful if you want to UNDO/REDO commands at later time.
-* The Command pattern is similar to the [Memento](/memento) pattern in the way that it can also be used for UNDO/REDO purposes. However, the Memento pattern is about recording and replacing the state of an object, whereas the Command pattern executes a predefined command. E.g., Draw, Turn, Resize, Save, etc. 

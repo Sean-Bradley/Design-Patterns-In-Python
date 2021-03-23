@@ -1,5 +1,14 @@
 # Chain of Responsibility Design Pattern
 
+## Videos
+
+Section | Video Links
+-|-
+Chain of Responsibility |  <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16397342/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Chain of Responsibility Overview"><img src="/img/udemy_btn_sm.gif" alt="Chain of Responsibility Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/Ayb6UShWcUU" target="_blank" title="Chain of Responsibility Overview"><img src="/img/yt_btn_sm.gif" alt="Chain of Responsibility Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Chain of Responsibility Overview"><img src="/img/skillshare_btn_sm.gif" alt="Chain of Responsibility Overview"/></a>
+Use Case |  <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25567252/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Chain of Responsibility Use Case"><img src="/img/udemy_btn_sm.gif" alt="Chain of Responsibility Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/BxiAyLGAJqw" target="_blank" title="Chain of Responsibility Use Case"><img src="/img/yt_btn_sm.gif" alt="Chain of Responsibility Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Chain of Responsibility Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Chain of Responsibility Use Case"/></a>
+Python Floor Division | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25567266/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Python Floor Division"><img src="/img/udemy_btn_sm.gif" alt="Python Floor Division"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/kR4pYqVpNb0" target="_blank" title="Python Floor Division"><img src="/img/yt_btn_sm.gif" alt="Python Floor Division"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Python Floor Division"><img src="/img/skillshare_btn_sm.gif" alt="Python Floor Division"/></a>
+Accepting User Input | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25567278/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Accepting User Input"><img src="/img/udemy_btn_sm.gif" alt="Accepting User Input"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/wC2gBf1D1CU" target="_blank" title="Accepting User Input"><img src="/img/yt_btn_sm.gif" alt="Accepting User Input"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Accepting User Input"><img src="/img/skillshare_btn_sm.gif" alt="Accepting User Input"/></a>
+
 ## Book 
 
 Cover | Links
@@ -113,13 +122,3 @@ if AMOUNT < 10 or AMOUNT % 10 != 0:
 Note that in Python 2.x, use the `raw_input()` command instead of `input()` .
 
 See PEP-3111 : [https://www.python.org/dev/peps/pep-3111/](https://www.python.org/dev/peps/pep-3111/)
-
-## Summary
-
-* The object will propagate through the chain until fully processed.
-* The object does not know that successor or how many will process it.
-* The next successor in the chain is chosen dynamically at runtime depending on logic from the current successor.
-* Successors implement a common interface that makes them work independently of each other, so that they can be used recursively or possibly in a different order.
-* A user wizard, or dynamic questionnaire are other common use cases for the chain of responsibility pattern.
-* The chain of responsibility and [Composite](/composite) patterns are often used together because of their similar approach to hierarchy and possible re-ordering. The Composites parent/child relationship is set in an object's property by a process outside of the class and can be changed at runtime. While with the Chain of Responsibility, each successor runs a dynamic algorithm internally, to decide which successor is next in line.
-* The chain can be fully dynamically created, or it can be set as a default with the possibility of changing at runtime.

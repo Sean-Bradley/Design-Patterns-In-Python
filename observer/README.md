@@ -1,5 +1,13 @@
 # Observer Pattern
 
+## Videos
+
+Section | Video Links
+-|-
+Observer Overview |  <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16397486/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Observer Overview"><img src="/img/udemy_btn_sm.gif" alt="Observer Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/w4d3KUhJbek" target="_blank" title="Observer Overview"><img src="/img/yt_btn_sm.gif" alt="Observer Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Observer Overview"><img src="/img/skillshare_btn_sm.gif" alt="Observer Overview"/></a>
+Observer Use Case | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25582772/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Observer Use Case"><img src="/img/udemy_btn_sm.gif" alt="Observer Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/vCA5ZtP-bII" target="_blank" title="Observer Use Case"><img src="/img/yt_btn_sm.gif" alt="Observer Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Observer Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Observer Use Case"/></a>
+Python **Set** | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25582780/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Python Set"><img src="/img/udemy_btn_sm.gif" alt="Python Set"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/RnF-yEFsZdc" target="_blank" title="Python Set"><img src="/img/yt_btn_sm.gif" alt="Python Set"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Python Set"><img src="/img/skillshare_btn_sm.gif" alt="Python Set"/></a>
+
 ## Book 
 
 Cover | Links
@@ -132,10 +140,3 @@ PS> python
 !!! Note
 
     If instantiating an empty **Set** then use `my_object = Set()` rather than `my_object = {}` to reduce ambiguity with creating an empty [Dictionary](/singleton#python-dictionary).
-
-## Summary
-
-* Use when a change to one object requires changing others and you don't know how many other objects need to be changed.
-* A subject has a list of observers, each conforming to the observer interface. The subject doesn't need to know about the concrete class of any observer. It will notify the observer using the method described in the interface. 
-* Subjects and Observers can belong to any layer of a system whether extremely large or small. 
-* Using a Push or Pull mechanism for the Observer will depend on how you want your system to manage redundancy for particular data transfers. These things become more of a consideration when the Observer is separated further away from a subject and the message needs to traverse many layers, processes and systems.

@@ -1,5 +1,13 @@
 # Iterator Design Pattern
 
+## Videos
+
+Section | Video Links
+-|-
+Iterator Overview | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16510272/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Iterator Overview"><img src="/img/udemy_btn_sm.gif" alt="Iterator Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/TtszPXf3qjE" target="_blank" title="Iterator Overview"><img src="/img/yt_btn_sm.gif" alt="Iterator Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Iterator Overview"><img src="/img/skillshare_btn_sm.gif" alt="Iterator Overview"/></a>
+Iterator Use Case |  <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25598656/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Iterator Use Case"><img src="/img/udemy_btn_sm.gif" alt="Iterator Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/HvlAPUce_GU" target="_blank" title="Iterator Use Case"><img src="/img/yt_btn_sm.gif" alt="Iterator Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Iterator Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Iterator Use Case"/></a>
+Python iter() Function |  <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25598664/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Python iter() Function"><img src="/img/udemy_btn_sm.gif" alt="Python iter() Function"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/__sZY-XBt-A" target="_blank" title="Python iter() Function"><img src="/img/yt_btn_sm.gif" alt="Python iter() Function"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Python iter() Function"><img src="/img/skillshare_btn_sm.gif" alt="Python iter() Function"/></a>
+
 ## Book 
 
 Cover | Links
@@ -127,11 +135,3 @@ print(list(ITERATOR))
 The `__call__ = next` line in the example above is setting the default method of the class to be `next` and that makes the class callable. See [Dunder __call__ Method](/state#dunder-__call__-method) for more information.
 
 Also note that the list being printed at the end is automatically filled from the iterator. The list constructor utilizes the default callable method and the `StopIteration` exception automatically during its creation without needing to write this in the code.
-
-## Summary
-
-* There are many ways to create Iterators. They are already built into Python and used instead of creating custom classes.
-* Use an iterator when you need to traverse over a collection, or you want an object that can output a series of dynamically created objects.
-* At minimum, an iterator needs a `next` equivalent method that returns an object. 
-* Optionally you can also create a helper function that indicates whether an iterator is at the end or not. This is useful if you use your iterator in a `while` loop.
-* Alternatively, use the `sentinel` option of the Python `iter()` method to indicate the last iteration. Note that the Iterator object needs to be callable. Set the `__call__` reference to its `next` method.

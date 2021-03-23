@@ -1,5 +1,14 @@
 # Interpreter Design Pattern
 
+## Videos
+
+Section | Video Links
+-|-
+Interpreter Overview | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25512242/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Interpreter Overview"><img src="/img/udemy_btn_sm.gif" alt="Interpreter Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/SahV6h8qU-k" target="_blank" title="Interpreter Overview"><img src="/img/yt_btn_sm.gif" alt="Interpreter Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Interpreter Overview"><img src="/img/skillshare_btn_sm.gif" alt="Interpreter Overview"/></a>
+Interpreter Use Case | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25512246/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Interpreter Use Case"><img src="/img/udemy_btn_sm.gif" alt="Interpreter Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/6Q8FJbF-bpA" target="_blank" title="Interpreter Use Case"><img src="/img/yt_btn_sm.gif" alt="Interpreter Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Interpreter Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Interpreter Use Case"/></a>
+String Slicing | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25598670/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="String Slicing"><img src="/img/udemy_btn_sm.gif" alt="String Slicing"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/Q4JRceZzsQk" target="_blank" title="String Slicing"><img src="/img/yt_btn_sm.gif" alt="String Slicing"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="String Slicing"><img src="/img/skillshare_btn_sm.gif" alt="String Slicing"/></a>
+__repr__ Dunder Method | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25551608/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="__repr__ Dunder Method"><img src="/img/udemy_btn_sm.gif" alt="__repr__ Dunder Method"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/sAlqyUggptU" target="_blank" title="__repr__ Dunder Method"><img src="/img/yt_btn_sm.gif" alt="__repr__ Dunder Method"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="__repr__ Dunder Method"><img src="/img/skillshare_btn_sm.gif" alt="__repr__ Dunder Method"/></a>
+
 ## Book 
 
 Cover | Links
@@ -202,13 +211,3 @@ Outputs
 [9, 8, 7, 6, 5, 4, 3, 2, 1]
 [1, 2, 3, 4, 5, 6, 7, 8]
 ```
-
-## Summary
-
-* ASTs are hard to create and are an enormous subject in themselves. My recommended approach is to create them manually first using a sample sentence to help understand all the steps individually, and then progress the conversion to be fully dynamic one step at a time ensuring that the grammatical constructs still work as you continue to progress.
-
-* The Interpreter pattern uses a class to represent each grammatical rule.
-
-* ASTs consist of multiple Non-Terminal and Terminal Expressions, that all implement an `interpret()` method.
-
-* Note that in the sample code above, the `interpret()` methods in the Non-Terminal expressions, all call further `interpret()` recursively. Only the Terminal expressions `interpret()` method returns an explicit value. See the [Number](/interpreter/number.py) class in the above code.
