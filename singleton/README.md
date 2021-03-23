@@ -2,11 +2,11 @@
 
 ## Videos
 
-Section | Video Link
+Section | Video Links
 -|-
-Overview | <a id="ytVideoLink" href="https://youtu.be/wc1b70LueGA" target="_blank" title="Overview"><img src="/img/yt_btn_sm.gif" alt="Overview"/></a> 
-Example Use Case | <a id="ytVideoLink" href="https://youtu.be/-F7OYXMpVJw" target="_blank" title="Use Case"><img src="/img/yt_btn_sm.gif" alt="Use Case"/></a> 
-Dictionary | <a id="ytVideoLink" href="https://youtu.be/L7IPuo6VOjo" target="_blank" title="Dictionary"><img src="/img/yt_btn_sm.gif" alt="Dictionary"/></a> 
+Singleton Overview | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25362178/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Singleton Overview"><img src="/img/udemy_btn_sm.gif" alt="Singleton Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/wc1b70LueGA" target="_blank" title="Singleton Overview"><img src="/img/yt_btn_sm.gif" alt="Singleton Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Singleton Overview"><img src="/img/skillshare_btn_sm.gif" alt="Singleton Overview"/></a>
+Singleton Use Case | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25362182/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Singleton Use Case"><img src="/img/udemy_btn_sm.gif" alt="Singleton Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/-F7OYXMpVJw" target="_blank" title="Singleton Use Case"><img src="/img/yt_btn_sm.gif" alt="Singleton Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Singleton Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Singleton Use Case"/></a>
+Python **Dictionary** | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25362192/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Python Dictionary"><img src="/img/udemy_btn_sm.gif" alt="Python Dictionary"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/L7IPuo6VOjo" target="_blank" title="Python Dictionary"><img src="/img/yt_btn_sm.gif" alt="Python Dictionary"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Python Dictionary"><img src="/img/skillshare_btn_sm.gif" alt="Python Dictionary"/></a>
 
 ## Book 
 
@@ -154,11 +154,3 @@ PS> python
 >>> dict(sorted(items.items()))
 {'abc': 123, 'def': 456, 'ghi': 789}
 ```
-
-## Summary
-
-* To be a Singleton, there must only be one copy of the Singleton, no matter how many times, or in which class it was instantiated.
-* You want the attributes or methods to be globally accessible across your application, so that other classes may be able to use the Singleton.
-* You can use Singletons in other classes, as I did with the leaderboard, and they will all use the same Singleton regardless.
-* You want controlled access to a sole instance.
-* For a class to act as a singleton, it should not contain any references to `self`.

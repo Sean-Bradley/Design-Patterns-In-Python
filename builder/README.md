@@ -2,11 +2,11 @@
 
 ## Videos
 
-Section | Video Link
+Section | Video Links
 -|-
-Overview | <a id="ytVideoLink" href="https://youtu.be/pMadA6F4zGU" target="_blank" title="Overview"><img src="/img/yt_btn_sm.gif" alt="Overview"/></a> 
-Example Use Case | <a id="ytVideoLink" href="https://youtu.be/xvwOwCNxIXM" target="_blank" title="Use Case"><img src="/img/yt_btn_sm.gif" alt="Use Case"/></a> 
-Lists | <a id="ytVideoLink" href="https://youtu.be/54jpHGmHlHQ" target="_blank" title="Lists"><img src="/img/yt_btn_sm.gif" alt="Lists"/></a> 
+Builder Overview | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16396852/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Builder Overview"><img src="/img/udemy_btn_sm.gif" alt="Builder Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/pMadA6F4zGU" target="_blank" title="Builder Overview"><img src="/img/yt_btn_sm.gif" alt="Builder Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Builder Overview"><img src="/img/skillshare_btn_sm.gif" alt="Builder Overview"/></a>
+Builder Use Case | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25362124/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Builder Use Case"><img src="/img/udemy_btn_sm.gif" alt="Builder Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/xvwOwCNxIXM" target="_blank" title="Builder Use Case"><img src="/img/yt_btn_sm.gif" alt="Builder Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Builder Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Builder Use Case"/></a>
+Python **List** | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25362168/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Python List"><img src="/img/udemy_btn_sm.gif" alt="Python List"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/54jpHGmHlHQ" target="_blank" title="Python List"><img src="/img/yt_btn_sm.gif" alt="Python List"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Python List"><img src="/img/skillshare_btn_sm.gif" alt="Python List"/></a>
 
 ## Book 
 
@@ -128,10 +128,3 @@ if furniture in ['SmallChair', 'MediumChair', 'BigChair']:
 ```
 
 This line, creates a list at runtime including the strings 'SmallChair', 'MediumChair' and 'BigChair'. If the value in `furniture` equals the same string as one of those items in the list, then the condition is true and the code within the if statement block will execute.
-
-## Summary
-
-* The Builder pattern is a creational pattern that is used to create more complex objects than you'd expect from a factory.
-* The Builder pattern should be able to construct complex objects in any order and include/exclude whichever available components it likes.
-* For different combinations of products than can be returned from a Builder, use a specific Director to create the bespoke combination.
-* You can use an [Abstract Factory](/abstract_factory) to add an abstraction between the client and Director.

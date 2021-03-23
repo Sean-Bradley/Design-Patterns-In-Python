@@ -2,11 +2,11 @@
 
 ## Videos
 
-Section | Video Link
+Section | Video Links
 -|-
-Overview | <a id="ytVideoLink" href="https://youtu.be/2tFv9Rf2XGg" target="_blank" title="Overview"><img src="/img/yt_btn_sm.gif" alt="Overview"/></a> 
-Example Use Case | <a id="ytVideoLink" href="https://youtu.be/kiMgCLXckU0" target="_blank" title="Use Case"><img src="/img/yt_btn_sm.gif" alt="Use Case"/></a> 
-id() function | <a id="ytVideoLink" href="https://youtu.be/tgbGqu3OQD8" target="_blank" title="python id function"><img src="/img/yt_btn_sm.gif" alt="python id function"/></a> 
+Prototype Overview | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16396926/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Prototype Overview"><img src="/img/udemy_btn_sm.gif" alt="Prototype Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/2tFv9Rf2XGg" target="_blank" title="Prototype Overview"><img src="/img/yt_btn_sm.gif" alt="Prototype Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Prototype Overview"><img src="/img/skillshare_btn_sm.gif" alt="Prototype Overview"/></a>
+Prototype Use Case | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25362134/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Prototype Use Case"><img src="/img/udemy_btn_sm.gif" alt="Prototype Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/kiMgCLXckU0" target="_blank" title="Prototype Use Case"><img src="/img/yt_btn_sm.gif" alt="Prototype Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Prototype Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Prototype Use Case"/></a>
+Python **id()** function | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25362172/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="python id function"><img src="/img/udemy_btn_sm.gif" alt="python id function"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/tgbGqu3OQD8" target="_blank" title="python id function"><img src="/img/yt_btn_sm.gif" alt="python id function"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="python id function"><img src="/img/skillshare_btn_sm.gif" alt="python id function"/></a>
 
 ## Book 
 

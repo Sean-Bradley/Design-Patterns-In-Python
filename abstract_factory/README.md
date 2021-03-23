@@ -2,11 +2,11 @@
 
 ## Videos
 
-Section | Video Link
+Section | Video Links
 -|-
-Overview | <a id="ytVideoLink" href="https://youtu.be/eXNLpSQjCzU" target="_blank" title="Overview"><img src="/img/yt_btn_sm.gif" alt="Overview"/></a> 
-Example Use Case | <a id="ytVideoLink" href="https://youtu.be/H18COAHTdVs" target="_blank" title="Use Case"><img src="/img/yt_btn_sm.gif" alt="Use Case"/></a> 
-Exception Handling | <a id="ytVideoLink" href="https://youtu.be/jOxJSA3sxcQ" target="_blank" title="ABCMeta"><img src="/img/yt_btn_sm.gif" alt="Exception Handling"/></a> 
+Abstract Factory Overview | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16396782/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Abstract Factory Overview"><img src="/img/udemy_btn_sm.gif" alt="Abstract Factory Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/eXNLpSQjCzU" target="_blank" title="Abstract Factory Overview"><img src="/img/yt_btn_sm.gif" alt="Abstract Factory Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Abstract Factory Overview"><img src="/img/skillshare_btn_sm.gif" alt="Abstract Factory Overview"/></a>
+Abstract Factory Use Case | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25362118/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Abstract Factory Use Case"><img src="/img/udemy_btn_sm.gif" alt="Abstract Factory Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/H18COAHTdVs" target="_blank" title="Abstract Factory Use Case"><img src="/img/yt_btn_sm.gif" alt="Abstract Factory Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Abstract Factory Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Abstract Factory Use Case"/></a>
+Exception Handling | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25362160/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Exception Handling"><img src="/img/udemy_btn_sm.gif" alt="Exception Handling"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/jOxJSA3sxcQ" target="_blank" title="Exception Handling"><img src="/img/yt_btn_sm.gif" alt="Exception Handling"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Exception Handling"><img src="/img/skillshare_btn_sm.gif" alt="Exception Handling"/></a>
 
 ## Book 
 
@@ -127,12 +127,3 @@ You can add exception handling for as many types of errors as you wish.
 
 Python Errors and Exceptions : [https://docs.python.org/3/tutorial/errors.html](https://docs.python.org/3/tutorial/errors.html)
 
-## Summary
-
-* Use when you want to provide a library of relatively similar products from multiple different factories.
-* You want the system to be independent of how the products are created.
-* It fulfills all of the same use cases as the Factory method, but is a factory for creational pattern type methods.
-* The client implements the abstract factory interface, rather than all the internal logic and Factories. This allows the possibility of creating a library that can be imported for using the Abstract Factory.
-* The Abstract Factory defers the creation of the final products/objects to its concrete factory subclasses. 
-* You want to enforce consistent interfaces across products.
-* You want the possibility to exchange product families.
