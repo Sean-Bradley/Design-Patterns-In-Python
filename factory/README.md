@@ -2,11 +2,11 @@
 
 ## Videos
 
-Section | Video Link
+Section | Video Links
 -|-
-Overview | <a id="ytVideoLink" href="https://youtu.be/cfN1_e_Fyjw" target="_blank" title="Overview"><img src="/img/yt_btn_sm.gif" alt="Overview"/></a> 
-Example Use Case | <a id="ytVideoLink" href="https://youtu.be/ywTF3yTAe3M" target="_blank" title="Use Case"><img src="/img/yt_btn_sm.gif" alt="Use Case"/></a> 
-ABCMeta | <a id="ytVideoLink" href="https://youtu.be/8HMurBw18wU" target="_blank" title="ABCMeta"><img src="/img/yt_btn_sm.gif" alt="ABCMeta"/></a> 
+Factory Overview | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16396650/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Factory Overview"><img src="/img/udemy_btn_sm.gif" alt="Factory Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/cfN1_e_Fyjw" target="_blank" title="Factory Overview"><img src="/img/yt_btn_sm.gif" alt="Factory Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Factory Overview"><img src="/img/skillshare_btn_sm.gif" alt="Factory Overview"/></a>
+Factory Use Case | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25362098/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Factory Use Case"><img src="/img/udemy_btn_sm.gif" alt="Factory Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/ywTF3yTAe3M" target="_blank" title="Factory Use Case"><img src="/img/yt_btn_sm.gif" alt="Factory Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Factory Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Factory Use Case"/></a>
+**ABCMeta** Module | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25362152/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="ABCMeta Module"><img src="/img/udemy_btn_sm.gif" alt="ABCMeta Module"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/8HMurBw18wU" target="_blank" title="ABCMeta Module"><img src="/img/yt_btn_sm.gif" alt="ABCMeta Module"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="ABCMeta Module"><img src="/img/skillshare_btn_sm.gif" alt="ABCMeta Module"/></a>
 
 ## Book 
 
@@ -119,12 +119,3 @@ Note that in all my code examples, the abstract classes are prefixed with a capi
 
 See PEP 3119 : [https://www.python.org/dev/peps/pep-3119/](https://www.python.org/dev/peps/pep-3119/)
 
-
-## Summary
-
-* The Factory Pattern is an Interface that defers the creation of the final object to a subclass.
-* The Factory pattern is about inserting another layer/abstraction between instantiating an object and where in your code it is actually used.
-* It is unknown what or how many objects will need to be created until runtime.
-* You want to localize knowledge of the specifics of instantiating a particular object to the subclass so that the client doesn't need to be concerned about the details.
-* You want to create an external framework, that an application can import/reference, and hide the details of the specifics involved in creating the final object/product.
-* The unique factor that defines the Factory pattern, is that your project now defers the creation of objects to the subclass that the factory had delegated it to.

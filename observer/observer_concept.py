@@ -37,7 +37,7 @@ class Subject(IObservable):
 
     def notify(self, *args):
         for observer in self._observers:
-            observer.notify(self, *args)
+            observer.notify(*args)
 
 
 class IObserver(metaclass=ABCMeta):
@@ -55,7 +55,7 @@ class Observer(IObserver):
     def __init__(self, observable):
         observable.subscribe(self)
 
-    def notify(self, observable, *args):
+    def notify(self, *args):
         print(f"Observer id:{id(self)} received {args}")
 
 
