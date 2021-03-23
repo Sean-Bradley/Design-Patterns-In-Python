@@ -137,6 +137,4 @@ PS> python
 {'grandy', 'yankee', 'dandy'}
 ```
 
-!!! Note
-
-    If instantiating an empty **Set** then use `my_object = Set()` rather than `my_object = {}` to reduce ambiguity with creating an empty [Dictionary](/singleton#python-dictionary).
+Note, if instantiating an empty **Set** then use `my_object = Set()` rather than `my_object = {}` to reduce ambiguity with creating an empty [Dictionary](/singleton#python-dictionary).
