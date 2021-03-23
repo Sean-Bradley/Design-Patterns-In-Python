@@ -1,5 +1,13 @@
 # Flyweight Design Pattern
 
+## Videos
+
+Section | Video Links
+-|-
+Flyweight Overview | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25493486/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Flyweight Overview"><img src="/img/udemy_btn_sm.gif" alt="Flyweight Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/F_r2FAVIw5E" target="_blank" title="Flyweight Overview"><img src="/img/yt_btn_sm.gif" alt="Flyweight Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Flyweight Overview"><img src="/img/skillshare_btn_sm.gif" alt="Flyweight Overview"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+Flyweight Use Case | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25493490/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Flyweight Use Case"><img src="/img/udemy_btn_sm.gif" alt="Flyweight Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/sqVswGe7Zec" target="_blank" title="Flyweight Use Case"><img src="/img/yt_btn_sm.gif" alt="Flyweight Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Flyweight Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Flyweight Use Case"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+String Justification | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25493496/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="String Justification"><img src="/img/udemy_btn_sm.gif" alt="String Justification"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/a4iM-mT6okg" target="_blank" title="String Justification"><img src="/img/yt_btn_sm.gif" alt="String Justification"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="String Justification"><img src="/img/skillshare_btn_sm.gif" alt="String Justification"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+
 ## Book 
 
 Cover | Links
@@ -105,14 +113,3 @@ eg,
 >>> "abcd".ljust(10) 
 'abcd      '
 ```
-
-## Summary
-
-* Clients should access Flyweight objects only the through a `FlyweightFactory` object to ensure that they are shared.
-* Intrinsic values are stored internally in the Flyweight. 
-* Extrinsic values are passed to the Flyweight and customise it depending on the context.
-* Implementing the flyweight is a balance between storing all objects in memory, versus storing small unique parts in memory, and potentially calculating extrinsic values in the context objects.
-* Use the flyweight to save memory when it is beneficial. The offset is that extra CPU may be required during calculating and passing extrinsic values to the flyweights.
-* The flyweight reduces memory footprint because it shares objects and allows the possibility of dynamically creating extrinsic attributes.
-* The contexts will generally calculate the extrinsic values used by the flyweights, but it is not necessary. Values can be stored or referenced from other objects if necessary.
-* When architecting the flyweight, start with considering which parts of a common object may be able to be split and applied using extrinsic attributes.

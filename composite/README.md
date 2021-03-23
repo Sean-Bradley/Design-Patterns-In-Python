@@ -1,5 +1,13 @@
 # Composite Design Pattern
 
+## Videos
+
+Section | Video Links
+-|-
+Composite Overview | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16511234/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Composite Overview"><img src="/img/udemy_btn_sm.gif" alt="Composite Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/Wihw5oIsh2g" target="_blank" title="Composite Overview"><img src="/img/yt_btn_sm.gif" alt="Composite Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Composite Overview"><img src="/img/skillshare_btn_sm.gif" alt="Composite Overview"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+Composite Use Case | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25473576/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Composite Use Case"><img src="/img/udemy_btn_sm.gif" alt="Composite Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/5MjYcxO_TUk" target="_blank" title="Composite Use Case"><img src="/img/yt_btn_sm.gif" alt="Composite Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Composite Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Composite Use Case"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+Conditional Expressions | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25473582/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Conditional Expressions"><img src="/img/udemy_btn_sm.gif" alt="Conditional Expressions"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/meX3QlEJI2Q" target="_blank" title="Conditional Expressions"><img src="/img/yt_btn_sm.gif" alt="Conditional Expressions"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Conditional Expressions"><img src="/img/skillshare_btn_sm.gif" alt="Conditional Expressions"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+
 ## Book 
 
 Cover | Links
@@ -139,10 +147,3 @@ print(ALERTING)
 ```
 
 Visit [https://docs.python.org/3/reference/expressions.html#conditional-expressions](https://docs.python.org/3/reference/expressions.html#conditional-expressions) for more examples of conditional expressions.
-
-## Summary
-
-* The Composite design pattern allows you to structure components in a manageable hierarchal order.
-* It provides flexibility of structure since you can add/remove and reorder components.
-* File explorer on windows is a very good example of the composite design pattern in use.
-* Any system where you need to offer at runtime the ability to group, un-group, modify multiple objects at the same time, would benefit from the composite design pattern structure. Programs that allow you to draw shapes and graphics will often also use this structure as well.

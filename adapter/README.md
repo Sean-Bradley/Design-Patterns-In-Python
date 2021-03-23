@@ -1,5 +1,14 @@
 # Adapter Design Pattern
 
+## Videos
+
+Section | Video Links
+-|-
+Adapter Overview | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16399566/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Adapter Overview"><img src="/img/udemy_btn_sm.gif" alt="Adapter Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/030ih2rpOhY" target="_blank" title="Adapter Overview"><img src="/img/yt_btn_sm.gif" alt="Adapter Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Adapter Overview"><img src="/img/skillshare_btn_sm.gif" alt="Adapter Overview"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+Adapter Use Case | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25400220/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Adapter Use Case"><img src="/img/udemy_btn_sm.gif" alt="Adapter Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/fyws-p4WHuk" target="_blank" title="Adapter Use Case"><img src="/img/yt_btn_sm.gif" alt="Adapter Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Adapter Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Adapter Use Case"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+Python **isinstance()** Function | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25401048/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Python isinstance() Function"><img src="/img/udemy_btn_sm.gif" alt="Python isinstance() Function"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/Y6DzwI8xBA8" target="_blank" title="Python isinstance() Function"><img src="/img/yt_btn_sm.gif" alt="Python isinstance() Function"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Python isinstance() Function"><img src="/img/skillshare_btn_sm.gif" alt="Python isinstance() Function"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+Python **time** Module | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25414958/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Python time Module"><img src="/img/udemy_btn_sm.gif" alt="Python time Module"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/WZTZeGB3o3U" target="_blank" title="Python time Module"><img src="/img/yt_btn_sm.gif" alt="Python time Module"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Python time Module"><img src="/img/skillshare_btn_sm.gif" alt="Python time Module"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+
 ## Book 
 
 Cover | Links
@@ -161,11 +170,3 @@ I also use the `time` module to sleep for a second between loops to simulate a 1
 ```
 
 When executing [/adapter/cube_a.py](/adapter/cube_a.py) you will notice that the process will run for about 10 seconds outputting the gradual progress of the construction of each cube.
-
-## Summary
-
-* Use the Adapter when you want to use an existing class, but its interface does not match what you need.
-* The adapter adapts to the interface of its parent class for those situations when it is not viable to modify the parent class to be domain-specific for your use case.
-* Adapters will most likely provide an alternative interface over an existing object, class or interface, but it can also provide extra functionality that the object being adapted may not already provide.
-* An adapter is similar to a [Decorator](/decorator) except that it changes the interface to the object, whereas the decorator adds responsibility without changing the interface. This also allows the Decorator to be used recursively.
-* An adapter is similar to the [Bridge](/bridge) pattern and may look identical after the refactoring has been completed. However, the intent of creating the Adapter is different. The Bridge is a result of refactoring existing interfaces, whereas the Adapter is about adapting over existing interfaces that are not viable to modify due to many existing constraints. E.g., you don't have access to the original code or it may have dependencies that already use it and modifying it would affect those dependencies negatively.

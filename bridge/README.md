@@ -1,5 +1,14 @@
 # Bridge Design Pattern
 
+## Videos
+
+| Section         | Video Links                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Bridge Overview | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25451260/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Bridge Overview"><img src="/img/udemy_btn_sm.gif" alt="Bridge Overview"/></a>&nbsp; <a id="ytVideoLink" href="https://youtu.be/aCpZI9nfO-E" target="_blank" title="Bridge Overview"><img src="/img/yt_btn_sm.gif" alt="Bridge Overview"/></a>&nbsp; <a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Bridge Overview"><img src="/img/skillshare_btn_sm.gif" alt="Bridge Overview"/></a>&nbsp; <a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>|
+| Bridge Use Case | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25451262/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Bridge Use Case"><img src="/img/udemy_btn_sm.gif" alt="Bridge Use Case"/></a>&nbsp; <a id="ytVideoLink" href="https://youtu.be/E7T09yfROQ4" target="_blank" title="Bridge Use Case"><img src="/img/yt_btn_sm.gif" alt="Bridge Use Case"/></a>&nbsp; <a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Bridge Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Bridge Use Case"/></a>&nbsp; <a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>|
+| Python **Tuple** | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25473560/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Python Tuple"><img src="/img/udemy_btn_sm.gif" alt="Python Tuple"/></a>&nbsp; <a id="ytVideoLink" href="https://youtu.be/pwjsBmQOyXU" target="_blank" title="Python Tuple"><img src="/img/yt_btn_sm.gif" alt="Python Tuple"/></a>&nbsp; <a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Python Tuple"><img src="/img/skillshare_btn_sm.gif" alt="Python Tuple"/></a>&nbsp; <a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>|
+| Python **\*args** | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25473568/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Python *args"><img src="/img/udemy_btn_sm.gif" alt="Python *args"/></a>&nbsp; <a id="ytVideoLink" href="https://youtu.be/0I-dglm0aNQ" target="_blank" title="Python *args"><img src="/img/yt_btn_sm.gif" alt="Python *args"/></a>&nbsp; <a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Python *args"><img src="/img/skillshare_btn_sm.gif" alt="Python *args"/></a>&nbsp; <a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>|
+
 ## Book 
 
 Cover | Links
@@ -76,7 +85,7 @@ c
 
 In this example, I draw a square and a circle. Both of these can be categorized as shapes.
 
-The shape is set up as the abstraction interface. The refined abstractions, `Square` and `Circle`, implement the `IShape` interface.
+The shape is set up as the abstraction interface. The refined abstractions, `Square` and `Circle` , implement the `IShape` interface.
 
 When the Square and Circle objects are created, they are also assigned their appropriate implementers being `SquareImplementer` and `CircleImplementer` .
 
@@ -95,18 +104,22 @@ python ./bridge/client.py
     ******
   **      **
  *          *
+
 *            *
 *            *
+
  *          *
   **      **
     ******
 **************
+
 *            *
 *            *
 *            *
 *            *
 *            *
 *            *
+
 **************
 ```
 
@@ -143,7 +156,7 @@ Outputs
 
 A Python **Tuple** is similar to a [List](/builder#python-list). Except that the items in the Tuple are ordered, unchangeable and allow duplicates.
 
-A Tuple can be instantiated using the round brackets `()` or `tuple()`, verses `[]` for a [List](/builder#python-list) and `{}` for a [Set](/observer#python-set) or [Dictionary](/singleton#python-dictionary).
+A Tuple can be instantiated using the round brackets `()` or `tuple()` , verses `[]` for a [List](/builder#python-list) and `{}` for a [Set](/observer#python-set) or [Dictionary](/singleton#python-dictionary).
 
 ``` python
 PS> python
@@ -153,10 +166,3 @@ PS> python
 >>> print(len(items))
 4
 ```
-
-## Summary
-
-* Use when you want to separate a solution where the abstraction and implementation may be tightly coupled and you want to break it up into smaller conceptual parts.
-* Once you have added the bridge abstraction, you should be able to extend each side of it separately without breaking the other.
-* Also, once the bridge abstraction exists, you can more easily create extra concrete implementations for other similar products that may also happen to be split across similar conceptual lines.
-* The Bridge pattern is similar to the adapter pattern except in the intent that you developed it. The bridge is an approach to refactor already existing code, whereas the adapter adapts to the existing code through its existing interfaces and methods without changing the internals.

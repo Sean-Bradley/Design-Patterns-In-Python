@@ -2,12 +2,12 @@
 
 ## Videos
 
-Section | Video Link
+Section | Video Links
 -|-
-Overview | <a id="ytVideoLink" href="https://youtu.be/XRCIKQD81rQ" target="_blank" title="Overview"><img src="/img/yt_btn_sm.gif" alt="Overview"/></a> 
-Example Use Case | <a id="ytVideoLink" href="https://youtu.be/8uDGo9DjHUc" target="_blank" title="Use Case"><img src="/img/yt_btn_sm.gif" alt="Use Case"/></a> 
-\__str\__ Dunder Method | <a id="ytVideoLink" href="https://youtu.be/X84ZnxYGKFs" target="_blank" title="__str__ Dunder Method"><img src="/img/yt_btn_sm.gif" alt="__str__ Dunder Method"/></a> 
-getattr() Method | <a id="ytVideoLink" href="https://youtu.be/y27BD51JKU4" target="_blank" title="getattr() Method"><img src="/img/yt_btn_sm.gif" alt="getattr() Method"/></a> 
+Decorator Overview | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16397502/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Decorator Overview"><img src="/img/udemy_btn_sm.gif" alt="Decorator Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/XRCIKQD81rQ" target="_blank" title="Decorator Overview"><img src="/img/yt_btn_sm.gif" alt="Decorator Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Decorator Overview"><img src="/img/skillshare_btn_sm.gif" alt="Decorator Overview"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+Decorator Use Case | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25378590/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Decorator Use Case"><img src="/img/udemy_btn_sm.gif" alt="Decorator Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/8uDGo9DjHUc" target="_blank" title="Decorator Use Case"><img src="/img/yt_btn_sm.gif" alt="Decorator Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Decorator Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Decorator Use Case"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+**\__str\__** Dunder Method| <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25378604/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="__str__ Dunder Method"><img src="/img/udemy_btn_sm.gif" alt="__str__ Dunder Method"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/X84ZnxYGKFs" target="_blank" title="__str__ Dunder Method"><img src="/img/yt_btn_sm.gif" alt="__str__ Dunder Method"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="__str__ Dunder Method"><img src="/img/skillshare_btn_sm.gif" alt="__str__ Dunder Method"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+Python **getattr()** Method | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25378618/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="getattr() Method"><img src="/img/udemy_btn_sm.gif" alt="getattr() Method"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/y27BD51JKU4" target="_blank" title="getattr() Method"><img src="/img/yt_btn_sm.gif" alt="getattr() Method"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="getattr() Method"><img src="/img/skillshare_btn_sm.gif" alt="getattr() Method"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
 
 ## Book 
 
@@ -148,12 +148,3 @@ In all the classes in the above use case example that implement the `IValue` int
 ```
 
 The `__str__` dunder was also overridden in the [/prototype/prototype_concept.py](/prototype/prototype_concept.py) concept code.
-
-## Summary
-
-* Use the decorator when you want to add responsibilities to objects dynamically without affecting the inner object.
-* You want the option to later remove the decorator from an object in case you no longer need it.
-* It is an alternative method to creating multiple combinations of subclasses. I.e., Instead of creating a subclass with all combinations of objects A, B, C in any order, and including/excluding objects, you could create 3 objects that can decorate each other in any order you want. E.g., (D(A(C))) or (B(C)) or (A(B(A(C)))
-* The decorator, compared to using static inheritance to extend, is more flexible since you can easily add/remove the decorators at runtime. E.g., use in a recursive function.
-* A decorator supports recursive composition. E.g., halve(halve(number))
-* A decorator shouldn't modify the internal objects data or references. This allows the original object to stay intact if the decorator is later removed.

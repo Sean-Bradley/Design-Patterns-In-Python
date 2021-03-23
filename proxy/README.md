@@ -1,5 +1,14 @@
 # Proxy Design Pattern
 
+## Videos
+
+Section | Video Links
+-|-
+Proxy Overview | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16513062/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Proxy Overview"><img src="/img/udemy_btn_sm.gif" alt="Proxy Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/guoYABZLpfY" target="_blank" title="Proxy Overview"><img src="/img/yt_btn_sm.gif" alt="Proxy Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Proxy Overview"><img src="/img/skillshare_btn_sm.gif" alt="Proxy Overview"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+Proxy Use Case | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25530588/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Proxy Use Case"><img src="/img/udemy_btn_sm.gif" alt="Proxy Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/2d6V5mDLVzg" target="_blank" title="Proxy Use Case"><img src="/img/yt_btn_sm.gif" alt="Proxy Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Proxy Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Proxy Use Case"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+**\_\_class\_\_** Attribute | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25530596/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="__class__ Attribute"><img src="/img/udemy_btn_sm.gif" alt="__class__ Attribute"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/-w8T1PM_FLk" target="_blank" title="__class__ Attribute"><img src="/img/yt_btn_sm.gif" alt="__class__ Attribute"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="__class__ Attribute"><img src="/img/skillshare_btn_sm.gif" alt="__class__ Attribute"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+Circular Imports | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25530606/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Circular Imports"><img src="/img/udemy_btn_sm.gif" alt="Circular Imports"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/-dErxklW4_4" target="_blank" title="Circular Imports"><img src="/img/yt_btn_sm.gif" alt="Circular Imports"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Circular Imports"><img src="/img/skillshare_btn_sm.gif" alt="Circular Imports"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+
 ## Book 
 
 Cover | Links
@@ -114,14 +123,3 @@ OBJECT = module.ClassName
 ```
 
 See the [Lion](/proxy/lion.py), [Serpent](/proxy/serpent.py) and [Leopard](/proxy/leopard.py) classes for examples.
-
-## Summary
-
-* Proxy forwards requests onto the Real Subject when applicable, depending on the kind of proxy.
-* A virtual proxy can cache elements of a real subject before loading the full object into memory.
-* A protection proxy can provide an authentication layer. For example, an NGINX proxy can add Basic Authentication restriction to a HTTP request.
-* A proxy can perform multiple tasks if necessary.
-* A proxy is different than an [Adapter](/adapter). The Adapter will try to adapt two existing interfaces together. The Proxy will use the same interface as the subject. 
-* It is also very similar to the [Facade](/facade), except you can add extra responsibilities, just like the [Decorator](/decorator). The Decorator however can be used recursively.
-* The intent of the Proxy is to provide a stand in for when it is inconvenient to access a real subject directly.
-* The Proxy design pattern may also be called the Surrogate design pattern.

@@ -1,5 +1,14 @@
 # Facade Design Pattern
 
+## Videos
+
+Section | Video Links
+-|-
+Facade Overview | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/16397504/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Facade Overview"><img src="/img/udemy_btn_sm.gif" alt="Facade Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/bOYbafwiEmo" target="_blank" title="Facade Overview"><img src="/img/yt_btn_sm.gif" alt="Facade Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Facade Overview"><img src="/img/skillshare_btn_sm.gif" alt="Facade Overview"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+Facade Use Case | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25420770/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Facade Use Case"><img src="/img/udemy_btn_sm.gif" alt="Facade Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/xrak8d8nfRQ" target="_blank" title="Facade Use Case"><img src="/img/yt_btn_sm.gif" alt="Facade Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Facade Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Facade Use Case"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+Python **Decimal** | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25451246/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Python Decimal"><img src="/img/udemy_btn_sm.gif" alt="Python Decimal"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/ubNBmfkt36U" target="_blank" title="Python Decimal"><img src="/img/yt_btn_sm.gif" alt="Python Decimal"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Python Decimal"><img src="/img/skillshare_btn_sm.gif" alt="Python Decimal"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+Python Type Hints | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25451254/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Python Type Hints"><img src="/img/udemy_btn_sm.gif" alt="Python Type Hints"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/ENKeLCg5ePs" target="_blank" title="Python Type Hints"><img src="/img/yt_btn_sm.gif" alt="Python Type Hints"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Python Type Hints"><img src="/img/skillshare_btn_sm.gif" alt="Python Type Hints"/></a>&nbsp;<a id="sbcodeVideoLink" href="#"><input type="image" src="/img/sbcode_btn_sm.gif" onclick="selectVideoId()"></a>
+
 ## Book 
 
 Cover | Links
@@ -164,12 +173,3 @@ facade/game_engine.py:45: error: Argument 1 to "append" of "list" has incompatib
 facade/game_api.py:34: error: Argument 2 to "submit_entry" of "GameEngine" has incompatible type "Decimal"; expected "int"
 Found 2 errors in 2 files (checked 1 source file)
 ```
-
-## Summary
-
-* Use when you want to provide a simple interface to a complex subsystem.
-* You want to layer your subsystems into an abstraction that is easier to understand.
-* [Abstract Factory](/abstract_factory) and Facade can be considered very similar. An Abstract Factory is about creating in interface over several creational classes of similar objects, whereas the Facade is more like an API layer over many creational, structural and/or behavioral patterns. 
-* The [Mediator](/mediator) is similar to the Facade in the way that it abstracts existing classes. The Facade is not intended to modify, load balance or apply any extra logic. A subsystem does not need to consider that existence of the facade, it would still work without it.
-* A Facade is a minimal interface that could also be implemented as a [Singleton](/singleton).
-* A Facade is an optional layer that does not alter the subsystem. The subsystem does not need to know about the Facade, and could even be used by many other facades created for different audiences.
