@@ -1,5 +1,13 @@
 # Memento Design Pattern
 
+## Videos
+
+Section | Video Links
+-|-
+Memento Overview | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25632774/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Memento Overview"><img src="/img/udemy_btn_sm.gif" alt="Memento Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/gQnKnmSu8xA" target="_blank" title="Memento Overview"><img src="/img/yt_btn_sm.gif" alt="Memento Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Memento Overview"><img src="/img/skillshare_btn_sm.gif" alt="Memento Overview"/></a>
+Memento Use Case | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25632770/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Memento Use Case"><img src="/img/udemy_btn_sm.gif" alt="Memento Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/DFEvyjiUA_A" target="_blank" title="Memento Use Case"><img src="/img/yt_btn_sm.gif" alt="Memento Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Memento Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Memento Use Case"/></a>
+Getters/Setters | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25632784/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Getters/Setters"><img src="/img/udemy_btn_sm.gif" alt="Getters/Setters"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/6ijrepx6jgM" target="_blank" title="Getters/Setters"><img src="/img/yt_btn_sm.gif" alt="Getters/Setters"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Getters/Setters"><img src="/img/skillshare_btn_sm.gif" alt="Getters/Setters"/></a>
+
 ## Book 
 
 Cover | Links
@@ -160,15 +168,3 @@ print(example.value)
 del example.value
 print(example.value) # now raises an AttributeError
 ```
-
-## Summary
-
-* You don't need to create a new Memento each time an Originators state changes. You can do it only when considered necessary. E.g., an occasional backup to a file.
-
-* Mementos can be stored in memory or saved/cached externally. The Caretaker will abstract the complications of storing and retrieving Mementos from the Originator.
-
-* Consider the [Command](/command) pattern for fine grained changes to an objects state to manage UNDO/REDO between memento saves. Or even save command history into a Memento that can be later replayed.
-
-* In my examples, the whole state is recorded and changed with the Memento. You can use the Memento to record and change partial states instead if required. 
-
-* When copying state, be aware of shallow/deep copying. In complicated projects, your restore functionality will probably contain a combination of both the [Command](/command) and Memento patterns.
