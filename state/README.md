@@ -1,5 +1,13 @@
 # State Design Pattern
 
+## Videos
+
+Section | Video Links
+-|-
+State Overview | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25650184/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="State Overview"><img src="/img/udemy_btn_sm.gif" alt="State Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/Uh8hnm0jVgI" target="_blank" title="State Overview"><img src="/img/yt_btn_sm.gif" alt="State Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="State Overview"><img src="/img/skillshare_btn_sm.gif" alt="State Overview"/></a>
+State Use Case | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25650190/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="State Use Case"><img src="/img/udemy_btn_sm.gif" alt="State Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/XMLVWYuxpuo" target="_blank" title="State Use Case"><img src="/img/yt_btn_sm.gif" alt="State Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="State Use Case"><img src="/img/skillshare_btn_sm.gif" alt="State Use Case"/></a>
+**\_\_call\_\_** Attribute | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25650196/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Dunder __call__ Attribute"><img src="/img/udemy_btn_sm.gif" alt="Dunder __call__ Attribute"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/gGlSJo5NoRA" target="_blank" title="Dunder __call__ Attribute"><img src="/img/yt_btn_sm.gif" alt="Dunder __call__ Attribute"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Dunder __call__ Attribute"><img src="/img/skillshare_btn_sm.gif" alt="Dunder __call__ Attribute"/></a>
+
 ## Book 
 
 Cover | Links
@@ -89,9 +97,3 @@ class ExampleClass:
 EXAMPLE = ExampleClass()
 EXAMPLE() # function now gets called by default
 ```
-
-## Summary
-
-* Makes an object change its behavior when its internal state changes. 
-* The client and the context are not concerned about the details of how the state is created/assembled/calculated. The client will call a method of the context and it will be handled by a subclass.
-* The State pattern appears very similar to the [Strategy](/strategy) pattern, except in the State pattern, the object/context has changed to a different state and will run a different subclass depending on that state.
