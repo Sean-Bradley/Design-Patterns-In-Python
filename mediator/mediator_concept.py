@@ -1,21 +1,8 @@
+# pylint: disable=too-few-public-methods
 "Mediator Concept Sample Code"
-from abc import ABCMeta, abstractmethod
 
 
-class IMediator(metaclass=ABCMeta):
-    "The Mediator interface indicating all the methods to implement"
-    @staticmethod
-    @abstractmethod
-    def colleague1_method():
-        "A method to implement"
-
-    @staticmethod
-    @abstractmethod
-    def colleague2_method():
-        "A method to implement"
-
-
-class Mediator(IMediator):
+class Mediator():
     "The Mediator Concrete Class"
 
     def __init__(self):
@@ -23,41 +10,39 @@ class Mediator(IMediator):
         self.colleague2 = Colleague2()
 
     def colleague1_method(self):
-        return self.colleague1.colleague1_method()
+        "Calls the method provided by Colleague1"
+        return self.colleague1.method_1()
 
     def colleague2_method(self):
-        return self.colleague2.colleague2_method()
+        "Calls the method provided by Colleague2"
+        return self.colleague2.method_2()
 
 
-class Colleague1(IMediator):
-    "This Colleague calls the other Colleague via the Mediator"
+class Colleague1():
+    "This Colleague provides data for Colleague2"
 
-    def colleague1_method(self):
+    @staticmethod
+    def method_1():
+        "A simple method"
         return "Here is the Colleague1 specific data you asked for"
 
-    def colleague2_method(self):
-        "not implemented"
 
+class Colleague2():
+    "This Colleague provides data for Colleague1"
 
-class Colleague2(IMediator):
-    "This Colleague calls the other Colleague via the Mediator"
-
-    def colleague1_method(self):
-        "not implemented"
-
-    def colleague2_method(self):
+    @staticmethod
+    def method_2():
+        "A simple method"
         return "Here is the Colleague2 specific data you asked for"
 
 
-# This Client is either Colleague1 or Colleague2
-# This Colleague will instantiate a Mediator, rather than calling
-# the other Colleague directly.
+# The Client
 MEDIATOR = Mediator()
 
-# If I am Colleague1, I want some data from Colleague2
+# Colleague1 wants some data from Colleague2
 DATA = MEDIATOR.colleague2_method()
 print(f"COLLEAGUE1 <--> {DATA}")
 
-# If I am Colleague2, I want some data from Colleague1
+# Colleague2 wants some data from Colleague1
 DATA = MEDIATOR.colleague1_method()
 print(f"COLLEAGUE2 <--> {DATA}")

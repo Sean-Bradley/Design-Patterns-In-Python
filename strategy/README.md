@@ -1,5 +1,12 @@
 # Strategy Design Pattern
 
+## Videos
+
+Section | Video Links
+-|-
+Strategy Overview |  <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25667386/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Strategy Overview"><img src="/img/udemy_btn_sm.gif" alt="Strategy Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/nk6VWTdFPUM" target="_blank" title="Strategy Overview"><img src="/img/yt_btn_sm.gif" alt="Strategy Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Strategy Overview"><img src="/img/skillshare_btn_sm.gif" alt="Strategy Overview"/></a>
+Strategy Use Case |  <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25667396/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Strategy Use Case"><img src="/img/udemy_btn_sm.gif" alt="Strategy Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/PvW4-icGaaI" target="_blank" title="Strategy Use Case"><img src="/img/yt_btn_sm.gif" alt="Strategy Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Strategy Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Strategy Use Case"/></a>
+
 ## Book 
 
 Cover | Links
@@ -8,7 +15,7 @@ Cover | Links
 
 ## Overview
 
-The **Strategy** Pattern is similar to the [State](/state) Pattern, except that the client passes in the algorithm that the context should run and the execution of the algorithm does not affect the state of the context.
+The **Strategy** Pattern is similar to the [State](state.md) Pattern, except that the client passes in the algorithm that the context should run.
 
 The algorithm should be contained within a class that implements the particular strategies interface.
 
@@ -20,11 +27,9 @@ The user interface of the client application can provide a drop-down menu to all
 
 Upon user selection, a reference to the algorithm will be passed to the context and processed using this new algorithm instead.
 
-The Strategy and [State](/state) appear very similar, a good way to differentiate them is to consider whether the context is considered to be in a new state or not at various times in the lifecycle. 
+The Strategy and [State](state.md) appear very similar, a good way to differentiate them is to consider whether the state of the context is choosing the algorithm at runtime, or whether the algorithm is being passed into it.
 
-In the Strategy, an object/context runs a chosen algorithm, but the state of the object/context doesn't change in case you want to try a different algorithm.
-
-Software Plugins can be implemented using the Strategy pattern.
+Software Plugins can be implemented using the Strategy pattern. 
 
 ## Terminology
 
@@ -45,7 +50,7 @@ Each Strategy is executed in turn by the context.
 ## Output
 
 ``` bash
-python.exe ./strategy/strategy_concept.py
+python ./strategy/strategy_concept.py
 I am ConcreteStrategyA
 I am ConcreteStrategyB
 I am ConcreteStrategyC
@@ -55,7 +60,7 @@ I am ConcreteStrategyC
 
 A game character is moving through an environment. Depending on the situation within the current environment, the user decides to use a different movement algorithm. From the perspective of the object/context, it is still a move, but the implementation is encapsulated in the subclass at the handle. 
 
-In a real game, the types of things that a particular move could affect is which animation is looped, whether physics attributes changed, the speed of movement, the camera follow mode and more.
+In a real game, the types of things that a particular move could affect is which animation is looped, the audio, the speed, the camera follow mode and more.
 
 ## Strategy Example Use Case UML Diagram
 
@@ -64,18 +69,8 @@ In a real game, the types of things that a particular move could affect is which
 ## Output
 
 ``` bash
-python.exe ./strategy/client.py
-I am Walking
-I am Running
-I am Crawling
+python ./strategy/client.py
+I am Walking. New position = [1, 0]
+I am Running. New position = [3, 0]
+I am Crawling. New position = [3.5, 0]
 ```
-
-## Summary
-
-* While the Strategy pattern looks very similar to the State pattern, the assigned strategy sub class/algorithm is not changing any state of the context. The class/algorithm can be re-executed or replaced with a different class/algorithm with no effect to the state of the context.
-
-* The Strategy pattern is about having a choice of implementations that accomplish the same relative task.
-
-* The particular strategies algorithm is encapsulated in order to keep the implementation of it de coupled from the context. 
-
-* As soon as the state of the context decides which subclass will be executed, then that is the State pattern, otherwise it is the Strategy pattern because the decision was made externally to the context and can be modified again without affecting the context.

@@ -6,10 +6,12 @@ from abc import ABCMeta, abstractmethod
 class GameCharacter():
     "This is the context whose strategy will change"
 
-    @staticmethod
-    def move(movement_style):
+    position = [0, 0]
+
+    @classmethod
+    def move(cls, movement_style):
         "The movement algorithm has been decided by the client"
-        movement_style()
+        movement_style(cls.position)
 
 
 class IMove(metaclass=ABCMeta):
@@ -25,9 +27,10 @@ class Walking(IMove):
     "A Concrete Strategy Subclass"
 
     @staticmethod
-    def walk():
+    def walk(position):
         "A walk algorithm"
-        print("I am Walking")
+        position[0] += 1
+        print(f"I am Walking. New position = {position}")
 
     __call__ = walk
 
@@ -36,9 +39,10 @@ class Running(IMove):
     "A Concrete Strategy Subclass"
 
     @staticmethod
-    def run():
+    def run(position):
         "A run algorithm"
-        print("I am Running")
+        position[0] += 2
+        print(f"I am Running. New position = {position}")
 
     __call__ = run
 
@@ -47,9 +51,10 @@ class Crawling(IMove):
     "A Concrete Strategy Subclass"
 
     @staticmethod
-    def crawl():
+    def crawl(position):
         "A crawl algorithm"
-        print("I am Crawling")
+        position[0] += 0.5
+        print(f"I am Crawling. New position = {position}")
 
     __call__ = crawl
 
