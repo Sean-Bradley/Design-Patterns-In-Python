@@ -1,5 +1,12 @@
 # Template Method Design Pattern
 
+## Videos
+
+Section | Video Links
+-|-
+Template Method Overview | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25682448/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Template Method Overview"><img src="/img/udemy_btn_sm.gif" alt="Template Method Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/bZWvQbmUHy8" target="_blank" title="Template Method Overview"><img src="/img/yt_btn_sm.gif" alt="Template Method Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Template Method Overview"><img src="/img/skillshare_btn_sm.gif" alt="Template Method Overview"/></a>
+Template Method Use Case | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25682452/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Template Method Use Case"><img src="/img/udemy_btn_sm.gif" alt="Template Method Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/iGLpIEXPGzg" target="_blank" title="Template Method Use Case"><img src="/img/yt_btn_sm.gif" alt="Template Method Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Template Method Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Template Method Use Case"/></a>
+
 ## Book 
 
 Cover | Links
@@ -87,13 +94,3 @@ footer  : -- Page 1 --
   </body>
 </html>
 ```
-
-## Summary
-
-* The Template method defines an algorithm in terms of abstract operations and subclasses override some or all of the methods to create concrete behaviors.
-
-* Abstract methods must be overridden in the subclasses that extend the abstract class.
-
-* Hook Methods usually have empty bodies in the superclass but can be optionally overridden in the subclass.
-
-* If a class contains many conditional statements, consider converting it to use the Template Method pattern.
