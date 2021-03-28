@@ -59,9 +59,9 @@ class Body(AbstractCarPart, IVisitable):
     "A part of the car"
 
     def __init__(self, name, sku, price):
-        self._name = name
-        self._sku = sku
-        self._price = price
+        self.name = name
+        self.sku = sku
+        self.price = price
 
     def accept(self, visitor):
         visitor.visit(self)
@@ -71,9 +71,9 @@ class Engine(AbstractCarPart, IVisitable):
     "A part of the car"
 
     def __init__(self, name, sku, price):
-        self._name = name
-        self._sku = sku
-        self._price = price
+        self.name = name
+        self.sku = sku
+        self.price = price
 
     def accept(self, visitor):
         visitor.visit(self)
@@ -83,9 +83,9 @@ class Wheel(AbstractCarPart, IVisitable):
     "A part of the car"
 
     def __init__(self, name, sku, price):
-        self._name = name
-        self._sku = sku
-        self._price = price
+        self.name = name
+        self.sku = sku
+        self.price = price
 
     def accept(self, visitor):
         visitor.visit(self)
@@ -95,7 +95,7 @@ class Car(AbstractCarPart, IVisitable):
     "A Car with parts"
 
     def __init__(self, name):
-        self._name = name
+        self.name = name
         self._parts = [
             Body("Utility", "ABC-123-21", 1001),
             Engine("V8 engine", "DEF-456-21", 2555),

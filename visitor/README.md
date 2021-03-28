@@ -1,5 +1,14 @@
 # Visitor Design Pattern
 
+## Videos
+
+Section | Video Links
+-|-
+Visitor Overview | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25697738/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Visitor Overview"><img src="/img/udemy_btn_sm.gif" alt="Visitor Overview"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/KLFLsDV-LXw" target="_blank" title="Visitor Overview"><img src="/img/yt_btn_sm.gif" alt="Visitor Overview"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Visitor Overview"><img src="/img/skillshare_btn_sm.gif" alt="Visitor Overview"/></a>
+Visitor Use Case | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25697742/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="Visitor Use Case"><img src="/img/udemy_btn_sm.gif" alt="Visitor Use Case"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/9JJO2ZaZD3A" target="_blank" title="Visitor Use Case"><img src="/img/yt_btn_sm.gif" alt="Visitor Use Case"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="Visitor Use Case"><img src="/img/skillshare_btn_sm.gif" alt="Visitor Use Case"/></a>
+hasattr() Method | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25697748/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="hasattr() Method"><img src="/img/udemy_btn_sm.gif" alt="hasattr() Method"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/cWNARNXP6dE" target="_blank" title="hasattr() Method"><img src="/img/yt_btn_sm.gif" alt="hasattr() Method"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="hasattr() Method"><img src="/img/skillshare_btn_sm.gif" alt="hasattr() Method"/></a>
+expandtabs() Method | <a id="udemyVideoLink" href="https://www.udemy.com/course/design-patterns-in-python/learn/lecture/25697758/?referralCode=7493DBBBF97FF2B0D24D" target="_blank" title="expandtabs() Method"><img src="/img/udemy_btn_sm.gif" alt="expandtabs() Method"/></a>&nbsp;<a id="ytVideoLink" href="https://youtu.be/FT6XGI2vJqQ" target="_blank" title="expandtabs() Method"><img src="/img/yt_btn_sm.gif" alt="expandtabs() Method"/></a>&nbsp;<a id="skillShareVideoLink" href="https://skl.sh/34SM2Xg" target="_blank" title="expandtabs() Method"><img src="/img/skillshare_btn_sm.gif" alt="expandtabs() Method"/></a>
+
 ## Book 
 
 Cover | Links
@@ -155,9 +164,3 @@ ghi       789
 jklmn     1011
 ```
 
-## Summary
-
-* Use the Visitor pattern to define an operation to be performed on the elements of a hierarchal object structure. 
-* Use the Visitor pattern to define the new operation without needing to change the classes of the elements on which it operates.
-* When designing your application, you can provision for the future possibility of needing to run custom operations on an element hierarchy, by implementing the Visitor interface in anticipation.
-* Usage of the Visitor pattern helps to ensure that your classes conform to the single responsibility principle due to them implementing the custom visitor behavior in a separate class.
