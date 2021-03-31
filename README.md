@@ -20,14 +20,17 @@ It is supplementary to my book titled **Design Patterns In Python** (ASIN : B08X
 There are 4 possible ways to access the video content in this course,
 
 1. YouTube Membership : [https://www.youtube.com/channel/UCmUILI2AWt2MSUgPlZwFdOg/join](https://www.youtube.com/channel/UCmUILI2AWt2MSUgPlZwFdOg/join)
+    - Cancel Membership Anytime
 2. Udemy : [https://www.udemy.com/course/design-patterns-in-python/?referralCode=7493DBBBF97FF2B0D24D](https://www.udemy.com/course/design-patterns-in-python/?referralCode=7493DBBBF97FF2B0D24D)
+    - Get **Udemy Discount Coupons** at [https://sbcode.net/coupons](https://sbcode.net/coupons)
+    - Certificate of Completion
+    - 30 Day Money Back Guarantee
 3. Skillshare : [https://skl.sh/34SM2Xg](https://skl.sh/34SM2Xg)
+    - Certificate of Completion
+    - Cancel Subscription Anytime
 4. Book : [https://www.amazon.com/dp/B08XLJ8Z2J](https://www.amazon.com/dp/B08XLJ8Z2J) : ASIN B08XLJ8Z2J
+    - **Book** includes FREE Video Access Codes to view videos from the official documentation website at [https://sbcode.net/python/](https://sbcode.net/python/)
 
-
-> **Book** [Design Pattern In Python](https://www.amazon.com/dp/B08XLJ8Z2J) includes Video Access Codes to view videos for FREE from this official documentation website at [https://sbcode.net/python/](https://sbcode.net/python/)
-
-> Get **Udemy Discount Coupons** at [https://sbcode.net/coupons](https://sbcode.net/coupons)
 
 All the code examples in the book can be found in these pages.
 
