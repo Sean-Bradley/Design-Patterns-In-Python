@@ -43,18 +43,6 @@ In Python you have mutable objects such as [Lists](/builder#python-list), [Dicti
 
 *...Refer to Book or Videos for extra content.*
 
-<!-- Experiment with the concept code. 
-
-By default, it will shallow copy the object you've asked to be cloned. The object can be any type from number to string to dictionary to anything custom that you've created.
-
-In my example, I have created a list of numbers. At first impressions, when this list is copied, it will appear that the list was fully cloned. But the inner items of the list were not. They will point to the same memory location as the original list; however, the memory identifier of the new list is new and different from the original.
-
-In the `MyClass.clone()` method, there is a line `self.field.copy()` that is commented out. Uncomment out this line, and comment out the line before it to now be `# self.field` . Re execute the file, and now the list items will be copied as well. This however is still not a full deep copy. If the list items were actually other lists, dictionaries or other collections, rather than the numbers that they are, then only the 1st level of that copy would have been cloned to new memory identifiers. I call this a 2-level copy.
-
-For a full recursive copy, use the `copy.deepcopy()` method that is part of an extra dedicated `copy` import included with Python. I demonstrate this in the [/prototype/document.py](/prototype/document.py) file. 
-
-Remember that full deep copies can potentially be much slower for very complicated object hierarchies. -->
-
 ## Summary
 
 *...Refer to Book or Videos for extra content.*

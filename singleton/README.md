@@ -58,12 +58,6 @@ By using **\__new\__**, and returning a reference to **cls**, we can force the c
 
 *...Refer to Book or Videos for extra content.*
 
-<!-- In the example, there are three games created. They are all independent instances created from their own class, but they all share the same leaderboard. The leaderboard is a singleton.
-
-It doesn't matter how the Games where created, or how they reference the leaderboard, it is always a singleton.
-
-Each game independently adds a winner, and all games can read the altered leaderboard regardless of which game updated it. -->
-
 ## Example UML Diagram
 
 ![Singleton Use Case Diagram](/img/singleton_example.svg)

@@ -50,12 +50,6 @@ The Factory pattern is really about adding that extra abstraction between the ob
 
 *...Refer to Book or Videos for extra content.*
 
-<!-- In this concept example, the client wants an object named `b`
-
-Rather than creating `b` directly in the client, it asks the creator (factory) for the object instead. 
-
-The factory finds the relevant class using some kind of logic from the attributes of the request. It then asks the subclass to instantiate the new object which it then returns as a reference back to the client asking for it. -->
-
 ## Output
 
 ``` bash
@@ -66,12 +60,6 @@ ConcreteProductB
 ## Example Use Case
 
 *...Refer to Book or Videos for extra content.*
-
-<!-- An example use case is a user interface where the user can select from a menu of items, such as chairs. 
-
-The user has been given a choice using some kind of navigation interface, and it is unknown what choice, or how many the user will make until the application is actually running and the user starts using it.
-
-So, when the user selected the chair, the factory then takes some property involved with that selection, such as an ID, Type or other attribute and then decides which relevant subclass to instantiate in order to return the appropriate object. -->
 
 ## Factory Example UML Diagram
 

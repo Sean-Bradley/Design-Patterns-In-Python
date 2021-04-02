@@ -67,12 +67,6 @@ The implementer part of a Bridge, can have one or more possible implementations 
 
 *...Refer to Book or Videos for extra content.*
 
-<!-- In the concept demonstration code, imagine that the classes were tightly coupled. The concrete class would print out some text to the console.
-
-After abstracting the class along a common ground, it is now more versatile. The implementation and has been separated from the abstraction and now it can print out the same text in two different ways.
-
-The befit now is that each refined abstraction and implementer can now be worked on independently without affecting the other implementations. -->
-
 ## Output
 
 ``` bash
@@ -86,16 +80,6 @@ c
 ## Example Use Case
 
 *...Refer to Book or Videos for extra content.*
-
-<!-- In this example, I draw a square and a circle. Both of these can be categorized as shapes.
-
-The shape is set up as the abstraction interface. The refined abstractions, `Square` and `Circle` , implement the `IShape` interface.
-
-When the Square and Circle objects are created, they are also assigned their appropriate implementers being `SquareImplementer` and `CircleImplementer` .
-
-When each shape's `draw` method is called, the equivalent method within their implementer is called.
-
-The Square and Circle are bridged and each implementer and abstraction can be worked on independently. -->
 
 ## Example UML Diagram
 

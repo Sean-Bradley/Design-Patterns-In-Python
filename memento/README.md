@@ -38,18 +38,6 @@ The difference between the [Command](/command) and the Memento patterns for UNDO
 
 *...Refer to Book or Videos for extra content.*
 
-<!-- In the concept code, the client creates an object whose state will be periodically recorded. The object will be the Originator.
-
-A Caretaker is also created with a reference to the Originator.
-
-The Originators internal state is changed several times. It is then decided that the Caretaker should make a backup.
-
-More changes are made to the Originator, and then another backup is made.
-
-More changes are made to the Originator, and then it is decided that the first backup should be restored instead.
-
-And then the second backup is restored. -->
-
 ### Output
 
 ``` bash
@@ -74,10 +62,6 @@ State #3
 ## Example Use Case
 
 *...Refer to Book or Videos for extra content.*
-
-<!-- There is a game, and the character is progressing through the levels. It has acquired several new items in its inventory, the score is very good and you want to save your progress and continue later. 
-
-You then decide you made a mistake and need to go back to a previous save because you took a wrong turn. -->
 
 ## Example UML Diagram
 

@@ -44,14 +44,6 @@ Similar to the template pattern it could be used to output different versions of
 
 *...Refer to Book or Videos for extra content.*
 
-<!-- In the concept code below, a hierarchy of any object is created. It is similar to a simplified composite. The objects of `Element` can also contain a hierarchy of sub elements.
-
-The `Element` class could also consist of many variations, but this example uses only one.
-
-Rather than writing specific code inside all these elements every time I wanted to handle a new custom operation, I can implement the `IVisitable` interface and create the `accept()` method which allows the Visitor to pass through it and access the Elements internal attributes.
-
-Two different Visitor classes are created, `PrintElementNamesVisitor` and `CalculateElementTotalsVisitor` . They are instantiated and passed through the existing Object hierarchy using the same `IVisitable` interface. -->
-
 ## Output
 
 ``` bash
@@ -66,14 +58,6 @@ A
 ## Visitor Example Use Case
 
 *...Refer to Book or Videos for extra content.*
-
-<!-- In the example, the client creates a car with parts. 
-
-The car and parts inherit an abstract car parts class with predefined property getters and setters. 
-
-Instead of creating methods in the car parts classes and abstract class that run bespoke methods, the car parts can all implement the `IVisitor` interface.
-
-This allows for the later creation of Visitor objects to run specific tasks on the existing hierarchy of objects. -->
 
 ## Visitor Example UML Diagram
 

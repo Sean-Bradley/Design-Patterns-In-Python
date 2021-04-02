@@ -41,8 +41,6 @@ The chain that the object will pass through is normally dynamic at runtime, alth
 
 *...Refer to Book or Videos for extra content.*
 
-<!-- In this concept code, a chain is created with a default first successor. A number is passed to a successor, which then does a random test, and depending on the result will modify the number and then pass it onto the next successor. The process is randomized and will end at some point when there are no more successors designated. -->
-
 ## Output
 
 ``` bash
@@ -60,13 +58,6 @@ Finished result = -1.5
 ## Example Use Case
 
 *...Refer to Book or Videos for extra content.*
-
-<!-- 
-In the ATM example below, the chain is hard coded in the client first to dispense amounts of £50s, then £20s and then £10s in order. 
-
-This default chain order helps to ensure that the minimum number of notes will be dispensed. Otherwise, it might dispense 5 x £10 when it would have been better to dispense 1 x £50.
-
-Each successor may be re-called recursively for each denomination depending on the value that was requested for withdrawal. -->
 
 ## Example UML Diagram
 

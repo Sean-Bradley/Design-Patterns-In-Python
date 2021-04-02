@@ -40,10 +40,6 @@ The Builder and Factory patterns are very similar in the fact they both instanti
 
 *...Refer to Book or Videos for extra content.*
 
-<!-- 1. Client creates the **Director**.
-2. The Client calls the Directors `construct()` method that manages each step of the build process.
-3. The Director returns the product to the client or alternatively could also provide a method for the client to retrieve it later. -->
-
 ## Output
 
 ``` bash
@@ -54,14 +50,6 @@ python ./builder/builder_concept.py
 ## Example Use Case
 
 *...Refer to Book or Videos for extra content.*
-
-<!-- Using the Builder Pattern in the context of a House Builder. 
-
-There are multiple directors that can create their own complex objects.
-
-Note that in the `IglooDirector` class, not all of the methods of the `HouseBuilder` were called. 
-
-The builder can construct complex objects in any order and include/exclude whichever parts it likes. -->
 
 ## Example UML Diagram
 

@@ -42,16 +42,6 @@ Examples of using the Composite Design Pattern can be seen in a file
 
 *...Refer to Book or Videos for extra content.*
 
-<!-- In this concept code, two leaves are created, `LEAF_A` and `LEAF_B`, and two composites are created, `COMPOSITE_1` and `COMPOSITE_2` .
-
-`LEAF_A` is attached to `COMPOSITE_1` .
-
-Then I change my mind and attach `LEAF_A` to `COMPOSITE_2` .
-
-I then attach `COMPOSITE_1` to `COMPOSITE_2` .
-
-`LEAF_B` is not attached to composites. -->
-
 ## Output
 
 ``` bash
@@ -71,14 +61,6 @@ COMPOSITE_2     id:2050574298128
 ## Composite Example Use Case
 
 *...Refer to Book or Videos for extra content.*
-
-<!-- Demonstration of a simple in memory hierarchal file system.
-
-A root object is created that is a composite.
-
-Several files (leaves) are created and added to the root folder.
-
-More folders (composites) are created, and more files are added, and then the hierarchy is reordered. -->
 
 ## Composite Example UML Diagram
 

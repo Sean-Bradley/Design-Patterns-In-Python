@@ -36,12 +36,6 @@ While the Facade is a structural pattern, and the Mediator also implies structur
 
 *...Refer to Book or Videos for extra content.*
 
-<!-- In the example concept, there are two colleague classes that use each other's methods. Instead of the Colleagues calling each other's methods directly, they implement the Mediator interface and call each other via the Mediator. Each colleague is designed for a different purpose, but they utilize some related functionality from each other. 
-
-The system, in this case, would work without the Mediator, but adding the Mediator would allow extending functionality to a potential third colleague that provides a different service, such as AI analysis or monitoring, without needing to add specific support or knowledge into the two original colleagues.
-
-In this first example the Mediator is structurally acting as a multi directional relay between the two colleagues. -->
-
 ## Output
 
 ``` bash
@@ -53,14 +47,6 @@ COLLEAGUE2 <--> Here is the Colleague1 specific data you asked for
 ## Example Use Case
 
 *...Refer to Book or Videos for extra content.*
-
-<!-- In this example use case, we will implement some behavior into the mediation process.
-
-Before the mediation logic is added, consider that the below example is a series of components all subscribed to a central location being the subject. They all implement the [Observer](/observer) pattern.
-
-Each component is updated independently by external forces, but when it has new information, it notifies the subject which in turn then notifies the other subscribed components.
-
-During the synchronization of all the subscribed components, without the extra mediation, the component that provided the new information will receive back the same message that it just notified the subject of. In order to manage the unnecessary duplicate message, the notifications will be mediated to exclude to component where the original message originated from. -->
 
 ## Example UML Diagram
 

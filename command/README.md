@@ -53,16 +53,6 @@ Uses:
 
 *...Refer to Book or Videos for extra content.*
 
-<!-- The Client instantiates a Receiver that accepts certain commands.
-
-The Client then creates two Command objects that will call one of the specific commands on the Receiver.
-
-The Client then creates an Invoker, E.g., a user interface with buttons, and registers both Commands into the Invokers dictionary of commands.
-
-The Client doesn't call the receivers commands directly, but the via the Invoker, which then calls the registered Command objects `execute()` method.
-
-This abstraction between the invoker, command and receiver, allows the Invoker to add extra functionality such as history, replay, UNDO/REDO, logging, alerting and any other useful things that may be required. -->
-
 ## Output
 
 ``` bash
@@ -76,14 +66,6 @@ Executing Command 2
 ## Example Use Case
 
 *...Refer to Book or Videos for extra content.*
-
-<!-- This will be a smart light switch. 
-
-This light switch will keep a history of each time one of its commands was called. 
-
-And it can replay its commands. 
-
-A smart light switch could be extended in the future to be called remotely or automated depending on sensors. -->
 
 ## Example UML Diagram
 
