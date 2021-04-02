@@ -50,11 +50,13 @@ When describing flyweights, it is useful to describe it in terms of intrinsic an
 
 ## Source Code
 
-A context is created using the string `abracadabra`.
+*...Refer to Book or Videos for extra content.*
+
+<!-- A context is created using the string `abracadabra`.
 
 As it is output, it asks the Flyweight factory for the next character. The Flyweight factory will either return an existing Flyweight, or create a new one before returning it.
 
-`abracadabra` has many re-used characters, so only 5 flyweights needed to be created.
+`abracadabra` has many re-used characters, so only 5 flyweights needed to be created. -->
 
 ## Output
 
@@ -67,11 +69,13 @@ FlyweightFactory has 5 flyweights
 
 ## Example Use Case
 
-In this example, I create a dynamic table with 3 rows and 3 columns each. The columns are then filled with some kind of text, and also chosen to be left, right or center aligned. 
+*...Refer to Book or Videos for extra content.*
+
+<!-- In this example, I create a dynamic table with 3 rows and 3 columns each. The columns are then filled with some kind of text, and also chosen to be left, right or center aligned. 
 
 The letters are the flyweights and only a code indicating the letter is stored. The letters and numbers are shared many times.
 
-The columns are the contexts and they pass the extrinsic vales describing the combination of letters, the justification left, right or center, and the width of the table column that is then used for the space padding.
+The columns are the contexts and they pass the extrinsic vales describing the combination of letters, the justification left, right or center, and the width of the table column that is then used for the space padding. -->
 
 ## Example UML Diagram
 

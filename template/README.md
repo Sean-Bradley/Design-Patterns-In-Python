@@ -42,9 +42,11 @@ Abstract methods, must be overridden in the concrete class that extends the temp
 
 ## Source Code
 
-Note that in both the concrete classes in this concept example, the `template_method()` was not overridden since it was already inherited. Only the primitives (abstract or hooks) were optionally overridden.
+*...Refer to Book or Videos for extra content.*
 
-To create an empty abstract method in your abstract class, that must be overridden in a subclass, then use the ABCMeta `@abstractmethod` decorator.
+<!-- Note that in both the concrete classes in this concept example, the `template_method()` was not overridden since it was already inherited. Only the primitives (abstract or hooks) were optionally overridden.
+
+To create an empty abstract method in your abstract class, that must be overridden in a subclass, then use the ABCMeta `@abstractmethod` decorator. -->
 
 ## Output 
 
@@ -59,11 +61,13 @@ Class_B : Step Three. (overridden)
 
 ## Template Method Example Use Case
 
-In the example use case, there is an `AbstractDocument` with several methods, some are optional and others must be overridden. 
+*...Refer to Book or Videos for extra content.*
+
+<!-- In the example use case, there is an `AbstractDocument` with several methods, some are optional and others must be overridden. 
 
 The document will be written out in two different formats.
 
-Depending on the concrete class used, the `text()` method will wrap new lines with `<p>` tags and the `print()` method will format text with tabs, or include html tags.
+Depending on the concrete class used, the `text()` method will wrap new lines with `<p>` tags and the `print()` method will format text with tabs, or include html tags. -->
 
 ## Template Method Use Case UML Diagram
 

@@ -57,7 +57,9 @@ Once the AST is created, you can then choose the root node and then run the Inte
 
 ## Source Code
 
-In this example, I interpret the string `5 + 4 - 3 + 7 - 2` and then calculate the result.
+*...Refer to Book or Videos for extra content.*
+
+<!-- In this example, I interpret the string `5 + 4 - 3 + 7 - 2` and then calculate the result.
 
 The grammar of the string follows a pattern of Number -> Operator -> Number -> etc.
 
@@ -70,7 +72,7 @@ I then construct the AST manually, by adding a
 3. Non-Terminal `Add` row containing the previous Non-Terminal row and the `7`
 4. Non-Terminal `Subtract` row containing the previous Non-Terminal row and the `2`
 
-The AST root becomes the final row that was added, and then I can run the `interpret()` method on that, which will interpret the full AST recursively because each AST row references the row above it.
+The AST root becomes the final row that was added, and then I can run the `interpret()` method on that, which will interpret the full AST recursively because each AST row references the row above it. -->
 
 ## Output
 
@@ -84,9 +86,11 @@ python ./interpreter/interpreter_concept.py
 
 ## Example Use Case
 
-The example use case will expand on the concept example by dynamically creating the AST and converting roman numerals to integers as well as calculating the final result.
+*...Refer to Book or Videos for extra content.*
 
-The Image below, is an AST for the expression `5 + IV - 3 + VII - 2`
+<!-- The example use case will expand on the concept example by dynamically creating the AST and converting roman numerals to integers as well as calculating the final result.
+
+The Image below, is an AST for the expression `5 + IV - 3 + VII - 2` -->
 
 ![Abstract Syntax Tree Example](/img/interpreter_ast_roman_numeral.svg)
 

@@ -73,15 +73,19 @@ So, in this book, you will learn about these 23 Design Patterns,
 
 ## Pattern Types
 
-In the list of patterns above, there are Creational, Structural and Behavioral patterns.
+*...Refer to Book or Videos for extra content.*
+
+<!-- In the list of patterns above, there are Creational, Structural and Behavioral patterns.
 
 * **Creational** : Abstracts the instantiation process so that there is a logical separation between how objects are composed and finally represented.
 * **Structural** : Structural patterns focus more on how classed and objects are composed using the different structural techniques, and to form structures with more or altered flexibility.
-* **Behavioral** : Are concerned with the inner algorithms, process flow, the assignment of responsibilities and the intercommunication between objects. 
+* **Behavioral** : Are concerned with the inner algorithms, process flow, the assignment of responsibilities and the intercommunication between objects.  -->
 
 ## Class Scope and Object Scope Patterns
 
-Each pattern can be further specified whether it relates more specifically classes or instantiated objects.
+*...Refer to Book or Videos for extra content.*
+
+<!-- Each pattern can be further specified whether it relates more specifically classes or instantiated objects.
 
 Class scope patterns deal more with relationships between classes and their subclasses.
 
@@ -93,4 +97,4 @@ Object scope patterns deal more with relationships that can be altered at runtim
 | Builder, Prototype, Singleton                                                   | Defers object creation to objects          | Object | Creational  |
 | Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy                                   | Describes a way to assemble objects        | Object | Structural  |
 | Interpreter, Template                                                                             | Describes algorithms and flow control      | Class  | Behavioral |
-| Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Visitor | Describes how groups of objects co-operate | Object | Behavioral |
+| Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Visitor | Describes how groups of objects co-operate | Object | Behavioral | -->

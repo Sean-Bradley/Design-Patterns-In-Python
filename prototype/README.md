@@ -41,7 +41,9 @@ In Python you have mutable objects such as [Lists](/builder#python-list), [Dicti
 
 ## Source Code
 
-Experiment with the concept code. 
+*...Refer to Book or Videos for extra content.*
+
+<!-- Experiment with the concept code. 
 
 By default, it will shallow copy the object you've asked to be cloned. The object can be any type from number to string to dictionary to anything custom that you've created.
 
@@ -51,7 +53,7 @@ In the `MyClass.clone()` method, there is a line `self.field.copy()` that is com
 
 For a full recursive copy, use the `copy.deepcopy()` method that is part of an extra dedicated `copy` import included with Python. I demonstrate this in the [/prototype/document.py](/prototype/document.py) file. 
 
-Remember that full deep copies can potentially be much slower for very complicated object hierarchies.
+Remember that full deep copies can potentially be much slower for very complicated object hierarchies. -->
 
 ## Summary
 

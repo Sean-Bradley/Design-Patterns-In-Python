@@ -36,13 +36,15 @@ The benefits of using the Iterator pattern are that the client can traverse a co
 
 ## Source Code
 
-In this concept example, I create 4 objects called Aggregate and group them into a collection.
+*...Refer to Book or Videos for extra content.*
+
+<!-- In this concept example, I create 4 objects called Aggregate and group them into a collection.
 
 They are very minimal objects that implement one method that prints a line.
 
 I then create an Iterable and pass in the collection of Aggregates.
 
-I can now traverse the aggregates through the Iterable interface.
+I can now traverse the aggregates through the Iterable interface. -->
 
 ## Output
 
@@ -56,13 +58,15 @@ This method has been invoked
 
 ## Example Use Case
 
-One reason for not using the inbuilt Python data structures that implement iterators already, or using the [iter](#python-iter) function directly over an existing collection, is in the case when you want to create an object that can dynamically create iterated objects, you want a custom order of objects or an infinite iterator.
+*...Refer to Book or Videos for extra content.*
+
+<!-- One reason for not using the inbuilt Python data structures that implement iterators already, or using the [iter](#python-iter) function directly over an existing collection, is in the case when you want to create an object that can dynamically create iterated objects, you want a custom order of objects or an infinite iterator.
 
 The iterator in this brief example will return the next number in the iterator multiplied by 2 modulus 11. It dynamically creates the returned object (number) at runtime.
 
 It has no `has_next()` method since the result is modulated by 11, that will loop the results no matter how large the iterator index is. It will also appear to alternate between a series of even numbers and odd numbers.
 
-Also, just to demonstrate that implementing abstract classes and interfaces is not always necessary, this example uses no abstract base classes or interfaces.
+Also, just to demonstrate that implementing abstract classes and interfaces is not always necessary, this example uses no abstract base classes or interfaces. -->
 
 ## Example UML Diagram
 

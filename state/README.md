@@ -34,7 +34,9 @@ In the state pattern, the behavior of an objects state is encapsulated within th
 
 ## Source Code
 
-In the concept example, there are three possible states. Every time the `request()` method is called, the concrete state subclass is randomly selected by the context.
+*...Refer to Book or Videos for extra content.*
+
+<!-- In the concept example, there are three possible states. Every time the `request()` method is called, the concrete state subclass is randomly selected by the context. -->
 
 ### Output
 
@@ -49,9 +51,11 @@ I am ConcreteStateC
 
 ## State Example Use Case
 
-This example takes the concept example further and uses an iterator rather than choosing the states subclasses randomly. 
+*...Refer to Book or Videos for extra content.*
 
-When the iterator gets to the end, it raises a `StopIteration` error and recreates the iterator so that the process can loop again.
+<!-- This example takes the concept example further and uses an iterator rather than choosing the states subclasses randomly. 
+
+When the iterator gets to the end, it raises a `StopIteration` error and recreates the iterator so that the process can loop again. -->
 
 ## State Example Use Case UML Diagram
 

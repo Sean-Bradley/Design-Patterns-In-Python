@@ -43,9 +43,11 @@ Software Plugins can be implemented using the Strategy pattern.
 
 ## Source Code
 
-There is a Context, and three different strategies to choose from. 
+*...Refer to Book or Videos for extra content.*
 
-Each Strategy is executed in turn by the context.
+<!-- There is a Context, and three different strategies to choose from. 
+
+Each Strategy is executed in turn by the context. -->
 
 ## Output
 
@@ -58,9 +60,11 @@ I am ConcreteStrategyC
 
 ## Strategy Example Use Case
 
-A game character is moving through an environment. Depending on the situation within the current environment, the user decides to use a different movement algorithm. From the perspective of the object/context, it is still a move, but the implementation is encapsulated in the subclass at the handle. 
+*...Refer to Book or Videos for extra content.*
 
-In a real game, the types of things that a particular move could affect is which animation is looped, the audio, the speed, the camera follow mode and more.
+<!-- A game character is moving through an environment. Depending on the situation within the current environment, the user decides to use a different movement algorithm. From the perspective of the object/context, it is still a move, but the implementation is encapsulated in the subclass at the handle. 
+
+In a real game, the types of things that a particular move could affect is which animation is looped, the audio, the speed, the camera follow mode and more. -->
 
 ## Strategy Example Use Case UML Diagram
 

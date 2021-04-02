@@ -49,13 +49,15 @@ Decorator Method(Component Method)
 
 ## Example Use Case
 
-Let's create a custom class called `Value` that will hold a number. 
+*...Refer to Book or Videos for extra content.*
+
+<!-- Let's create a custom class called `Value` that will hold a number. 
 
 Then add decorators that allow addition (`Add`) and subtraction (`Sub`) to a number (`Value`).
 
 The `Add` and `Sub` decorators can accept integers directly, a custom `Value` object or other `Add` and `Sub` decorators.
 
-`Add`, `Sub` and `Value` all implement the `IValue` interface and can be used recursively.
+`Add`, `Sub` and `Value` all implement the `IValue` interface and can be used recursively. -->
 
 ## Example UML Diagram
 
