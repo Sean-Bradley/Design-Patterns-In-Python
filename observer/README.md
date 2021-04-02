@@ -59,7 +59,9 @@ If updates on the observer end are allowed to suffer from some delay, then a pul
 
 ## Source Code
 
-A Subject (Observable) is created.
+*...Refer to Book or Videos for extra content.*
+
+<!-- A Subject (Observable) is created.
 
 Two Observers are created. They could be across a network, but for demonstration purposes are within the same client.
 
@@ -67,7 +69,7 @@ The Subject notifies the Observers.
 
 One of the Observers unsubscribes, 
 
-The Subject notifies the remaining Observer again.
+The Subject notifies the remaining Observer again. -->
 
 ## Output
 
@@ -80,7 +82,9 @@ Observer id:2084220160272 received ('Second Notification', {'A': 1, 'B': 2, 'C':
 
 ## Example Use Case
 
-This example mimics the **MVC** approach described earlier.
+*...Refer to Book or Videos for extra content.*
+
+<!-- This example mimics the **MVC** approach described earlier.
 
 There is an external process called a `DataController`, and a client process that holds a `DataModel` and multiple `DataViews` which are a Pie graph, Bar graph and Table view. 
 
@@ -94,7 +98,7 @@ The hypothetical external `DataController` then updates the external data, and t
 
 Note that in reality this example would be much more complex if multiple servers are involved. I am keeping it brief to demonstrate one possible use case of the observer pattern.
 
-Also note that in the `DataController`, the references to the observers are contained in a [Set](#python-set), while in the `DataModel` I have used a [Dictionary](/singleton#python-dictionary) instead, so that you can see an alternate approach.
+Also note that in the `DataController`, the references to the observers are contained in a [Set](#python-set), while in the `DataModel` I have used a [Dictionary](/singleton#python-dictionary) instead, so that you can see an alternate approach. -->
 
 ## Example UML Diagram
 
