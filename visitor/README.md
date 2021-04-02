@@ -164,3 +164,6 @@ ghi       789
 jklmn     1011
 ```
 
+## Summary
+
+*...Refer to Book or Videos for extra content.*

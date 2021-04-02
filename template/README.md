@@ -94,3 +94,7 @@ footer  : -- Page 1 --
   </body>
 </html>
 ```
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*

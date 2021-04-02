@@ -74,3 +74,7 @@ I am Walking. New position = [1, 0]
 I am Running. New position = [3, 0]
 I am Crawling. New position = [3.5, 0]
 ```
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*

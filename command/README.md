@@ -112,3 +112,7 @@ Private, in C style languages, means that the variable/field/property is hidden 
 Python does not have a public/private accessor concept so the variable is not actually private and can still be used outside of the class in other modules. 
 
 It is just a useful construct that you will see developers use as a recommendation not to reference this variable directly outside of this class, but use a dedicated method or property instead.
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*

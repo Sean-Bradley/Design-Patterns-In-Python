@@ -76,3 +76,7 @@ Component3: >>> Out >>> : data C
 Component2: <<< In <<< : data C
 Component1: <<< In <<< : data C
 ```
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*

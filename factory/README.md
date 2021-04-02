@@ -119,3 +119,6 @@ Note that in all my code examples, the abstract classes are prefixed with a capi
 
 See PEP 3119 : [https://www.python.org/dev/peps/pep-3119/](https://www.python.org/dev/peps/pep-3119/)
 
+## Summary
+
+*...Refer to Book or Videos for extra content.*

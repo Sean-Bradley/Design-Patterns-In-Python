@@ -138,3 +138,7 @@ PS> python
 ```
 
 Note, if instantiating an empty **Set** then use `my_object = Set()` rather than `my_object = {}` to reduce ambiguity with creating an empty [Dictionary](/singleton#python-dictionary).
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*

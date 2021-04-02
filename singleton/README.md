@@ -154,3 +154,7 @@ PS> python
 >>> dict(sorted(items.items()))
 {'abc': 123, 'def': 456, 'ghi': 789}
 ```
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*

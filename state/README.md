@@ -97,3 +97,7 @@ class ExampleClass:
 EXAMPLE = ExampleClass()
 EXAMPLE() # function now gets called by default
 ```
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*

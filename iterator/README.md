@@ -135,3 +135,7 @@ print(list(ITERATOR))
 The `__call__ = next` line in the example above is setting the default method of the class to be `next` and that makes the class callable. See [Dunder __call__ Method](/state#dunder-__call__-method) for more information.
 
 Also note that the list being printed at the end is automatically filled from the iterator. The list constructor utilizes the default callable method and the `StopIteration` exception automatically during its creation without needing to write this in the code.
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*

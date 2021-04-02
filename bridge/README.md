@@ -166,3 +166,7 @@ PS> python
 >>> print(len(items))
 4
 ```
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*

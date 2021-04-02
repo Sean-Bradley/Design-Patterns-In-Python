@@ -122,3 +122,7 @@ if AMOUNT < 10 or AMOUNT % 10 != 0:
 Note that in Python 2.x, use the `raw_input()` command instead of `input()` .
 
 See PEP-3111 : [https://www.python.org/dev/peps/pep-3111/](https://www.python.org/dev/peps/pep-3111/)
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*

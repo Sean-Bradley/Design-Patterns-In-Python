@@ -170,3 +170,7 @@ I also use the `time` module to sleep for a second between loops to simulate a 1
 ```
 
 When executing [/adapter/cube_a.py](/adapter/cube_a.py) you will notice that the process will run for about 10 seconds outputting the gradual progress of the construction of each cube.
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*

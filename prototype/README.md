@@ -52,3 +52,7 @@ In the `MyClass.clone()` method, there is a line `self.field.copy()` that is com
 For a full recursive copy, use the `copy.deepcopy()` method that is part of an extra dedicated `copy` import included with Python. I demonstrate this in the [/prototype/document.py](/prototype/document.py) file. 
 
 Remember that full deep copies can potentially be much slower for very complicated object hierarchies.
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*

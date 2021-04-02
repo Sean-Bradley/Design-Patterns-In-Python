@@ -128,3 +128,7 @@ if furniture in ['SmallChair', 'MediumChair', 'BigChair']:
 ```
 
 This line, creates a list at runtime including the strings 'SmallChair', 'MediumChair' and 'BigChair'. If the value in `furniture` equals the same string as one of those items in the list, then the condition is true and the code within the if statement block will execute.
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*

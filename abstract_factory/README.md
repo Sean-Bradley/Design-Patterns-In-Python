@@ -127,3 +127,6 @@ You can add exception handling for as many types of errors as you wish.
 
 Python Errors and Exceptions : [https://docs.python.org/3/tutorial/errors.html](https://docs.python.org/3/tutorial/errors.html)
 
+## Summary
+
+*...Refer to Book or Videos for extra content.*

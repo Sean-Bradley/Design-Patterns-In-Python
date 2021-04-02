@@ -147,3 +147,7 @@ print(ALERTING)
 ```
 
 Visit [https://docs.python.org/3/reference/expressions.html#conditional-expressions](https://docs.python.org/3/reference/expressions.html#conditional-expressions) for more examples of conditional expressions.
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*

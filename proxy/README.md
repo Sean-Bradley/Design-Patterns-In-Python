@@ -123,3 +123,7 @@ OBJECT = module.ClassName
 ```
 
 See the [Lion](/proxy/lion.py), [Serpent](/proxy/serpent.py) and [Leopard](/proxy/leopard.py) classes for examples.
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*

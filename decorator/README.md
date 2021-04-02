@@ -148,3 +148,7 @@ In all the classes in the above use case example that implement the `IValue` int
 ```
 
 The `__str__` dunder was also overridden in the [/prototype/prototype_concept.py](/prototype/prototype_concept.py) concept code.
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*

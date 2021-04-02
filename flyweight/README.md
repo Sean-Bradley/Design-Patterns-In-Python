@@ -113,3 +113,7 @@ eg,
 >>> "abcd".ljust(10) 
 'abcd      '
 ```
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*

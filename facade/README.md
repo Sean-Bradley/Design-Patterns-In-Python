@@ -173,3 +173,7 @@ facade/game_engine.py:45: error: Argument 1 to "append" of "list" has incompatib
 facade/game_api.py:34: error: Argument 2 to "submit_entry" of "GameEngine" has incompatible type "Decimal"; expected "int"
 Found 2 errors in 2 files (checked 1 source file)
 ```
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*

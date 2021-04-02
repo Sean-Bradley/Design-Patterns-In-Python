@@ -168,3 +168,7 @@ print(example.value)
 del example.value
 print(example.value) # now raises an AttributeError
 ```
+
+## Summary
+
+*...Refer to Book or Videos for extra content.*
