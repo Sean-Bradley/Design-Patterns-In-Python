@@ -4,7 +4,7 @@ This repository focuses on the 23 famous GoF (Gang of Four) Design Patterns impl
 
 It is supplementary to my book titled **Design Patterns In Python** (ASIN : B08XLJ8Z2J)
 
-<img style="float:left; min-width:150px;" src="./img/design_patterns_in_python_book.jpg">
+<img style="float:left; min-width:150px;" src="./img/dp_python_250.jpg">
 
 &nbsp;<a href="https://www.amazon.com/dp/B08XLJ8Z2J"><img src="/img/flag_us.gif">&nbsp; https://www.amazon.com/dp/B08XLJ8Z2J</a><br/>
 &nbsp;<a href="https://www.amazon.co.uk/dp/B08XLJ8Z2J"><img src="/img/flag_uk.gif">&nbsp; https://www.amazon.co.uk/dp/B08XLJ8Z2J</a><br/>
