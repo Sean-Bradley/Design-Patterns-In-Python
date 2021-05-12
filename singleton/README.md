@@ -16,15 +16,7 @@ Cover | Links |
 
 ## Overview
 
-Sometimes you need an object in an application where there is only one instance.
-
-You don't want there to be many versions, for example, you have a game with a score and you want to adjust it. You may have accidentally created several instances of the class holding the score object. Or, you may be opening a database connection, there is no need to create many, when you can use the existing one that is already in memory. You may want a logging component, and you want to ensure all classes use the same instance. So, every class could declare their own logger component, but behind the scenes, they all point to the same memory address (id).
-
-By creating a class using the **Singleton** pattern, you can enforce that even if a second instance was created, it will still refer to the original.
-
-The Singleton can be accessible globally, but it is not a global variable. It is a class that can be instanced at any time, but after it is first instanced, any new instances will point to the same instance as the first.
-
-For a class to behave as a Singleton, it should not contain any references to `self` but use static variables, static methods and/or class methods.
+*...Refer to Book or Videos for extra content.*
 
 ## Singleton UML Diagram
 
@@ -40,19 +32,7 @@ id(OBJECT2)     = 2164775087968
 id(OBJECT3)     = 2164775087968
 ```
 
-Variables declared at class level are static variables that can be accessed directly using the class name without the class needing to be instantiated first.
-
-**cls** is a reference to the class
-
-**self** is a reference to the instance of the class
-
-**\__new\__** gets called before **\__init\__**
-
-**\__new\__** has access to class level variables
-
-**\__init\__** references self which is created when the class is instantiated
-
-By using **\__new\__**, and returning a reference to **cls**, we can force the class to act as a singleton. For a class to act as a singleton, it should not contain any references to **self**.
+*...Refer to Book or Videos for extra content.*
 
 ## Example Use Case
 

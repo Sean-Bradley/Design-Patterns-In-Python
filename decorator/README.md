@@ -17,23 +17,11 @@ Cover | Links
 
 ## Overview
 
-The **decorator pattern** is a structural pattern, that allows you to attach additional responsibilities to an object at runtime.
-
-The decorator pattern is used in both the Object Oriented and Functional paradigms.
-
-The decorator pattern is different than the Python language feature of [Python Decorators](https://www.python.org/dev/peps/pep-0318/#on-the-name-decorator) in its syntax and complete purpose. It is a similar concept in the way that it is a wrapper, but it also can be applied at runtime dynamically.
-
-The decorator pattern adds extensibility without modifying the original object.
-
-The decorator forwards requests to the enclosed object and can perform extra actions. 
-
-You can nest decorators recursively.
+*...Refer to Book or Videos for extra content.*
 
 ## Terminology
 
-* **Component Interface**: An interface for objects.
-* **Component**: The object that may be decorated.
-* **Decorator**: The class that applies the extra responsibilities to the component being decorated. It also implements the same component interface.
+*...Refer to Book or Videos for extra content.*
 
 ## Builder UML Diagram
 

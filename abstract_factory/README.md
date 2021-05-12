@@ -16,21 +16,11 @@ Cover | Links
 
 ## Overview
 
-The Abstract Factory Pattern adds an abstraction layer over multiple other creational pattern implementations.
-
-To begin with, in simple terms, think if it as a Factory that can return Factories. Although you will find examples of it also begin used to return Builder, Prototypes, Singletons or other design pattern implementations.
+*...Refer to Book or Videos for extra content.*
 
 ## Terminology
 
-* **Client**: The client application that calls the **Abstract Factory** and **Abstract Product** classes. It's the same process as the concrete creator in the [Factory](/factory#terminology) design pattern.
-
-* **Abstract Factory**: An interface to one of the Factories.
-
-* **Concrete Factory**: The Factory returned via the interface and contains methods or attributes to allow creating the product.
-
-* **Abstract Product**: The interface for the product within its own Factory.
-
-* **Concrete Product**: The object finally returned.
+*...Refer to Book or Videos for extra content.*
 
 ## Abstract Factory UML Diagram
 

@@ -15,18 +15,11 @@ Cover | Links
 
 ## Overview
 
-Objects communicate through the **Mediator** rather than directly with each other.
-
-As a system evolves and becomes larger and supports more complex functionality and business rules, the problem of communicating between these components becomes more complicated to understand and manage. It may be beneficial to refactor your system to centralize some or all of its functionality via some kind of mediation process.
-
-The mediator pattern is similar to implementing a [Facade](/facade) pattern between your objects and processes. Except that the structure of the Mediator allows multi directional communication between the objects or processes that would normally be interacting directly with each other.
-
-While the Facade is a structural pattern, and the Mediator also implies structure in the way that it exists between two or more other objects or processes, it also allows changing the behavior of the interaction to make it more cooperative in some way. E.g., the centralization  of application logic, managing the routing behavior, caching, logging, etc.
+*...Refer to Book or Videos for extra content.*
 
 ## Terminology
 
-* **Mediator**: The coordinator of communications between the components (colleagues).
-* **Colleagues**: One of the many types of concrete components that use the mediator. 
+*...Refer to Book or Videos for extra content.*
 
 ## Mediator UML Diagram
 

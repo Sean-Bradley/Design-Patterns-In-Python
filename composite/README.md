@@ -16,23 +16,11 @@ Cover | Links
 
 ## Overview
 
-The **Composite** design pattern is a structural pattern useful for hierarchal management.
-
-The Composite design pattern, 
-
-* allows you to represent individual entities(leaves) and groups of leaves at the same.
-* is a structural design pattern that lets you compose objects into a changeable tree structure.
-* is great if you need the option of swapping hierarchal relationships around. 
-* allows you to add/remove components to the hierarchy.
-* provides flexibility of structure
-
-Examples of using the Composite Design Pattern can be seen in a filesystem directory structure where you can swap the hierarchy of files and folders, and also in a drawing program where you can group, un-group, transform objects and change multiple objects at the same time.
+*...Refer to Book or Videos for extra content.*
 
 ## Terminology
 
-* **Component Interface**: The interface that all leaves and composites should implement.
-* **Leaf**: A single object that can exist inside or outside of a composite.
-* **Composite**: A collections of leaves and/or other composites.
+*...Refer to Book or Videos for extra content.*
 
 ## Composite UML Diagram
 
