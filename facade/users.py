@@ -6,13 +6,15 @@ from reports import Reports
 
 class Users():
     "A Singleton Dictionary of Users"
-    _users: dict[str, dict[str, str]] = {}
+    _users: dict[str, dict[str, str]] = {}  # Python 3.9
+    # _users = {}  # Python 3.8 or earlier
 
     def __new__(cls):
         return cls
 
     @classmethod
-    def register_user(cls, new_user: dict[str, str]) -> str:
+    def register_user(cls, new_user: dict[str, str]) -> str:  # Python 3.9
+        # def register_user(cls, new_user) -> str:  # Python 3.8 or earlier
         "register a user"
         if not new_user["user_name"] in cls._users:
             # generate really complicated unique user_id.

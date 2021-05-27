@@ -5,7 +5,8 @@ from reports import Reports
 
 class Wallets():
     "A Singleton Dictionary of User Wallets"
-    _wallets: dict[str, Decimal] = {}
+    _wallets: dict[str, Decimal] = {}  # Python 3.9
+    # _wallets = {}  # Python 3.8 or earlier
 
     def __new__(cls):
         return cls
