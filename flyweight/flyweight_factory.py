@@ -5,7 +5,8 @@ from flyweight import Flyweight
 class FlyweightFactory():
     "Creating the FlyweightFactory as a singleton"
 
-    _flyweights: dict[int, Flyweight] = {}
+    _flyweights: dict[int, Flyweight] = {}  # Python 3.9
+    # _flyweights = {}  # Python 3.8 or earlier
 
     def __new__(cls):
         return cls
