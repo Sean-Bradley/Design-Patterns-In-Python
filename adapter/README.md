@@ -17,11 +17,11 @@ Cover | Links
 
 ## Overview
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
 
 ## Terminology
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
 
 ## Adapter UML Diagram
 
@@ -29,7 +29,7 @@ Cover | Links
 
 ## Source Code
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
 
 ## Output
 
@@ -43,7 +43,7 @@ method B
 
 ## Example Use Case
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
 
 ## Example UML Diagram
 
@@ -143,4 +143,4 @@ When executing [/adapter/cube_a.py](/adapter/cube_a.py) you will notice that the
 
 ## Summary
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._

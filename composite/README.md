@@ -16,11 +16,11 @@ Cover | Links
 
 ## Overview
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
 
 ## Terminology
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
 
 ## Composite UML Diagram
 
@@ -28,7 +28,7 @@ Cover | Links
 
 ## Source Code
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
 
 ## Output
 
@@ -48,7 +48,7 @@ COMPOSITE_2     id:2050574298128
 
 ## Composite Example Use Case
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
 
 ## Composite Example UML Diagram
 
@@ -124,4 +124,4 @@ Visit [https://docs.python.org/3/reference/expressions.html#conditional-expressi
 
 ## Summary
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._

@@ -17,11 +17,11 @@ Cover | Links
 
 ## Overview
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
 
 ## Terminology
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
 
 ## Chain of Responsibility UML Diagram
 
@@ -29,7 +29,7 @@ Cover | Links
 
 ## Source Code
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
 
 ## Output
 
@@ -47,7 +47,7 @@ Finished result = -1.5
 
 ## Example Use Case
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
 
 ## Example UML Diagram
 
@@ -111,4 +111,4 @@ See PEP-3111 : [https://www.python.org/dev/peps/pep-3111/](https://www.python.or
 
 ## Summary
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._

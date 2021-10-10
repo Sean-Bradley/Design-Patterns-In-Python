@@ -17,7 +17,7 @@ Cover | Links
 
 ## Overview
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
 
 ## Facade UML Diagram
 
@@ -37,7 +37,7 @@ B
 
 ## Example Use Case
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
 
 ## Example UML Diagram
 
@@ -170,4 +170,4 @@ Found 2 errors in 2 files (checked 1 source file)
 
 ## Summary
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._

@@ -16,11 +16,11 @@ Cover | Links
 
 ## Overview
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
 
 ## Terminology
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
 
 ## Factory UML Diagram
 
@@ -28,7 +28,7 @@ Cover | Links
 
 ## Source Code
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
 
 ## Output
 
@@ -39,7 +39,7 @@ ConcreteProductB
 
 ## Example Use Case
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
 
 ## Factory Example UML Diagram
 
@@ -93,4 +93,4 @@ See PEP 3119 : [https://www.python.org/dev/peps/pep-3119/](https://www.python.or
 
 ## Summary
 
-*...Refer to Book or Videos for extra content.*
+_...Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), [Videos](#videos) or [Medium Membership](https://sean-bradley.medium.com/membership) for extra content._
