@@ -21,7 +21,7 @@ You can also enter Python code directly into the Python Interactive Console by t
 
 ``` python
 PS> python
-Python 3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC ...
+Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC ...
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
