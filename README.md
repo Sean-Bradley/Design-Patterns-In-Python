@@ -37,7 +37,7 @@ All the code examples in the book can be found in these pages.
 
 <!-- prettier-ignore -->
 >  **Note**
-   If you just want to read my design pattern articles and you don't need to access the videos, then you can read them via [Medium Membership](https://sean-bradley.medium.com/membership)
+   If you just want to read my design pattern articles, and you don't need to access the videos, then you can read them via [Medium Membership](https://sean-bradley.medium.com/membership)
 
 
 
