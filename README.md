@@ -35,11 +35,23 @@ There are 4 possible ways to access the video content in this course,
 
 All the code examples in the book can be found in these pages.
 
-<!-- prettier-ignore -->
->  **Note**
-   If you just want to read my design pattern articles, and you don't need to access the videos, then you can read them via [Medium Membership](https://sean-bradley.medium.com/membership)
+---
 
+**TIP**
 
+> [Design Patterns In python](https://www.amazon.com/dp/B08XLJ8Z2J) **(Paperback/Kindle)** includes Video Access Codes to view videos for FREE from the official documentation website at [https://sbcode.net/python/](https://sbcode.net/python/)
+
+---
+
+**TIP**
+
+> Get **Udemy Discount Coupons** at [https://sbcode.net/coupons](https://sbcode.net/coupons)
+
+---
+
+**Note**
+
+> If you just want to read my design pattern articles, and you don't need to access the videos, then you can read them via [Medium Membership](https://sean-bradley.medium.com/membership)
 
 ## Overview
 
@@ -47,7 +59,7 @@ A Design Pattern is a description or template that can be repeatedly applied to 
 
 A familiarity of Design Patterns will be very useful when planning, discussing, managing and documenting your applications from now on and into the future.
 
-Also, throughout the book, as each design pattern is discussed and demonstrated using example code, I also introduce new python coding concepts with each new design pattern. So that as you progress through the book and try out the examples, you will also get experience and familiarity with some of the finer details of programming with python.
+Also, throughout the book, as each design pattern is discussed and demonstrated using example code, I also introduce new python coding concepts with each new design pattern. So that as you progress through the book and try out the examples, you will also get experience and familiarity with some finer details of programming with python.
 
 So, in this book, you will learn about these 23 Design Patterns,
 
@@ -80,8 +92,8 @@ So, in this book, you will learn about these 23 Design Patterns,
 
 ## Pattern Types
 
-_...Refer to Book or Videos for extra content._
+_... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lectures](#videos) or subscribe to [Medium Membership](https://sean-bradley.medium.com/membership) to read textual content._
 
 ## Class Scope and Object Scope Patterns
 
-_...Refer to Book or Videos for extra content._
+_... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lectures](#videos) or subscribe to [Medium Membership](https://sean-bradley.medium.com/membership) to read textual content._
