@@ -60,7 +60,7 @@ Your Python code may produce errors. It happens to everybody. It is hard to fore
 
 Use the `Try`, `Except` and optional `finally` keywords to manage error handling.
 
-In the example code, if no chair or table is returned, an `Exception` error is raised and it includes a text string that can be read and written to the console.
+In the example code, if no chair or table is returned, an `Exception` error is raised, and it includes a text string that can be read and written to the console.
 
 Within your code you can use the `raise` keyword to trigger Python built in exceptions or even create your own.
 
@@ -69,9 +69,9 @@ def get_furniture(furniture):
     "Static get_factory method"
     try:
         if furniture in ['SmallChair', 'MediumChair', 'BigChair']:
-            return ChairFactory().get_chair(furniture)
+            return ChairFactory.get_chair(furniture)
         if furniture in ['SmallTable', 'MediumTable', 'BigTable']:
-            return TableFactory().get_table(furniture)
+            return TableFactory.get_table(furniture)
         raise Exception('No Factory Found')
     except Exception as _e:
         print(_e)
@@ -97,7 +97,7 @@ The `try/except` allows the program to continue running, as can be verified by t
 
 Alternatively, if your code didn't include the `try/except` and optional `finally` statements, the Python interpreter would return the error `NameError: name 'my_var' is not defined` and the program will crash at that line.
 
-Also note how the default Python inbuilt error starts with `NameError` . You can handle this specific error explicitly using an extra `except` keyword.
+Also note how the default Python inbuilt error starts with `NameError`. You can handle this specific error explicitly using an extra `except` keyword.
 
 ``` python
 try:

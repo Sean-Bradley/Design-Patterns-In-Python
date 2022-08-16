@@ -22,9 +22,9 @@ class AbstractFactory(IAbstractFactory):
         "Static get_factory method"
         try:
             if factory in ['aa', 'ab', 'ac']:
-                return FactoryA().create_object(factory[1])
+                return FactoryA.create_object(factory[1])
             if factory in ['ba', 'bb', 'bc']:
-                return FactoryB().create_object(factory[1])
+                return FactoryB.create_object(factory[1])
             raise Exception('No Factory Found')
         except Exception as _e:
             print(_e)
