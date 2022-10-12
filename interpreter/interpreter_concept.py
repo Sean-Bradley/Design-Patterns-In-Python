@@ -1,4 +1,5 @@
 # pylint: disable=too-few-public-methods
+# pylint: disable=arguments-differ
 "The Interpreter Pattern Concept"
 
 
@@ -7,7 +8,7 @@ class AbstractExpression():
     @staticmethod
     def interpret():
         """
-        The `interpret` method gets called recursively for each 
+        The `interpret` method gets called recursively for each
         AbstractExpression
         """
 

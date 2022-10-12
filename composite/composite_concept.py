@@ -1,3 +1,4 @@
+# pylint: disable=arguments-differ
 "The Composite pattern concept"
 from abc import ABCMeta, abstractmethod
 

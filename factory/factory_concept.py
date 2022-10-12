@@ -1,4 +1,5 @@
 # pylint: disable=too-few-public-methods
+# pylint: disable=arguments-differ
 "The Factory Concept"
 from abc import ABCMeta, abstractmethod
 

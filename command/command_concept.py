@@ -1,3 +1,4 @@
+# pylint: disable=arguments-differ
 "The Command Pattern Concept"
 from abc import ABCMeta, abstractmethod
 

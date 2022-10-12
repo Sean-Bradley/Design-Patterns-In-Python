@@ -1,4 +1,5 @@
 # pylint: disable=too-few-public-methods
+# pylint: disable=arguments-differ
 "Prototype Concept Sample Code"
 from abc import ABCMeta, abstractmethod
 

@@ -1,4 +1,5 @@
 # pylint: disable=too-few-public-methods
+# pylint: disable=arguments-differ
 "The Visitor Pattern Concept"
 from abc import ABCMeta, abstractmethod
 

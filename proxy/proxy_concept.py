@@ -1,7 +1,9 @@
 # pylint: disable=too-few-public-methods
+# pylint: disable=arguments-differ
 "A Proxy Concept Example"
 
 from abc import ABCMeta, abstractmethod
+
 
 class ISubject(metaclass=ABCMeta):
     "An interface implemented by both the Proxy and Real Subject"
@@ -9,6 +11,7 @@ class ISubject(metaclass=ABCMeta):
     @abstractmethod
     def request():
         "A method to implement"
+
 
 class RealSubject(ISubject):
     "The actual real object that the proxy is representing"
@@ -19,6 +22,7 @@ class RealSubject(ISubject):
 
     def request(self):
         return self.enormous_data
+
 
 class Proxy(ISubject):
     """
@@ -36,12 +40,13 @@ class Proxy(ISubject):
         Using the proxy as a cache, and loading data into it only if
         it is needed
         """
-        if self.enormous_data == []:
+        if not self.enormous_data:
             print("pulling data from RealSubject")
             self.enormous_data = self.real_subject.request()
             return self.enormous_data
         print("pulling data from Proxy cache")
         return self.enormous_data
+
 
 # The Client
 SUBJECT = Proxy()

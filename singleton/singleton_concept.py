@@ -2,6 +2,7 @@
 "Singleton Concept Sample Code"
 import copy
 
+
 class Singleton():
     "The Singleton Class"
     value = []
@@ -20,6 +21,7 @@ class Singleton():
     def class_method(cls):
         "Use @classmethod to access class level variables"
         print(cls.value)
+
 
 # The Client
 # All uses of singleton point to the same memory address (id)
