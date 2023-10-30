@@ -16,11 +16,11 @@ Cover | Links
 
 ## Overview
 
-_... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lectures](#videos) or subscribe to [Medium Membership](https://sean-bradley.medium.com/membership) to read textual content._
+_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Terminology
 
-_... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lectures](#videos) or subscribe to [Medium Membership](https://sean-bradley.medium.com/membership) to read textual content._
+_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Command Pattern UML Diagram
 
@@ -28,7 +28,7 @@ _... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lecture
 
 ## Source Code
 
-_... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lectures](#videos) or subscribe to [Medium Membership](https://sean-bradley.medium.com/membership) to read textual content._
+_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Output
 
@@ -42,7 +42,7 @@ Executing Command 2
 
 ## Example Use Case
 
-_... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lectures](#videos) or subscribe to [Medium Membership](https://sean-bradley.medium.com/membership) to read textual content._
+_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Example UML Diagram
 
@@ -78,4 +78,4 @@ It is just a useful construct that you will see developers use as a recommendati
 
 ## Summary
 
-_... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lectures](#videos) or subscribe to [Medium Membership](https://sean-bradley.medium.com/membership) to read textual content._
+_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._

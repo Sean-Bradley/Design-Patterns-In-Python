@@ -17,11 +17,11 @@ Cover | Links
 
 ## Overview
 
-_... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lectures](#videos) or subscribe to [Medium Membership](https://sean-bradley.medium.com/membership) to read textual content._
+_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Terminology
 
-_... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lectures](#videos) or subscribe to [Medium Membership](https://sean-bradley.medium.com/membership) to read textual content._
+_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Adapter UML Diagram
 
@@ -29,7 +29,7 @@ _... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lecture
 
 ## Source Code
 
-_... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lectures](#videos) or subscribe to [Medium Membership](https://sean-bradley.medium.com/membership) to read textual content._
+_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Output
 
@@ -43,7 +43,7 @@ method B
 
 ## Example Use Case
 
-_... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lectures](#videos) or subscribe to [Medium Membership](https://sean-bradley.medium.com/membership) to read textual content._
+_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Example UML Diagram
 
@@ -143,4 +143,4 @@ When executing [/adapter/cube_a.py](/adapter/cube_a.py) you will notice that the
 
 ## Summary
 
-_... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lectures](#videos) or subscribe to [Medium Membership](https://sean-bradley.medium.com/membership) to read textual content._
+_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._

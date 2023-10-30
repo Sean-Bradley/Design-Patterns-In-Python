@@ -19,7 +19,7 @@ It is supplementary to my book titled **Design Patterns In Python** (ASIN : B08X
 
 ## Course Access
 
-There are 4 possible ways to access the video content in this course,
+There are 3 possible ways to access the video content in this course,
 
 1. Udemy : [https://www.udemy.com/course/design-patterns-in-python/?referralCode=7493DBBBF97FF2B0D24D](https://www.udemy.com/course/design-patterns-in-python/?referralCode=7493DBBBF97FF2B0D24D)
    - Get **Udemy Discount Coupons** at [https://sbcode.net/coupons](https://sbcode.net/coupons)
@@ -27,10 +27,7 @@ There are 4 possible ways to access the video content in this course,
    - 30 Day Money Back Guarantee
 2. YouTube Membership : [https://www.youtube.com/channel/UCmUILI2AWt2MSUgPlZwFdOg/join](https://www.youtube.com/channel/UCmUILI2AWt2MSUgPlZwFdOg/join)
    - Cancel Membership Anytime
-3. Skillshare : [https://skl.sh/34SM2Xg](https://skl.sh/34SM2Xg)
-   - Certificate of Completion
-   - Cancel Subscription Anytime
-4. Book : [https://www.amazon.com/dp/B08XLJ8Z2J](https://www.amazon.com/dp/B08XLJ8Z2J) : ASIN B08XLJ8Z2J
+3. Book : [https://amzn.to/466lBN6](https://amzn.to/466lBN6) : ASIN B08XLJ8Z2J
    - **Book** includes FREE Video Access Codes to view videos from the official documentation website at [https://sbcode.net/python/](https://sbcode.net/python/)
 
 All the code examples in the book can be found in these pages.
@@ -48,10 +45,6 @@ All the code examples in the book can be found in these pages.
 > Get **Udemy Discount Coupons** at [https://sbcode.net/coupons](https://sbcode.net/coupons)
 
 ---
-
-**Note**
-
-> If you just want to read my design pattern articles, and you don't need to access the videos, then you can read them via [Medium Membership](https://sean-bradley.medium.com/membership)
 
 ## Overview
 
@@ -92,8 +85,8 @@ So, in this book, you will learn about these 23 Design Patterns,
 
 ## Pattern Types
 
-_... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lectures](#videos) or subscribe to [Medium Membership](https://sean-bradley.medium.com/membership) to read textual content._
+_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Class Scope and Object Scope Patterns
 
-_... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lectures](#videos) or subscribe to [Medium Membership](https://sean-bradley.medium.com/membership) to read textual content._
+_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._

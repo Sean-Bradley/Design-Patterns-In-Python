@@ -17,11 +17,11 @@ Cover | Links
 
 ## Overview
 
-_... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lectures](#videos) or subscribe to [Medium Membership](https://sean-bradley.medium.com/membership) to read textual content._
+_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Terminology
 
-_... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lectures](#videos) or subscribe to [Medium Membership](https://sean-bradley.medium.com/membership) to read textual content._
+_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Builder UML Diagram
 
@@ -37,7 +37,7 @@ Decorator Method(Component Method)
 
 ## Example Use Case
 
-_... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lectures](#videos) or subscribe to [Medium Membership](https://sean-bradley.medium.com/membership) to read textual content._
+_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Example UML Diagram
 
@@ -133,4 +133,4 @@ The `__str__` dunder was also overridden in the [/prototype/prototype_concept.py
 
 ## Summary
 
-_... Refer to [Book](https://www.amazon.com/dp/B08Z282SBC), pause [Video Lectures](#videos) or subscribe to [Medium Membership](https://sean-bradley.medium.com/membership) to read textual content._
+_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
