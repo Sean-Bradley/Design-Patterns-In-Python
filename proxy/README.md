@@ -17,11 +17,11 @@ Cover | Links
 
 ## Overview
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Terminology
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Proxy UML Diagram
 
@@ -40,7 +40,7 @@ pulling data from Proxy cache
 
 ## Example Use Case
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Example UML Diagram
 
@@ -101,4 +101,4 @@ See the [Lion](/proxy/lion.py), [Serpent](/proxy/serpent.py) and [Leopard](/prox
 
 ## Summary
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._

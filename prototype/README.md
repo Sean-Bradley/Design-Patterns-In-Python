@@ -16,11 +16,11 @@ Cover | Links
 
 ## Overview
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Terminology
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Prototype UML Diagram
 
@@ -28,8 +28,8 @@ _... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python webs
 
 ## Source Code
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Summary
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._

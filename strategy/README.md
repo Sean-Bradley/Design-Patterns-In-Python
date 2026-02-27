@@ -15,11 +15,11 @@ Cover | Links
 
 ## Overview
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Terminology
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Strategy UML Diagram
 
@@ -27,7 +27,7 @@ _... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python webs
 
 ## Source Code
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Output
 
@@ -40,7 +40,7 @@ I am ConcreteStrategyC
 
 ## Strategy Example Use Case
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Strategy Example Use Case UML Diagram
 
@@ -57,4 +57,4 @@ I am Crawling. New position = [3.5, 0]
 
 ## Summary
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._

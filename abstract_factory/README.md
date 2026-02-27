@@ -16,11 +16,11 @@ Cover | Links
 
 ## Overview
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Terminology
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Abstract Factory UML Diagram
 
@@ -36,7 +36,7 @@ python ./abstract_factory/abstract_factory_concept.py
 
 ## Abstract Factory Example Use Case
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Abstract Factory Example UML Diagram
 
@@ -117,4 +117,4 @@ Python Errors and Exceptions : [https://docs.python.org/3/tutorial/errors.html](
 
 ## Summary
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._

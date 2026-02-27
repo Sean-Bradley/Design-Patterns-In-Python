@@ -16,7 +16,7 @@ Cover | Links |
 
 ## Overview
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Singleton UML Diagram
 
@@ -32,11 +32,11 @@ id(OBJECT2)     = 2164775087968
 id(OBJECT3)     = 2164775087968
 ```
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Example Use Case
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
 
 ## Example UML Diagram
 
@@ -133,4 +133,4 @@ PS> python
 
 ## Summary
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+_... Refer to [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._

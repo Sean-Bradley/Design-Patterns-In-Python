@@ -2,24 +2,9 @@
 
 This repository focuses on the 23 famous GoF (Gang of Four) Design Patterns implemented in Python.
 
-It is supplementary to my book titled **Design Patterns In Python** (ASIN : B08XLJ8Z2J)
-
-<img style="float:left; min-width:150px;" src="./img/dp_python_250.jpg">
-
-&nbsp;<a href="https://www.amazon.com/dp/B08XLJ8Z2J"><img src="/img/flag_us.gif">&nbsp; https://www.amazon.com/dp/B08XLJ8Z2J</a><br/>
-&nbsp;<a href="https://www.amazon.co.uk/dp/B08XLJ8Z2J"><img src="/img/flag_uk.gif">&nbsp; https://www.amazon.co.uk/dp/B08XLJ8Z2J</a><br/>
-&nbsp;<a href="https://www.amazon.in/dp/B08Z282SBC"><img src="/img/flag_in.gif">&nbsp; https://www.amazon.in/dp/B08Z282SBC</a><br/>
-&nbsp;<a href="https://www.amazon.de/dp/B08XLJ8Z2J"><img src="/img/flag_de.gif">&nbsp; https://www.amazon.de/dp/B08XLJ8Z2J</a><br/>
-&nbsp;<a href="https://www.amazon.fr/dp/B08XLJ8Z2J"><img src="/img/flag_fr.gif">&nbsp; https://www.amazon.fr/dp/B08XLJ8Z2J</a><br/>
-&nbsp;<a href="https://www.amazon.es/dp/B08XLJ8Z2J"><img src="/img/flag_es.gif">&nbsp; https://www.amazon.es/dp/B08XLJ8Z2J</a><br/>
-&nbsp;<a href="https://www.amazon.it/dp/B08XLJ8Z2J"><img src="/img/flag_it.gif">&nbsp; https://www.amazon.it/dp/B08XLJ8Z2J</a><br/>
-&nbsp;<a href="https://www.amazon.co.jp/dp/B08XLJ8Z2J"><img src="/img/flag_jp.gif">&nbsp; https://www.amazon.co.jp/dp/B08XLJ8Z2J</a><br/>
-&nbsp;<a href="https://www.amazon.ca/dp/B08XLJ8Z2J"><img src="/img/flag_ca.gif">&nbsp; https://www.amazon.ca/dp/B08XLJ8Z2J</a><br/>
-&nbsp;<a href="https://www.amazon.com.au/dp/B08XLJ8Z2J"><img src="/img/flag_au.gif">&nbsp; https://www.amazon.com.au/dp/B08XLJ8Z2J</a>
-
 ## Course Access
 
-There are 3 possible ways to access the video content in this course,
+There are 2 possible ways to access the video content in this course,
 
 1. Udemy : [https://www.udemy.com/course/design-patterns-in-python/?referralCode=7493DBBBF97FF2B0D24D](https://www.udemy.com/course/design-patterns-in-python/?referralCode=7493DBBBF97FF2B0D24D)
    - Get **Udemy Discount Coupons** at [https://sbcode.net/coupons](https://sbcode.net/coupons)
@@ -27,24 +12,19 @@ There are 3 possible ways to access the video content in this course,
    - 30 Day Money Back Guarantee
 2. YouTube Membership : [https://www.youtube.com/channel/UCmUILI2AWt2MSUgPlZwFdOg/join](https://www.youtube.com/channel/UCmUILI2AWt2MSUgPlZwFdOg/join)
    - Cancel Membership Anytime
-3. Book : [https://amzn.to/466lBN6](https://amzn.to/466lBN6) : ASIN B08XLJ8Z2J
-   - **Book** includes FREE Video Access Codes to view videos from the official documentation website at [https://sbcode.net/python/](https://sbcode.net/python/)
 
-All the code examples in the book can be found in these pages.
+<!-- 3. Book : [https://amzn.to/466lBN6](https://amzn.to/466lBN6) : ASIN B08XLJ8Z2J
+   - **Book** includes FREE Video Access Codes to view videos from the official documentation website at [https://sbcode.net/python/](https://sbcode.net/python/) -->
 
----
+<!-- All the code examples in the book can be found in these pages. -->
 
-**TIP**
+<!-- **TIP**
 
-> [Design Patterns In python](https://www.amazon.com/dp/B08XLJ8Z2J) **(Paperback/Kindle)** includes Video Access Codes to view videos for FREE from the official documentation website at [https://sbcode.net/python/](https://sbcode.net/python/)
-
----
+> [Design Patterns In python](https://www.amazon.com/dp/B08XLJ8Z2J) **(Paperback/Kindle)** includes Video Access Codes to view videos for FREE from the official documentation website at [https://sbcode.net/python/](https://sbcode.net/python/) -->
 
 **TIP**
 
 > Get **Udemy Discount Coupons** at [https://sbcode.net/coupons](https://sbcode.net/coupons)
-
----
 
 ## Overview
 
@@ -83,10 +63,25 @@ So, in this book, you will learn about these 23 Design Patterns,
   - [Template](template)
   - [Visitor](visitor)
 
-## Pattern Types
+---
 
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+**Design Patterns In Python** (ASIN : B08XLJ8Z2J)
 
-## Class Scope and Object Scope Patterns
-
-_... Refer to [Book](https://amzn.to/466lBN6) or [Design Patterns In Python website](https://sbcode.net/python/) to read textual content._
+<table>
+<tr>
+<td>
+<img style="float:left; min-width:150px;" src="./img/dp_python_250.jpg">
+</td>
+<td valign="top">
+&nbsp;<a href="https://www.amazon.com/dp/B08XLJ8Z2J"><img src="/img/flag_us.gif">&nbsp; https://www.amazon.com/dp/B08XLJ8Z2J</a><br/>
+&nbsp;<a href="https://www.amazon.co.uk/dp/B08XLJ8Z2J"><img src="/img/flag_uk.gif">&nbsp; https://www.amazon.co.uk/dp/B08XLJ8Z2J</a><br/>
+&nbsp;<a href="https://www.amazon.in/dp/B08Z282SBC"><img src="/img/flag_in.gif">&nbsp; https://www.amazon.in/dp/B08Z282SBC</a><br/>
+&nbsp;<a href="https://www.amazon.de/dp/B08XLJ8Z2J"><img src="/img/flag_de.gif">&nbsp; https://www.amazon.de/dp/B08XLJ8Z2J</a><br/>
+&nbsp;<a href="https://www.amazon.fr/dp/B08XLJ8Z2J"><img src="/img/flag_fr.gif">&nbsp; https://www.amazon.fr/dp/B08XLJ8Z2J</a><br/>
+&nbsp;<a href="https://www.amazon.es/dp/B08XLJ8Z2J"><img src="/img/flag_es.gif">&nbsp; https://www.amazon.es/dp/B08XLJ8Z2J</a><br/>
+&nbsp;<a href="https://www.amazon.it/dp/B08XLJ8Z2J"><img src="/img/flag_it.gif">&nbsp; https://www.amazon.it/dp/B08XLJ8Z2J</a><br/>
+&nbsp;<a href="https://www.amazon.co.jp/dp/B08XLJ8Z2J"><img src="/img/flag_jp.gif">&nbsp; https://www.amazon.co.jp/dp/B08XLJ8Z2J</a><br/>
+&nbsp;<a href="https://www.amazon.ca/dp/B08XLJ8Z2J"><img src="/img/flag_ca.gif">&nbsp; https://www.amazon.ca/dp/B08XLJ8Z2J</a><br/>
+&nbsp;<a href="https://www.amazon.com.au/dp/B08XLJ8Z2J"><img src="/img/flag_au.gif">&nbsp; https://www.amazon.com.au/dp/B08XLJ8Z2J</a>
+</td>
+</table>
