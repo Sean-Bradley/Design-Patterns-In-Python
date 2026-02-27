@@ -67,12 +67,12 @@ So, in this book, you will learn about these 23 Design Patterns,
 
 **Design Patterns In Python** (ASIN : B08XLJ8Z2J)
 
-<table width="100%">
+<table width="500px">
 <tr>
-<td width="50%">
+<td width="250px">
 <img style="float:left; min-width:150px;" src="./img/dp_python_250.jpg">
 </td>
-<td valign="top" width="50%">
+<td valign="top" width="250px">
 &nbsp;<a href="https://www.amazon.com/dp/B08XLJ8Z2J"><img src="/img/flag_us.gif" width="28" height="17">&nbsp; https://www.amazon.com/dp/B08XLJ8Z2J</a><br/>
 &nbsp;<a href="https://www.amazon.co.uk/dp/B08XLJ8Z2J"><img src="/img/flag_uk.gif" width="28" height="17">&nbsp; https://www.amazon.co.uk/dp/B08XLJ8Z2J</a><br/>
 &nbsp;<a href="https://www.amazon.in/dp/B08Z282SBC"><img src="/img/flag_in.gif" width="28" height="17">&nbsp; https://www.amazon.in/dp/B08Z282SBC</a><br/>
