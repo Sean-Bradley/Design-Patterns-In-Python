@@ -73,7 +73,7 @@ So, in this book, you will learn about these 23 Design Patterns,
 <img style="float:left; min-width:150px;" src="./img/dp_python_250.jpg">
 </td>
 <td valign="top">
-&nbsp;<a href="https://www.amazon.com/dp/B08XLJ8Z2J"><img src="/img/flag_us.gif" height="19px">&nbsp; https://www.amazon.com/dp/B08XLJ8Z2J</a><br/>
+&nbsp;<a href="https://www.amazon.com/dp/B08XLJ8Z2J"><img src="/img/flag_us.gif" width="28" height="17">&nbsp; https://www.amazon.com/dp/B08XLJ8Z2J</a><br/>
 &nbsp;<a href="https://www.amazon.co.uk/dp/B08XLJ8Z2J"><img src="/img/flag_uk.gif">&nbsp; https://www.amazon.co.uk/dp/B08XLJ8Z2J</a><br/>
 &nbsp;<a href="https://www.amazon.in/dp/B08Z282SBC"><img src="/img/flag_in.gif">&nbsp; https://www.amazon.in/dp/B08Z282SBC</a><br/>
 &nbsp;<a href="https://www.amazon.de/dp/B08XLJ8Z2J"><img src="/img/flag_de.gif">&nbsp; https://www.amazon.de/dp/B08XLJ8Z2J</a><br/>
