@@ -69,6 +69,8 @@ So, in this book, you will learn about these 23 Design Patterns,
 
 <img style="float:left; min-width:150px;" src="./img/dp_python_250.jpg">
 
+[![](/img/flag_us.gif)](https://www.amazon.com/dp/B08XLJ8Z2J)[https://www.amazon.com/dp/B08XLJ8Z2J](https://www.amazon.com/dp/B08XLJ8Z2J)
+
 <a href="https://www.amazon.com/dp/B08XLJ8Z2J"><img src="/img/flag_us.gif">&nbsp;https://www.amazon.com/dp/B08XLJ8Z2J</a>
 
 <a href="https://www.amazon.co.uk/dp/B08XLJ8Z2J"><img src="/img/flag_uk.gif">&nbsp;https://www.amazon.co.uk/dp/B08XLJ8Z2J</a>
