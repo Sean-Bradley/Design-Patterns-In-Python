@@ -69,24 +69,22 @@ So, in this book, you will learn about these 23 Design Patterns,
 
 <img style="float:left; min-width:150px;" src="./img/dp_python_250.jpg">
 
-[![](/img/flag_us.gif)](https://www.amazon.com/dp/B08XLJ8Z2J)[https://www.amazon.com/dp/B08XLJ8Z2J](https://www.amazon.com/dp/B08XLJ8Z2J)
+[![](/img/flag_us.gif)](https://www.amazon.com/dp/B08XLJ8Z2J)&nbsp;[https://www.amazon.com/dp/B08XLJ8Z2J](https://www.amazon.com/dp/B08XLJ8Z2J)
 
-<a href="https://www.amazon.com/dp/B08XLJ8Z2J"><img src="/img/flag_us.gif">&nbsp;https://www.amazon.com/dp/B08XLJ8Z2J</a>
+[![](/img/flag_uk.gif)](https://www.amazon.co.uk/dp/B08XLJ8Z2J)&nbsp;[https://www.amazon.co.uk/dp/B08XLJ8Z2J](https://www.amazon.co.uk/dp/B08XLJ8Z2J)
 
-<a href="https://www.amazon.co.uk/dp/B08XLJ8Z2J"><img src="/img/flag_uk.gif">&nbsp;https://www.amazon.co.uk/dp/B08XLJ8Z2J</a>
+[![](/img/flag_in.gif)](https://www.amazon.in/dp/B08XLJ8Z2J)&nbsp;[https://www.amazon.in/dp/B08XLJ8Z2J](https://www.amazon.in/dp/B08XLJ8Z2J)
 
-<a href="https://www.amazon.in/dp/B08Z282SBC"><img src="/img/flag_in.gif">&nbsp;https://www.amazon.in/dp/B08Z282SBC</a>
+[![](/img/flag_de.gif)](https://www.amazon.de/dp/B08XLJ8Z2J)&nbsp;[https://www.amazon.de/dp/B08XLJ8Z2J](https://www.amazon.de/dp/B08XLJ8Z2J)
 
-<a href="https://www.amazon.de/dp/B08XLJ8Z2J"><img src="/img/flag_de.gif">&nbsp;https://www.amazon.de/dp/B08XLJ8Z2J</a>
+[![](/img/flag_fr.gif)](https://www.amazon.fr/dp/B08XLJ8Z2J)&nbsp;[https://www.amazon.fr/dp/B08XLJ8Z2J](https://www.amazon.fr/dp/B08XLJ8Z2J)
 
-<a href="https://www.amazon.fr/dp/B08XLJ8Z2J"><img src="/img/flag_fr.gif">&nbsp;https://www.amazon.fr/dp/B08XLJ8Z2J</a>
+[![](/img/flag_es.gif)](https://www.amazon.es/dp/B08XLJ8Z2J)&nbsp;[https://www.amazon.es/dp/B08XLJ8Z2J](https://www.amazon.es/dp/B08XLJ8Z2J)
 
-<a href="https://www.amazon.es/dp/B08XLJ8Z2J"><img src="/img/flag_es.gif">&nbsp;https://www.amazon.es/dp/B08XLJ8Z2J</a>
+[![](/img/flag_it.gif)](https://www.amazon.it/dp/B08XLJ8Z2J)&nbsp;[https://www.amazon.it/dp/B08XLJ8Z2J](https://www.amazon.it/dp/B08XLJ8Z2J)
 
-<a href="https://www.amazon.it/dp/B08XLJ8Z2J"><img src="/img/flag_it.gif">&nbsp;https://www.amazon.it/dp/B08XLJ8Z2J</a>
+[![](/img/flag_jp.gif)](https://www.amazon.co.jp/dp/B08XLJ8Z2J)&nbsp;[https://www.amazon.co.jp/dp/B08XLJ8Z2J](https://www.amazon.co.jp/dp/B08XLJ8Z2J)
 
-<a href="https://www.amazon.co.jp/dp/B08XLJ8Z2J"><img src="/img/flag_jp.gif">&nbsp;https://www.amazon.co.jp/dp/B08XLJ8Z2J</a>
+[![](/img/flag_ca.gif)](https://www.amazon.ca/dp/B08XLJ8Z2J)&nbsp;[https://www.amazon.ca/dp/B08XLJ8Z2J](https://www.amazon.ca/dp/B08XLJ8Z2J)
 
-<a href="https://www.amazon.ca/dp/B08XLJ8Z2J"><img src="/img/flag_ca.gif">&nbsp;https://www.amazon.ca/dp/B08XLJ8Z2J</a>
-
-<a href="https://www.amazon.com.au/dp/B08XLJ8Z2J"><img src="/img/flag_au.gif">&nbsp;https://www.amazon.com.au/dp/B08XLJ8Z2J</a>
+[![](/img/flag_au.gif)](https://www.amazon.com.au/dp/B08XLJ8Z2J)&nbsp;[https://www.amazon.com.au/dp/B08XLJ8Z2J](https://www.amazon.com.au/dp/B08XLJ8Z2J)
